@@ -26,7 +26,7 @@ try {
 
     // Check if the file exists
     if (!file_exists($filePath)) {
-        throw new Exception("File not found.");
+        throw new Exception("File not found. Path: ".$filePath);
     }
 
     // Read and output file contents
@@ -34,5 +34,5 @@ try {
 } catch(Exception $e) {
     // Handle exceptions
     http_response_code(500);
-    echo json_encode(array("error" => $e->getMessage()));
+    echo json_encode(array("Error" => $e->getMessage()));
 }
