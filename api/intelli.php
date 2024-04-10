@@ -3,7 +3,7 @@ try {
     ini_set('display_errors', 0);
 
     // Set appropriate CORS headers
-    header('Access-Control-Allow-Origin: http://example.com'); // Set the allowed origin
+    header('Access-Control-Allow-Origin: *'); // Set the allowed origin
     header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method");
     header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
     header("Allow: GET, POST, OPTIONS, PUT, DELETE");
@@ -20,6 +20,8 @@ try {
     }
 
     // Construct file path
+    $syntax = "html";
+    $lang = "en";
     $filePath = "../airacloud/references/".$syntax."/".$lang.".json";
 
     // Check if the file exists
