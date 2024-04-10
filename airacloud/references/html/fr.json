@@ -1,0 +1,947 @@
+[
+    {
+      "name": "html",
+      "cat": "Racine principale",
+      "desc": "Représente la racine d'un document HTML. Tout autre élément du document doit être un descendant de cet élément.",
+      "type": "properties-and-attributes",
+      "completion": "html>"
+    },
+    {
+      "name": "base",
+      "cat": "Métadonnées du document",
+      "desc": "L'élément <strong><code>&lt;base&gt;</code></strong> définit l'URL de base à utiliser pour recomposer toutes les URL relatives contenues dans un document. Il ne peut y avoir qu'un seul élément <code>&lt;base&gt;</code> au sein d'un document.",
+      "type": "properties-and-attributes",
+      "completion": "base>"
+    },
+    {
+      "name": "head",
+      "cat": "Métadonnées du document",
+      "desc": "Fournit des informations générales (métadonnées) sur le document, incluant <a href=\"/fr/docs/Web/HTML/Element/title\">son titre</a> et des liens ou des définitions vers des <a href=\"/fr/docs/Web/HTML/Element/script\">scripts</a> et <a href=\"/fr/docs/Web/HTML/Element/style\">feuilles de style</a>.",
+      "type": "properties-and-attributes",
+      "completion": "head>"
+    },
+    {
+      "name": "link",
+      "cat": "Métadonnées du document",
+      "desc": "Définit la relation entre le document courant et une ressource externe. Cet élément peut être utilisé pour définir un lien vers <a href=\"/fr/docs/Glossary/CSS\">une feuille de style</a>, vers les icônes utilisées en barre de titre ou comme icône d'application sur les appareils mobiles.",
+      "type": "properties-and-attributes",
+      "completion": "link>"
+    },
+    {
+      "name": "meta",
+      "cat": "Métadonnées du document",
+      "desc": "Représente toute information de <a href=\"/fr/docs/Glossary/Metadata\">métadonnées</a> qui ne peut pas être représentée par un des éléments (<a href=\"/fr/docs/Web/HTML/Element/base\"><code>&lt;base&gt;</code></a>, <a href=\"/fr/docs/Web/HTML/Element/link\"><code>&lt;link&gt;</code></a>, <a href=\"/fr/docs/Web/HTML/Element/script\"><code>&lt;script&gt;</code></a>, <a href=\"/fr/docs/Web/HTML/Element/style\"><code>&lt;style&gt;</code></a> ou <a href=\"/fr/docs/Web/HTML/Element/title\"><code>&lt;title&gt;</code></a>)",
+      "type": "properties-and-attributes",
+      "completion": "meta>"
+    },
+    {
+      "name": "style",
+      "cat": "Métadonnées du document",
+      "desc": "Contient des informations de mise en forme pour un document ou une partie d'un document. Par défaut, les instructions de mise en forme écrites dans cet élément sont écrites en <a href=\"/fr/docs/Web/CSS\">CSS</a>.",
+      "type": "properties-and-attributes",
+      "completion": "style>"
+    },
+    {
+      "name": "title",
+      "cat": "Métadonnées du document",
+      "desc": "L'élément <strong><code>&lt;title&gt;</code></strong> définit le titre du document (qui est affiché dans la barre de titre du <a href=\"/fr/docs/Glossary/Browser\">navigateur</a> ou dans l'onglet de la page). Cet élément ne peut contenir que du texte, les balises qu'il contiendrait seraient ignorées.",
+      "type": "properties-and-attributes",
+      "completion": "title>"
+    },
+    {
+      "name": "body",
+      "cat": "Racine de sectionnement",
+      "desc": "Représente le contenu principal du document HTML. Il ne peut y avoir qu'un élément <code>&lt;body&gt;</code> par document.",
+      "type": "properties-and-attributes",
+      "completion": "body>"
+    },
+    {
+      "name": "address",
+      "cat": "Sectionnement du contenu",
+      "desc": "Indique des informations de contact pour une personne, un groupe de personnes ou une organisation.",
+      "type": "properties-and-attributes",
+      "completion": "address>"
+    },
+    {
+      "name": "article",
+      "cat": "Sectionnement du contenu",
+      "desc": "L'élément <strong><code>&lt;article&gt;</code></strong> représente une composition autonome dans un document, une page, une application ou un site, destinée à être distribuée ou réutilisée de manière indépendante (par exemple, dans le cadre d'une syndication). Exemples&nbsp;: un message de forum, un article de magazine ou de journal, ou un article de blog, une fiche produit, un commentaire soumis par un utilisateur, un widget ou gadget interactif, ou tout autre élément de contenu indépendant.",
+      "type": "properties-and-attributes",
+      "completion": "article>"
+    },
+    {
+      "name": "aside",
+      "cat": "Sectionnement du contenu",
+      "desc": "L'élément <strong><code>&lt;aside&gt;</code></strong> (en français, «&nbsp;aparté&nbsp;») représente une partie d'un document dont le contenu n'a qu'un rapport indirect avec le contenu principal du document. Les apartés sont fréquemment présents sous la forme d'encadrés ou de boîtes de légende.",
+      "type": "properties-and-attributes",
+      "completion": "aside>"
+    },
+    {
+      "name": "footer",
+      "cat": "Sectionnement du contenu",
+      "desc": "Représente le pied de page de la <a href=\"/fr/docs/Web/HTML/Content_categories#contenu_sectionnant\">section</a> ou de la <a href=\"/fr/docs/Web/HTML/Element/Heading_Elements\">racine de sectionnement</a> la plus proche. Un élément <code>&lt;footer&gt;</code> contient habituellement des informations sur l'autrice ou l'auteur de la section, les données relatives au droit d'auteur (<i lang=\"en\">copyright</i>) ou les liens vers d'autres documents en relation.",
+      "type": "properties-and-attributes",
+      "completion": "footer>"
+    },
+    {
+      "name": "header",
+      "cat": "Sectionnement du contenu",
+      "desc": "L'élément <a href=\"/fr/docs/Web/HTML\">HTML</a> <strong><code>&lt;header&gt;</code></strong> représente du contenu introductif, généralement un groupe de contenu introductif ou de contenu aidant à la navigation. Il peut contenir des éléments de titre, mais aussi d'autres éléments tels qu'un logo, un formulaire de recherche, le nom d'auteur, etc.",
+      "type": "properties-and-attributes",
+      "completion": "header>"
+    },
+    {
+      "name": "h1, <h2>, <h3>, <h4>, <h5>, <h6>",
+      "cat": "Sectionnement du contenu",
+      "desc": "Les éléments <strong><code>&lt;h1&gt;</code></strong> à <strong><code>&lt;h6&gt;</code></strong> représentent six niveaux de titres dans un document, <code>&lt;h1&gt;</code> est le plus important et <code>&lt;h6&gt;</code> est le moins important.",
+      "type": "properties-and-attributes",
+      "completion": "h1>, <h2>, <h3>, <h4>, <h5>, <h6>"
+    },
+    {
+      "name": "hgroup",
+      "cat": "Sectionnement du contenu",
+      "desc": "Représente un titre groupé avec du contenu secondaire tel qu'un sous-titre, un titre alternatif ou un slogan.",
+      "type": "properties-and-attributes",
+      "completion": "hgroup>"
+    },
+    {
+      "name": "main",
+      "cat": "Sectionnement du contenu",
+      "desc": "Représente le contenu majoritaire du <a href=\"/fr/docs/Web/HTML/Element/body\">corps</a> du document. Le contenu principal de la zone est constitué de contenu directement en relation, ou qui étend le sujet principal du document ou de la fonctionnalité principale d'une application.",
+      "type": "properties-and-attributes",
+      "completion": "main>"
+    },
+    {
+      "name": "nav",
+      "cat": "Sectionnement du contenu",
+      "desc": "Représente une section d'une page ayant des liens vers d'autres pages ou des fragments de cette page. Autrement dit, c'est une section destinée à la navigation dans un document (avec des menus, des tables des matières, des index, etc.).",
+      "type": "properties-and-attributes",
+      "completion": "nav>"
+    },
+    {
+      "name": "section",
+      "cat": "Sectionnement du contenu",
+      "desc": "Représente une section générique d'un document, par exemple un groupe de contenu thématique. Une section devrait généralement commencer avec un titre.",
+      "type": "properties-and-attributes",
+      "completion": "section>"
+    },
+    {
+      "name": "blockquote",
+      "cat": "Contenu textuel",
+      "desc": "Indique que le texte contenu dans l'élément est une citation longue. Le texte est généralement affiché avec une indentation. Une URL indiquant la source de la citation peut être donnée grâce à l'attribut <code>cite</code> tandis qu'un texte représentant la source peut être donné via l'élément <a href=\"/fr/docs/Web/HTML/Element/cite\"><code>&lt;cite&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "blockquote>"
+    },
+    {
+      "name": "dd",
+      "cat": "Contenu textuel",
+      "desc": "Fournit la description, la définition ou la valeur du terme précédent (<a href=\"/fr/docs/Web/HTML/Element/dt\"><code>&lt;dt&gt;</code></a>) dans une liste de description (<a href=\"/fr/docs/Web/HTML/Element/dl\"><code>&lt;dl&gt;</code></a>).",
+      "type": "properties-and-attributes",
+      "completion": "dd>"
+    },
+    {
+      "name": "div",
+      "cat": "Contenu textuel",
+      "desc": "Un conteneur générique du contenu du flux. Il n'a aucun effet sur le contenu ou la mise en page tant qu'il n'est pas mis en forme d'une manière quelconque à l'aide de <a href=\"/fr/docs/Web/CSS\">CSS</a>.",
+      "type": "properties-and-attributes",
+      "completion": "div>"
+    },
+    {
+      "name": "dl",
+      "cat": "Contenu textuel",
+      "desc": "Représente une liste de descriptions sous la forme d'une liste de paires associant des termes (fournis par des éléments <a href=\"/fr/docs/Web/HTML/Element/dt\"><code>&lt;dt&gt;</code></a>) et leurs descriptions ou définitions (fournies par des éléments <a href=\"/fr/docs/Web/HTML/Element/dd\"><code>&lt;dd&gt;</code></a>). On utilisera par exemple cet élément pour implémenter un glossaire ou pour afficher des métadonnées organisées comme liste de clés/valeurs.",
+      "type": "properties-and-attributes",
+      "completion": "dl>"
+    },
+    {
+      "name": "dt",
+      "cat": "Contenu textuel",
+      "desc": "Identifie un terme dans une liste de définitions ou de descriptions. Cet élément n'apparaît qu'en tant qu'élément enfant d'un élément <a href=\"/fr/docs/Web/HTML/Element/dl\"><code>&lt;dl&gt;</code></a> et est généralement suivi d'un élément <a href=\"/fr/docs/Web/HTML/Element/dd\"><code>&lt;dd&gt;</code></a>. Plusieurs éléments <code>&lt;dt&gt;</code> qui se suivent indiqueront qu'ils partagent la définition/description fournie par le prochain élément <a href=\"/fr/docs/Web/HTML/Element/dd\"><code>&lt;dd&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "dt>"
+    },
+    {
+      "name": "figcaption",
+      "cat": "Contenu textuel",
+      "desc": "Représente une légende décrivant le reste du contenu de son élément parent <a href=\"/fr/docs/Web/HTML/Element/figure\"><code>&lt;figure&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "figcaption>"
+    },
+    {
+      "name": "figure",
+      "cat": "Contenu textuel",
+      "desc": "Représente un contenu autonome, éventuellement accompagné d'une légende facultative, qui est spécifiée à l'aide de l'élément <a href=\"/fr/docs/Web/HTML/Element/figcaption\"><code>&lt;figcaption&gt;</code></a>. La figure, sa légende et son contenu sont référencés comme une seule unité.",
+      "type": "properties-and-attributes",
+      "completion": "figure>"
+    },
+    {
+      "name": "hr",
+      "cat": "Contenu textuel",
+      "desc": "Représente un changement thématique entre des éléments de paragraphe (par exemple, un changement de décor dans un récit, un changement de sujet au sein d'une section).",
+      "type": "properties-and-attributes",
+      "completion": "hr>"
+    },
+    {
+      "name": "li",
+      "cat": "Contenu textuel",
+      "desc": "Représente un élément dans une liste. Il doit être contenu dans un élément parent : une liste ordonnée (<a href=\"/fr/docs/Web/HTML/Element/ol\"><code>&lt;ol&gt;</code></a>), une liste non ordonnée (<a href=\"/fr/docs/Web/HTML/Element/ul\"><code>&lt;ul&gt;</code></a>) ou un menu (<a href=\"/fr/docs/Web/HTML/Element/menu\"><code>&lt;menu&gt;</code></a>). Dans les menus et les listes non ordonnées, les éléments de liste sont habituellement affichés en utilisant des puces. Dans les listes ordonnées, ils sont habituellement affichés avec compteur croissant à gauche, tel qu'un nombre ou une lettre.",
+      "type": "properties-and-attributes",
+      "completion": "li>"
+    },
+    {
+      "name": "menu",
+      "cat": "Contenu textuel",
+      "desc": "L'élément <a href=\"/fr/docs/Web/HTML\">HTML</a> <strong><code>&lt;menu&gt;</code></strong> est une alternative sémantique à <a href=\"/fr/docs/Web/HTML/Element/ul\"><code>&lt;ul&gt;</code></a>, mais est traité par les navigateurs, et en termes d'accessibilité comme un élément <a href=\"/fr/docs/Web/HTML/Element/ul\"><code>&lt;ul&gt;</code></a>. Il représente une liste d'éléments non-ordonnée (chaque élément de la liste étant représenté par un élément <a href=\"/fr/docs/Web/HTML/Element/li\"><code>&lt;li&gt;</code></a>).",
+      "type": "properties-and-attributes",
+      "completion": "menu>"
+    },
+    {
+      "name": "ol",
+      "cat": "Contenu textuel",
+      "desc": "Représente une liste ordonnée. Les éléments d'une telle liste sont généralement affichés avec un indicateur ordinal pouvant prendre la forme de nombres, de lettres, de chiffres romains ou de points. La mise en forme de la numérotation n'est pas utilisée dans la description HTML mais dans la feuille de style CSS associée grâce à la propriété <a href=\"/fr/docs/Web/CSS/list-style-type\"><code>list-style-type</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "ol>"
+    },
+    {
+      "name": "p",
+      "cat": "Contenu textuel",
+      "desc": "Représente un paragraphe de texte. Les paragraphes sont généralement représentés comme des blocs et séparés par un espace vertical, leur première ligne est également parfois indentée. Les paragraphes sont <a href=\"/fr/docs/Glossary/Block-level_content\">des éléments blocs</a>.",
+      "type": "properties-and-attributes",
+      "completion": "p>"
+    },
+    {
+      "name": "pre",
+      "cat": "Contenu textuel",
+      "desc": "L'élément <a href=\"/fr/docs/Web/HTML\">HTML</a> <strong><code>&lt;pre&gt;</code></strong> représente du texte préformaté, généralement écrit avec une <a href=\"https://fr.wikipedia.org/wiki/Police_d%27%C3%A9criture_%C3%A0_chasse_fixe\" class=\"external\" target=\"_blank\">police à chasse fixe</a>. Le texte est affiché tel quel, les espaces utilisés dans le document HTML seront retranscrits.",
+      "type": "properties-and-attributes",
+      "completion": "pre>"
+    },
+    {
+      "name": "ul",
+      "cat": "Contenu textuel",
+      "desc": "Représente une liste d'éléments sans ordre particulier. Il est souvent représenté par une liste à puces.",
+      "type": "properties-and-attributes",
+      "completion": "ul>"
+    },
+    {
+      "name": "a",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Avec son attribut <code>href</code>, il crée un lien hypertexte vers des pages web, des fichiers, des adresses e-mail, des emplacements se trouvant dans la même page, ou tout ce qu'une URL peut adresser. Le contenu de chaque élément <code>&lt;a&gt;</code> <strong>doit</strong> indiquer la destination du lien. Si l'attribut <code>href</code> est présent, appuyer sur la touche entrée en se concentrant sur l'élément <code>&lt;a&gt;</code> l'activera.",
+      "type": "properties-and-attributes",
+      "completion": "a>"
+    },
+    {
+      "name": "abbr",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Représente une abréviation ou un acronyme ; l'attribut facultatif <a href=\"/fr/docs/Web/HTML/Global_attributes#attr-title\"><code>title</code></a> peut fournir une explication ou une description de l'abréviation. S'il est présent, <code>title</code> doit contenir cette description complète et rien d'autre.",
+      "type": "properties-and-attributes",
+      "completion": "abbr>"
+    },
+    {
+      "name": "b",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Permet d'attirer l'attention du lecteur sur un contenu qui n'a pas, pour autant, d'importance significative. Anciennement utilisé pour mettre le texte en gras. Cet élément ne doit pas être utilisé pour mettre en forme des éléments, c'est la propriété CSS <a href=\"/fr/docs/Web/CSS/font-weight\"><code>font-weight</code></a> qu'il faut utiliser. Si l'élément est d'une importance particulière, on utilisera l'élément HTML <a href=\"/fr/docs/Web/HTML/Element/strong\"><code>&lt;strong&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "b>"
+    },
+    {
+      "name": "bdi",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "L'élément <strong><code>&lt;bdi&gt;</code></strong> (ou élément d'isolation de texte bidirectionnel) isole une portée (<em>span</em>) de texte pouvant être formatée dans une direction différente de celle du texte qui l'entoure. Cela permet, par exemple, de présenter correctement une citation en arabe (écrit de droite à gauche) au sein d'un texte écrit en français (écrit de gauche à droite).",
+      "type": "properties-and-attributes",
+      "completion": "bdi>"
+    },
+    {
+      "name": "bdo",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Utilisé afin d'outrepasser la direction du texte. Cela permet d'imposer une direction donnée à un texte. L'orientation du texte est inversée mais pas celle des caractères.",
+      "type": "properties-and-attributes",
+      "completion": "bdo>"
+    },
+    {
+      "name": "br",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Crée un saut de ligne (un retour chariot) dans le texte. Il s'avère utile lorsque les sauts de ligne ont une importance (par exemple lorsqu'on écrit une adresse ou un poème).",
+      "type": "properties-and-attributes",
+      "completion": "br>"
+    },
+    {
+      "name": "cite",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "L'élément <strong><code>&lt;cite&gt;</code></strong> contient le titre d'une œuvre telle qu'un livre, une chanson, un film, une sculpture… Cet élément doit inclure le titre de l'œuvre. Cette référence peut-être abrégée en accord avec les conventions d'usages pour l'ajout des métadonnées de citations.",
+      "type": "properties-and-attributes",
+      "completion": "cite>"
+    },
+    {
+      "name": "code",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Représente un court fragment de code machine. Par défaut, l'agent utilisateur utilise une police à chasse fixe (<em>monospace</em>) afin d'afficher le texte contenu dans cet élément.",
+      "type": "properties-and-attributes",
+      "completion": "code>"
+    },
+    {
+      "name": "data",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Relie un contenu à une version de ce contenu interprétable par un ordinateur. Si le contenu possède une composante temporelle, l'élément <a href=\"/fr/docs/Web/HTML/Element/time\"><code>&lt;time&gt;</code></a> doit être utilisé.",
+      "type": "properties-and-attributes",
+      "completion": "data>"
+    },
+    {
+      "name": "dfn",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Utilisé pour indiquer le terme défini dans le contexte d'une expression ou d'une phrase de définition. L'élément <a href=\"/fr/docs/Web/HTML/Element/p\"><code>&lt;p&gt;</code></a>, le couple <a href=\"/fr/docs/Web/HTML/Element/dt\"><code>&lt;dt&gt;</code></a>/<a href=\"/fr/docs/Web/HTML/Element/dd\"><code>&lt;dd&gt;</code></a> ou l'élément <a href=\"/fr/docs/Web/HTML/Element/section\"><code>&lt;section&gt;</code></a> qui est le plus proche ancêtre de <code>&lt;dfn&gt;</code> est considéré comme la définition du terme.",
+      "type": "properties-and-attributes",
+      "completion": "dfn>"
+    },
+    {
+      "name": "em",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "L'élément <a href=\"/fr/docs/Web/HTML\">HTML</a> <strong><code>&lt;em&gt;</code></strong> (pour emphase) est utilisé afin de marquer un texte sur lequel on veut insister. Les éléments <code>&lt;em&gt;</code> peuvent être imbriqués, chaque degré d'imbrication indiquant un degré d'insistance plus élevé.",
+      "type": "properties-and-attributes",
+      "completion": "em>"
+    },
+    {
+      "name": "i",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Représente un morceau de texte qui se différencie du texte principal. Cela peut par exemple être le cas pour des termes techniques, des phrases dans une langue étrangère ou encore l'expression des pensées d'un personnage. Le contenu de cet élément est généralement affiché en italique.",
+      "type": "properties-and-attributes",
+      "completion": "i>"
+    },
+    {
+      "name": "kbd",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Représente une plage de texte en ligne indiquant la saisie de texte par l'utilisateur à partir d'un clavier, d'une saisie vocale ou de tout autre dispositif de saisie de texte. Par convention, <a href=\"/fr/docs/Glossary/User_agent\">l'agent utilisateur</a> rend par défaut le contenu d'un élément <code>&lt;kbd&gt;</code> en utilisant sa police monospace, bien que cela ne soit pas requis par le standard HTML.",
+      "type": "properties-and-attributes",
+      "completion": "kbd>"
+    },
+    {
+      "name": "mark",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Représente un texte marqué ou surligné à cause de sa pertinence dans le contexte. Il peut par exemple être utilisé afin d'indiquer les correspondances d'un mot-clé recherché au sein d'un document.",
+      "type": "properties-and-attributes",
+      "completion": "mark>"
+    },
+    {
+      "name": "q",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Indique que le texte qu'il contient est une citation en incise. La plupart des navigateurs modernes entourent le texte de cet élément avec des marques de citation. Cet élément est destiné aux citations courtes qui ne nécessitent pas de sauts de paragraphe. Pour les plus grandes citations, on utilisera l'élément <a href=\"/fr/docs/Web/HTML/Element/blockquote\"><code>&lt;blockquote&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "q>"
+    },
+    {
+      "name": "rp",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Utilisé pour fournir ce qui fera office de parenthèse aux navigateurs qui ne prennent pas en charge les annotations Ruby.",
+      "type": "properties-and-attributes",
+      "completion": "rp>"
+    },
+    {
+      "name": "rt",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Indique la composante texte d'une annotation Ruby, il est notamment utilisé pour la prononciation, la traduction ou la translittération des caractères d'Asie orientale. Cet élément est toujours contenu dans un élément <a href=\"/fr/docs/Web/HTML/Element/ruby\"><code>&lt;ruby&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "rt>"
+    },
+    {
+      "name": "ruby",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Représente une annotation ruby. Les annotations Ruby servent à afficher la prononciation des caractères d'Asie orientale.",
+      "type": "properties-and-attributes",
+      "completion": "ruby>"
+    },
+    {
+      "name": "s",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Permet d'afficher du texte qui est barré, car il n'est plus pertinent ou, car il est obsolète. <code>&lt;s&gt;</code> ne doit pas être employé pour indiquer des éditions dans un document (on utilisera alors <a href=\"/fr/docs/Web/HTML/Element/del\"><code>&lt;del&gt;</code></a> et <a href=\"/fr/docs/Web/HTML/Element/ins\"><code>&lt;ins&gt;</code></a>).",
+      "type": "properties-and-attributes",
+      "completion": "s>"
+    },
+    {
+      "name": "samp",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "L'élément <a href=\"/fr/docs/Web/HTML\">HTML</a> <strong><code>&lt;samp&gt;</code></strong> est un élément qui permet de représenter un résultat produit par un programme informatique en incise dans du texte. Il est généralement affiché avec la police à chasse fixe du navigateur (par exemple en <a href=\"https://fr.wikipedia.org/wiki/Courier_(police_d%27%C3%A9criture)\" class=\"external\" target=\"_blank\">Courier</a> ou en Lucida Console).",
+      "type": "properties-and-attributes",
+      "completion": "samp>"
+    },
+    {
+      "name": "small",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Permet de représenter des commentaires ou des textes à écrire en petits caractères (des termes d'un contrat, des mentions relatives au droit d'auteur, etc.) quelle que soit la présentation.",
+      "type": "properties-and-attributes",
+      "completion": "small>"
+    },
+    {
+      "name": "span",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Un conteneur générique en ligne (<em>inline</em>) pour les contenus phrasés. Il ne représente rien de particulier. Il peut être utilisé pour grouper des éléments afin de les mettre en forme (grâce aux attributs <a href=\"/fr/docs/Web/HTML/Global_attributes#class\"><code>class</code></a> ou <a href=\"/fr/docs/Web/HTML/Global_attributes#id\"><code>id</code></a> et aux règles <a href=\"/fr/docs/Web/CSS\">CSS</a>) ou parce qu'ils partagent certaines valeurs d'attribut comme <a href=\"/fr/docs/Web/HTML/Global_attributes#lang\"><code>lang</code></a>. Il doit uniquement être utilisé lorsqu'aucun autre élément sémantique n'est approprié. <code>&lt;span&gt;</code> est très proche de l'élément <a href=\"/fr/docs/Web/HTML/Element/div\"><code>&lt;div&gt;</code></a>, mais l'élément <code>&lt;div&gt;</code> est <a href=\"/fr/docs/Glossary/Block-level_content\">un élément de bloc</a>, alors que <code>&lt;span&gt;</code> est <a href=\"/fr/docs/Glossary/Inline-level_content\">un élément en ligne</a>.",
+      "type": "properties-and-attributes",
+      "completion": "span>"
+    },
+    {
+      "name": "strong",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Indique que le texte a une importance particulière ou un certain sérieux voire un caractère urgent. Cela se traduit généralement par un affichage en gras.",
+      "type": "properties-and-attributes",
+      "completion": "strong>"
+    },
+    {
+      "name": "sub",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Utilisé, pour des raisons typographiques, afin d'afficher du texte en indice (sous la ligne de base et généralement plus petit) par rapport au bloc de texte environnant.",
+      "type": "properties-and-attributes",
+      "completion": "sub>"
+    },
+    {
+      "name": "sup",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Utilisé, pour des raisons typographiques, afin d'afficher du texte en exposant (plus haut et généralement plus petit) par rapport au bloc de texte environnant.",
+      "type": "properties-and-attributes",
+      "completion": "sup>"
+    },
+    {
+      "name": "time",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Représente une période donnée. Cet élément permet d'utiliser l'attribut <code>datetime</code> afin de traduire la date ou l'instant dans un format informatique (permettant aux moteurs de recherche d'exploiter ces données ou de créer des rappels).",
+      "type": "properties-and-attributes",
+      "completion": "time>"
+    },
+    {
+      "name": "u",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Affiche un fragment de texte qui est annoté avec des éléments non textuels. Par défaut, le contenu de l'élément est souligné. Cela pourra par exemple être le cas pour marquer un texte comme étant un nom propre chinois, ou pour marquer un texte qui a été mal orthographié.",
+      "type": "properties-and-attributes",
+      "completion": "u>"
+    },
+    {
+      "name": "var",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Représente une variable dans une expression mathématique ou un texte lié à la programmation. Son contenu est généralement représenté avec une version italique de la police environnante utilisée, toutefois, ce comportement peut dépendre du navigateur utilisé.",
+      "type": "properties-and-attributes",
+      "completion": "var>"
+    },
+    {
+      "name": "wbr",
+      "cat": "Sémantique du texte en ligne",
+      "desc": "Représente un emplacement où casser la ligne si nécessaire. Le navigateur pourra alors utiliser cet emplacement pour effectuer un saut de ligne si le texte est trop long et qu'en temps normal, une règle empêche le saut de ligne.",
+      "type": "properties-and-attributes",
+      "completion": "wbr>"
+    },
+    {
+      "name": "area",
+      "cat": "Images et médias",
+      "desc": "Définit une zone particulière d'une image et peut lui associer un <a href=\"/fr/docs/Glossary/Hyperlink\">lien hypertexte</a>. Cet élément n'est utilisé qu'au sein d'un élément <a href=\"/fr/docs/Web/HTML/Element/map\"><code>&lt;map&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "area>"
+    },
+    {
+      "name": "audio",
+      "cat": "Images et médias",
+      "desc": "Utilisé afin d'intégrer un contenu sonore dans un document. Il peut contenir une ou plusieurs sources audio représentées avec l'attribut <code>src</code> ou l'élément <a href=\"/fr/docs/Web/HTML/Element/source\"><code>&lt;source&gt;</code></a> : le navigateur choisira celle qui convient le mieux. Il peut également être la destination de médias diffusés en continu, en utilisant un <a href=\"/fr/docs/Web/API/MediaStream\"><code>MediaStream</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "audio>"
+    },
+    {
+      "name": "img",
+      "cat": "Images et médias",
+      "desc": "L'élément <a href=\"/fr/docs/Web/HTML\">HTML</a> <strong><code>&lt;img&gt;</code></strong> permet d'intégrer une image dans un document.",
+      "type": "properties-and-attributes",
+      "completion": "img>"
+    },
+    {
+      "name": "map",
+      "cat": "Images et médias",
+      "desc": "Utilisé avec des éléments <a href=\"/fr/docs/Web/HTML/Element/area\"><code>&lt;area&gt;</code></a> afin de définir une image cliquable divisée en régions.",
+      "type": "properties-and-attributes",
+      "completion": "map>"
+    },
+    {
+      "name": "track",
+      "cat": "Images et médias",
+      "desc": "Utilisé comme élément fils d'un élément <a href=\"/fr/docs/Web/HTML/Element/audio\"><code>&lt;audio&gt;</code></a> ou <a href=\"/fr/docs/Web/HTML/Element/video\"><code>&lt;video&gt;</code></a> et permet de fournir une piste texte pour le média (par exemple afin de gérer automatiquement les sous-titres). Les pistes texte utilisées avec cet élément sont formatées selon <a href=\"/fr/docs/Web/API/WebVTT_API\">le format WebVTT</a> (ce sont des fichiers <code>.vtt</code>) (WebVTT pour <i lang=\"en\">Web Video Text Tracks</i>).",
+      "type": "properties-and-attributes",
+      "completion": "track>"
+    },
+    {
+      "name": "video",
+      "cat": "Images et médias",
+      "desc": "Intègre un contenu vidéo dans un document.",
+      "type": "properties-and-attributes",
+      "completion": "video>"
+    },
+    {
+      "name": "embed",
+      "cat": "Contenu embarqué",
+      "desc": "Intègre du contenu externe à cet endroit dans le document. Le contenu peut être fourni par une application externe ou une autre source telle qu'un <em>plugin</em> du navigateur.",
+      "type": "properties-and-attributes",
+      "completion": "embed>"
+    },
+    {
+      "name": "iframe",
+      "cat": "Contenu embarqué",
+      "desc": "Représente un <a href=\"/fr/docs/Glossary/Browsing_context\">contexte de navigation</a> imbriqué qui permet en fait d'obtenir une page HTML intégrée dans la page courante.",
+      "type": "properties-and-attributes",
+      "completion": "iframe>"
+    },
+    {
+      "name": "object",
+      "cat": "Contenu embarqué",
+      "desc": "Représente une ressource externe qui peut être interprétée comme une image, un contexte de navigation imbriqué ou une ressource à traiter comme un <em>plugin</em>.",
+      "type": "properties-and-attributes",
+      "completion": "object>"
+    },
+    {
+      "name": "picture",
+      "cat": "Contenu embarqué",
+      "desc": "Un conteneur utilisé afin de définir zéro ou plusieurs éléments <a href=\"/fr/docs/Web/HTML/Element/source\"><code>&lt;source&gt;</code></a> destinés à un élément <a href=\"/fr/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a>. Le navigateur choisira la source la plus pertinente selon la disposition de la page (les contraintes qui s'appliquent à la boîte dans laquelle l'image devra être affichée), selon l'appareil utilisé (la densité de pixels de l'affichage par exemple avec les appareils hiDPI) et selon les formats pris en charge (ex. WebP pour les navigateurs Chromium ou PNG pour les autres). Si aucune correspondance n'est trouvée parmi les éléments <code>&lt;source&gt;</code>, c'est le fichier défini par l'attribut <a href=\"/fr/docs/Web/HTML/Element/img#attr-src\"><code>src</code></a> de l'élément <code>&lt;img&gt;</code> qui sera utilisé.",
+      "type": "properties-and-attributes",
+      "completion": "picture>"
+    },
+    {
+      "name": "portal",
+      "cat": "Contenu embarqué",
+      "desc": "L'élément <a href=\"/fr/docs/Web/HTML\">HTML</a> <strong><code>&lt;portal&gt;</code></strong> permet d'embarquer une autre page HTML à l'intérieur de la page courante afin de permettre une navigation plus souple vers de nouvelles pages.",
+      "type": "properties-and-attributes",
+      "completion": "portal>"
+    },
+    {
+      "name": "source",
+      "cat": "Contenu embarqué",
+      "desc": "Définit différentes ressources média pour un élément <a href=\"/fr/docs/Web/HTML/Element/picture\"><code>&lt;picture&gt;</code></a>, <a href=\"/fr/docs/Web/HTML/Element/audio\"><code>&lt;audio&gt;</code></a> ou <a href=\"/fr/docs/Web/HTML/Element/video\"><code>&lt;video&gt;</code></a>. C'est un élément vide : il ne possède pas de contenu et ne nécessite pas de balise fermante. Il est généralement utilisé pour distribuer le même contenu en utilisant les différents formats <a href=\"/fr/docs/Web/Media/Formats/Image_types\">d'image</a> et <a href=\"/fr/docs/Web/Media/Formats\">de media</a> pris en charge par les différents navigateurs.",
+      "type": "properties-and-attributes",
+      "completion": "source>"
+    },
+    {
+      "name": "svg",
+      "cat": "SVG et MathML",
+      "desc": "Utilisé pour intégrer des fragments de code SVG à l'intérieur d'un document (par exemple, un document HTML). Ce fragment de code SVG dispose de ses propres <a href=\"/fr/docs/Web/SVG/Attribute/viewBox\">viewport</a> et système de coordonnées.",
+      "type": "properties-and-attributes",
+      "completion": "svg>"
+    },
+    {
+      "name": "math",
+      "cat": "SVG et MathML",
+      "desc": "L'élément racine de MathML. Tout objet représenté en MathML doit être encadré de balises <code>&lt;math&gt;</code>. De plus, il est interdit d'imbriquer un autre élément <code>&lt;math&gt;</code> à l'intérieur d'un premier. Il est toutefois possible d'avoir un nombre arbitraire d'éléments fils à l'intérieur d'un élément <code>&lt;math&gt;</code>.",
+      "type": "properties-and-attributes",
+      "completion": "math>"
+    },
+    {
+      "name": "canvas",
+      "cat": "Scripts",
+      "desc": "On utilise l'élément <strong>HTML <code>&lt;canvas&gt;</code></strong> avec l'API <a href=\"/fr/docs/Web/API/Canvas_API\">canvas</a>, ou l'API <a href=\"/fr/docs/Web/API/WebGL_API\">WebGL</a> pour dessiner des graphiques et des animations.",
+      "type": "properties-and-attributes",
+      "completion": "canvas>"
+    },
+    {
+      "name": "noscript",
+      "cat": "Scripts",
+      "desc": "Définit un fragment HTML qui doit être affiché si les fonctionnalités de script ne sont pas prises en charge ou si elles sont désactivées.",
+      "type": "properties-and-attributes",
+      "completion": "noscript>"
+    },
+    {
+      "name": "script",
+      "cat": "Scripts",
+      "desc": "Utilisé pour intégrer ou faire référence à un script exécutable. Cela fait généralement référence à du code JavaScript mais ce peut également être un autre type de script (par exemple <a href=\"/fr/docs/Web/API/WebGL_API\">WebGL</a>).",
+      "type": "properties-and-attributes",
+      "completion": "script>"
+    },
+    {
+      "name": "del",
+      "cat": "Gestion de l'édition",
+      "desc": "Représente une portion de texte ayant été supprimée d'un document. Cet élément est souvent (mais pas nécessairement) affiché rayé. L'élément <a href=\"/fr/docs/Web/HTML/Element/ins\"><code>&lt;ins&gt;</code></a> est quant à lui utilisé pour représenter des portions de texte ajoutées.",
+      "type": "properties-and-attributes",
+      "completion": "del>"
+    },
+    {
+      "name": "ins",
+      "cat": "Gestion de l'édition",
+      "desc": "Représente un fragment de texte qui a été ajouté dans un document.",
+      "type": "properties-and-attributes",
+      "completion": "ins>"
+    },
+    {
+      "name": "caption",
+      "cat": "Contenu tabulaire",
+      "desc": "L'élément <strong><code>&lt;caption&gt;</code></strong> définit la légende (ou le titre) d'un tableau.",
+      "type": "properties-and-attributes",
+      "completion": "caption>"
+    },
+    {
+      "name": "col",
+      "cat": "Contenu tabulaire",
+      "desc": "Définit une colonne appartenant à un tableau et est utilisé afin de définir la sémantique commune à toutes ses cellules. On trouve généralement cet élément au sein d'un élément <a href=\"/fr/docs/Web/HTML/Element/colgroup\"><code>&lt;colgroup&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "col>"
+    },
+    {
+      "name": "colgroup",
+      "cat": "Contenu tabulaire",
+      "desc": "Définit un groupe de colonnes au sein d'un tableau.",
+      "type": "properties-and-attributes",
+      "completion": "colgroup>"
+    },
+    {
+      "name": "table",
+      "cat": "Contenu tabulaire",
+      "desc": "Représente un tableau de données, c'est-à-dire des informations exprimées sur un tableau en deux dimensions.",
+      "type": "properties-and-attributes",
+      "completion": "table>"
+    },
+    {
+      "name": "tbody",
+      "cat": "Contenu tabulaire",
+      "desc": "L'élément <a href=\"/fr/docs/Web/HTML\">HTML</a> <strong><code>&lt;tbody&gt;</code></strong> permet de regrouper un ou plusieurs éléments <a href=\"/fr/docs/Web/HTML/Element/tr\"><code>&lt;tr&gt;</code></a> afin de former le corps d'un tableau HTML (<a href=\"/fr/docs/Web/HTML/Element/table\"><code>&lt;table&gt;</code></a>).",
+      "type": "properties-and-attributes",
+      "completion": "tbody>"
+    },
+    {
+      "name": "td",
+      "cat": "Contenu tabulaire",
+      "desc": "L'élément <a href=\"/fr/docs/Web/HTML\">HTML</a> <strong><code>&lt;td&gt;</code></strong> définit une cellule d'un tableau qui contient des données. Cet élément fait partie du <em>modèle de tableau</em>.",
+      "type": "properties-and-attributes",
+      "completion": "td>"
+    },
+    {
+      "name": "tfoot",
+      "cat": "Contenu tabulaire",
+      "desc": "L'élément <a href=\"/fr/docs/Web/HTML\">HTML</a> <strong><code>&lt;tfoot&gt;</code></strong> permet de définir un ensemble de lignes qui résument les colonnes d'un tableau.",
+      "type": "properties-and-attributes",
+      "completion": "tfoot>"
+    },
+    {
+      "name": "th",
+      "cat": "Contenu tabulaire",
+      "desc": "Définit une cellule d'un tableau comme une cellule d'en-tête pour un groupe de cellule. La nature de ce groupe est définie grâce aux attributs <code>scope</code> et <code>headers</code>.",
+      "type": "properties-and-attributes",
+      "completion": "th>"
+    },
+    {
+      "name": "thead",
+      "cat": "Contenu tabulaire",
+      "desc": "L'élément <a href=\"/fr/docs/Web/HTML\">HTML</a> <strong><code>&lt;thead&gt;</code></strong> définit un ensemble de lignes qui définit l'en-tête des colonnes d'un tableau.",
+      "type": "properties-and-attributes",
+      "completion": "thead>"
+    },
+    {
+      "name": "tr",
+      "cat": "Contenu tabulaire",
+      "desc": "Définit une ligne de cellules dans un tableau. Une ligne peut être constituée d'éléments <a href=\"/fr/docs/Web/HTML/Element/td\"><code>&lt;td&gt;</code></a> (les données des cellules) et <a href=\"/fr/docs/Web/HTML/Element/th\"><code>&lt;th&gt;</code></a> (les cellules d'en-têtes).",
+      "type": "properties-and-attributes",
+      "completion": "tr>"
+    },
+    {
+      "name": "button",
+      "cat": "Formulaires",
+      "desc": "L'élément <strong><code>&lt;button&gt;</code></strong> représente un bouton cliquable, utilisé pour soumettre <a href=\"/fr/docs/Learn/Forms\">des formulaires</a> ou n'importe où dans un document pour une fonctionnalité de bouton accessible et standard. Par défaut, les boutons HTML sont présentés dans un style ressemblant à la plate-forme d'exécution de <a href=\"/fr/docs/Glossary/User_agent\">l'agent utilisateur</a>, mais vous pouvez modifier l'apparence des boutons avec <a href=\"/fr/docs/Web/CSS\">CSS</a>.",
+      "type": "properties-and-attributes",
+      "completion": "button>"
+    },
+    {
+      "name": "datalist",
+      "cat": "Formulaires",
+      "desc": "Contient un ensemble d'éléments <a href=\"/fr/docs/Web/HTML/Element/option\"><code>&lt;option&gt;</code></a> qui représentent les valeurs possibles pour d'autres contrôles.",
+      "type": "properties-and-attributes",
+      "completion": "datalist>"
+    },
+    {
+      "name": "fieldset",
+      "cat": "Formulaires",
+      "desc": "Utilisé afin de regrouper plusieurs contrôles interactifs ainsi que des étiquettes (<a href=\"/fr/docs/Web/HTML/Element/label\"><code>&lt;label&gt;</code></a>) dans un formulaire HTML.",
+      "type": "properties-and-attributes",
+      "completion": "fieldset>"
+    },
+    {
+      "name": "form",
+      "cat": "Formulaires",
+      "desc": "Représente un formulaire, c'est-à-dire une section d'un document qui contient des contrôles interactifs permettant à un utilisateur de fournir des informations.",
+      "type": "properties-and-attributes",
+      "completion": "form>"
+    },
+    {
+      "name": "input",
+      "cat": "Formulaires",
+      "desc": "L'élément <a href=\"/fr/docs/Web/HTML\">HTML</a> <strong><code>&lt;input&gt;</code></strong> est utilisé pour créer un contrôle interactif dans un formulaire web qui permet à l'utilisatrice ou l'utilisateur de saisir des données. Les saisies possibles et le comportement de l'élément <code>&lt;input&gt;</code> dépendent fortement de la valeur indiquée dans son attribut <code>type</code> et de ses autres attributs. Il existe différents contrôles pour la saisie, qui dépendent de l'appareil utilisé et de <a href=\"/fr/docs/Glossary/User_agent\">l'agent utilisateur</a>.",
+      "type": "properties-and-attributes",
+      "completion": "input>"
+    },
+    {
+      "name": "label",
+      "cat": "Formulaires",
+      "desc": "Représente une légende pour un objet d'une interface utilisateur. Il peut être associé à un contrôle en utilisant l'attribut <code>for</code> ou en plaçant l'élément du contrôle à l'intérieur de l'élément <code>&lt;label&gt;</code>. Un tel contrôle est appelé <em>contrôle étiqueté</em> par l'élément <code>&lt;label&gt;</code>.",
+      "type": "properties-and-attributes",
+      "completion": "label>"
+    },
+    {
+      "name": "legend",
+      "cat": "Formulaires",
+      "desc": "Représente une légende pour le contenu de son élément parent <a href=\"/fr/docs/Web/HTML/Element/fieldset\"><code>&lt;fieldset&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "legend>"
+    },
+    {
+      "name": "meter",
+      "cat": "Formulaires",
+      "desc": "Représente une valeur scalaire dans un intervalle donné ou une valeur fractionnaire.",
+      "type": "properties-and-attributes",
+      "completion": "meter>"
+    },
+    {
+      "name": "optgroup",
+      "cat": "Formulaires",
+      "desc": "Utilisé dans un formulaire, il permet de créer un groupe d'options parmi lesquelles on peut choisir dans un élément <a href=\"/fr/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "optgroup>"
+    },
+    {
+      "name": "option",
+      "cat": "Formulaires",
+      "desc": "Utilisé dans un formulaire, il permet de représenter un contrôle au sein d'un élément <a href=\"/fr/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a>, <a href=\"/fr/docs/Web/HTML/Element/optgroup\"><code>&lt;optgroup&gt;</code></a> ou <a href=\"/fr/docs/Web/HTML/Element/datalist\"><code>&lt;datalist&gt;</code></a>. Cet élément peut donc représenter des éléments d'un menu dans un document HTML.",
+      "type": "properties-and-attributes",
+      "completion": "option>"
+    },
+    {
+      "name": "output",
+      "cat": "Formulaires",
+      "desc": "Représente un conteneur dans lequel un site ou une application peut injecter le résultat d'un calcul ou d'une action utilisateur.",
+      "type": "properties-and-attributes",
+      "completion": "output>"
+    },
+    {
+      "name": "progress",
+      "cat": "Formulaires",
+      "desc": "Indique l'état de complétion d'une tâche et est généralement représenté par une barre de progression.",
+      "type": "properties-and-attributes",
+      "completion": "progress>"
+    },
+    {
+      "name": "select",
+      "cat": "Formulaires",
+      "desc": "Représente un contrôle qui fournit une liste d'options parmi lesquelles l'utilisateur pourra choisir.",
+      "type": "properties-and-attributes",
+      "completion": "select>"
+    },
+    {
+      "name": "textarea",
+      "cat": "Formulaires",
+      "desc": "Représente un contrôle qui permet d'éditer du texte sur plusieurs lignes.",
+      "type": "properties-and-attributes",
+      "completion": "textarea>"
+    },
+    {
+      "name": "details",
+      "cat": "Éléments interactifs",
+      "desc": "Utilisé comme un outil permettant de révéler une information. Un résumé ou un intitulé peuvent être fournis grâce à un élément <a href=\"/fr/docs/Web/HTML/Element/summary\"><code>&lt;summary&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "details>"
+    },
+    {
+      "name": "dialog",
+      "cat": "Éléments interactifs",
+      "desc": "Représente une boite de dialogue ou un composant interactif (par exemple un inspecteur ou une fenêtre).",
+      "type": "properties-and-attributes",
+      "completion": "dialog>"
+    },
+    {
+      "name": "summary",
+      "cat": "Éléments interactifs",
+      "desc": "Représente une boîte permettant de révéler le contenu d'un résumé ou d'une légende pour le contenu d'un élément <a href=\"/fr/docs/Web/HTML/Element/details\"><code>&lt;details&gt;</code></a>. En cliquant sur l'élément <code>&lt;summary&gt;</code>, on passe de l'état affiché à l'état masqué (et vice versa) de l'élément <code>&lt;details&gt;</code> parent.",
+      "type": "properties-and-attributes",
+      "completion": "summary>"
+    },
+    {
+      "name": "slot",
+      "cat": "Composants web (web components)",
+      "desc": "Représente un emplacement d'un composant web qu'on peut remplir avec son propre balisage. On peut ainsi obtenir un document construit avec différents arbres DOM. Cet élément fait partie des outils relatifs <a href=\"/fr/docs/Web/API/Web_components\">aux composants web (Web Components)</a>.",
+      "type": "properties-and-attributes",
+      "completion": "slot>"
+    },
+    {
+      "name": "template",
+      "cat": "Composants web (web components)",
+      "desc": "Un mécanisme utilisé pour stocker du contenu HTML (côté client) qui ne doit pas être affiché lors du chargement de la page mais qui peut être instancié et affiché par la suite grâce à un script JavaScript.",
+      "type": "properties-and-attributes",
+      "completion": "template>"
+    },
+    {
+      "name": "acronym",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Permet d'indiquer une séquence de caractères composant un acronyme ou une abréviation.",
+      "type": "properties-and-attributes",
+      "completion": "acronym>"
+    },
+    {
+      "name": "applet",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Embarque un <i lang=\"en\">applet</i> Java dans le document. Remplacé par <a href=\"/fr/docs/Web/HTML/Element/object\"><code>&lt;object&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "applet>"
+    },
+    {
+      "name": "bgsound",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Un son diffusé en arrière-plan lorsque la page est utilisée. Remplacé par <a href=\"/fr/docs/Web/HTML/Element/audio\"><code>&lt;audio&gt;</code></a>",
+      "type": "properties-and-attributes",
+      "completion": "bgsound>"
+    },
+    {
+      "name": "big",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Affiche le texte avec une taille plus grande que le texte environnant.",
+      "type": "properties-and-attributes",
+      "completion": "big>"
+    },
+    {
+      "name": "blink",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Le texte concerné clignote lentement.",
+      "type": "properties-and-attributes",
+      "completion": "blink>"
+    },
+    {
+      "name": "center",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Le contenu en ligne ou de bloc est centré horizontalement dans l'élément englobant.",
+      "type": "properties-and-attributes",
+      "completion": "center>"
+    },
+    {
+      "name": "content",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Utilisé comme point d'insertion dans le DOM sombre. Remplacé par <a href=\"/fr/docs/Web/HTML/Element/slot\"><code>&lt;slot&gt;</code></a>",
+      "type": "properties-and-attributes",
+      "completion": "content>"
+    },
+    {
+      "name": "dir",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Un index de fichiers et de répertoires. Il faut utiliser <a href=\"/fr/docs/Web/HTML/Element/ul\"><code>&lt;ul&gt;</code></a> à la place pour représenter les listes de fichiers.",
+      "type": "properties-and-attributes",
+      "completion": "dir>"
+    },
+    {
+      "name": "font",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Définit la taille de la police, sa couleur et son type.",
+      "type": "properties-and-attributes",
+      "completion": "font>"
+    },
+    {
+      "name": "frame",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Définit une zone particulière dans laquelle un autre document HTML est affiché. Une <code>&lt;frame&gt;</code> (un «&nbsp;cadre&nbsp;» en français) doit être utilisée dans un élément <a href=\"/fr/docs/Web/HTML/Element/frameset\"><code>&lt;frameset&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "frame>"
+    },
+    {
+      "name": "frameset",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Utilisé pour contenir plusieurs éléments <a href=\"/fr/docs/Web/HTML/Element/frame\"><code>&lt;frame&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "frameset>"
+    },
+    {
+      "name": "image",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Remplacé par <a href=\"/fr/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "image>"
+    },
+    {
+      "name": "marquee",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Utilisé pour insérer une zone de texte défilant.",
+      "type": "properties-and-attributes",
+      "completion": "marquee>"
+    },
+    {
+      "name": "menuitem",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Représente une commande qu'un utilisateur peut utiliser via un menu contextuel ou un menu rattaché à un bouton.",
+      "type": "properties-and-attributes",
+      "completion": "menuitem>"
+    },
+    {
+      "name": "nobr",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Évite qu'un texte soit coupé par un retour à la ligne automatique ; il est donc affiché sur une seule ligne. Il peut être alors nécessaire d'utiliser les barres de défilement pour lire le texte en intégralité.",
+      "type": "properties-and-attributes",
+      "completion": "nobr>"
+    },
+    {
+      "name": "noembed",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Une façon obsolète et non standardisée de fournir une alternative de contenu pour les navigateurs ne supportant pas l'élément <a href=\"/fr/docs/Web/HTML/Element/embed\"><code>&lt;embed&gt;</code></a> ou des <a href=\"/fr/docs/Web/HTML/Content_categories\">catégories de contenu</a> qu'un auteur aimerait utiliser.",
+      "type": "properties-and-attributes",
+      "completion": "noembed>"
+    },
+    {
+      "name": "noframes",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Utilisé par les navigateurs qui ne prennent pas en charge les éléments <a href=\"/fr/docs/Web/HTML/Element/frame\"><code>&lt;frame&gt;</code></a>, ou qui sont configurés afin de ne pas les prendre en charge.",
+      "type": "properties-and-attributes",
+      "completion": "noframes>"
+    },
+    {
+      "name": "param",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Définit les paramètres qui peuvent être employés dans un élément <a href=\"/fr/docs/Web/HTML/Element/object\"><code>&lt;object&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "param>"
+    },
+    {
+      "name": "plaintext",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Permet d'afficher du texte qui n'est pas interprété comme du HTML. Il ne possède pas de balise de fermeture, car tout ce qui suit n'est plus considéré comme du HTML.",
+      "type": "properties-and-attributes",
+      "completion": "plaintext>"
+    },
+    {
+      "name": "rb",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Utilisé afin de délimiter le composant texte de base d'une annotation <a href=\"/fr/docs/Web/HTML/Element/ruby\"><code>&lt;ruby&gt;</code></a>. Autrement dit, le texte qui est annoté. Un élément <code>&lt;rb&gt;</code> devrait encadrer chaque segment atomique du texte de base.",
+      "type": "properties-and-attributes",
+      "completion": "rb>"
+    },
+    {
+      "name": "rtc",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Permet d'ajouter des notations Ruby sémantiques. Il est donc proche des éléments liées à la représentation Ruby comme <a href=\"/fr/docs/Web/HTML/Element/rb\"><code>&lt;rb&gt;</code></a>, <a href=\"/fr/docs/Web/HTML/Element/ruby\"><code>&lt;ruby&gt;</code></a>. Les éléments <a href=\"/fr/docs/Web/HTML/Element/rb\"><code>&lt;rb&gt;</code></a> peuvent être annotés pour la prononciation (<a href=\"/fr/docs/Web/HTML/Element/rt\"><code>&lt;rt&gt;</code></a>) ou pour la sémantique (<a href=\"/fr/docs/Web/HTML/Element/rtc\"><code>&lt;rtc&gt;</code></a>).",
+      "type": "properties-and-attributes",
+      "completion": "rtc>"
+    },
+    {
+      "name": "shadow",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Était utilisé comme un point d'insertion du DOM sombre pour les <a href=\"/fr/docs/Web/API/Web_components\">composants web</a>.",
+      "type": "properties-and-attributes",
+      "completion": "shadow>"
+    },
+    {
+      "name": "spacer",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Utilisé pour insérer des blancs au sein d'une page web. Il a été créé par Netscape pour obtenir le même effet que celui qui était créé avec des images GIF d'un pixel, permettant d'ajouter des espaces blancs. Cependant, <code>&lt;spacer&gt;</code> n'est plus pris en charge par les principaux navigateurs principaux et il faut utiliser les règles CSS pour obtenir ces effets d'alignement.",
+      "type": "properties-and-attributes",
+      "completion": "spacer>"
+    },
+    {
+      "name": "strike",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Permet de représenter du texte barré ou avec une ligne le traversant.",
+      "type": "properties-and-attributes",
+      "completion": "strike>"
+    },
+    {
+      "name": "tt",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Crée un élément en ligne, écrit dans la police à chasse fixe par défaut du navigateur. Cet élément a été conçu pour mettre en forme du texte comme s'il apparaissait sur un affichage à largeur fixe tel qu'un téléscripteur.",
+      "type": "properties-and-attributes",
+      "completion": "tt>"
+    },
+    {
+      "name": "xmp",
+      "cat": "Éléments obsolètes ou dépréciés",
+      "desc": "Affiche le texte entre les balises de début et de fin, sans interpréter le HTML contenu à l'intérieur en utilisant une police à chasse fixe. La spécification HTML2 recommande un rendu suffisamment large pour permettre 80 caractères par ligne.",
+      "type": "properties-and-attributes",
+      "completion": "xmp>"
+    }
+  ]

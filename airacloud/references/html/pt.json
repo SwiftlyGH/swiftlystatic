@@ -1,0 +1,933 @@
+[
+    {
+      "name": "html",
+      "cat": "Elementos básicos",
+      "desc": "O elemento <strong>HTML &lt;html&gt;</strong> (ou <em>HTML root element</em>) representa a raiz de um HTML ou XHTML documento. Todos os outros elementos devem ser descendentes desse elemento.",
+      "type": "properties-and-attributes",
+      "completion": "html>"
+    },
+    {
+      "name": "base",
+      "cat": "Metadados do documento",
+      "desc": "O <em>elemento HTML Base</em> (<strong>&lt;base&gt;</strong>) especifica o endereço (URL) utilizada por todos os endereços relativos contidos dentro de um documento. Há um número máximo de 1 (um) elemento <em>Base</em> &lt;base&gt; do documento.",
+      "type": "properties-and-attributes",
+      "completion": "base>"
+    },
+    {
+      "name": "head",
+      "cat": "Metadados do documento",
+      "desc": "O elemento <strong>HTML <code>&lt;head&gt;</code> providencia informações gerais</strong> (metadados) sobre o documento, incluindo seu título e links para scripts e folhas de estilos.",
+      "type": "properties-and-attributes",
+      "completion": "head>"
+    },
+    {
+      "name": "link",
+      "cat": "Metadados do documento",
+      "desc": "O <strong>Elemento HTML <em>&lt;link&gt;</em></strong> especifica as relações entre o documento atual e um recurso externo. Possíveis usos para este elemento incluem a definição de uma estrutura relacional para navegação. Este elemento é mais usado para vincular as folhas de estilo.",
+      "type": "properties-and-attributes",
+      "completion": "link>"
+    },
+    {
+      "name": "meta",
+      "cat": "Metadados do documento",
+      "desc": "O elemento **HTML <code>&lt;meta&gt;</code> **define qualquer informação de metadados que não podem ser definidos por outros elementos <strong>HTML.</strong> (<a href=\"/pt-BR/docs/Web/HTML/Element/base\"><code>&lt;base&gt;</code></a>, <a href=\"/pt-BR/docs/Web/HTML/Element/link\"><code>&lt;link&gt;</code></a>, <a href=\"/pt-BR/docs/Web/HTML/Element/script\"><code>&lt;script&gt;</code></a>, <a href=\"/pt-BR/docs/Web/HTML/Element/style\"><code>&lt;style&gt;</code></a> ou <a href=\"/pt-BR/docs/Web/HTML/Element/title\"><code>&lt;title&gt;</code></a>).",
+      "type": "properties-and-attributes",
+      "completion": "meta>"
+    },
+    {
+      "name": "style",
+      "cat": "Metadados do documento",
+      "desc": "O <strong>elemento HTML &lt;style&gt;</strong> contém informações de estilo para um documento ou uma parte do documento. As informações de estilo específico estão contidas dentro deste elemento, geralmente no <a href=\"/pt-BR/docs/Web/CSS\">CSS</a>.",
+      "type": "properties-and-attributes",
+      "completion": "style>"
+    },
+    {
+      "name": "title",
+      "cat": "Metadados do documento",
+      "desc": "O <strong>elemento HTML</strong> <code>&lt;title&gt;</code> (<em>Elemento HTML Título</em>) define o título do documento, mostrado na barra de título de um navegador ou na aba da página. Pode conter somente texto e quaisquer marcações contidas no texto não são interpretadas.",
+      "type": "properties-and-attributes",
+      "completion": "title>"
+    },
+    {
+      "name": "body",
+      "cat": "Sectioning root",
+      "desc": "O <strong>elemento</strong> <code>&lt;body&gt;</code> do <strong>HTML</strong> representa o conteúdo de um documento HTML. è permitido apenas um <code>&lt;body&gt;</code> por documento.",
+      "type": "properties-and-attributes",
+      "completion": "body>"
+    },
+    {
+      "name": "address",
+      "cat": "Separação de conteúdo",
+      "desc": "O <strong>elemento HTML <code>&lt;address&gt;</code></strong> fornece informações de contato para seu ancestral <a href=\"/pt-BR/docs/Web/HTML/Element/article\"><code>&lt;article&gt;</code></a> ou <a href=\"/pt-BR/docs/Web/HTML/Element/body\"><code>&lt;body&gt;</code></a> mais próximo; no segundo caso, ele se aplica ao documento inteiro.",
+      "type": "properties-and-attributes",
+      "completion": "address>"
+    },
+    {
+      "name": "article",
+      "cat": "Separação de conteúdo",
+      "desc": "O <em>Elemento HTML Article</em> (&lt;article&gt;) representa uma composição independente em um documento, página, aplicação, ou site, ou que é destinado a ser distribuido de forma independente ou reutilizável, por exemplo, em sindicação. Este poderia ser o post de um fórum, um artigo de revista ou jornal, um post de um blog, um comentário enviado por um usuário, um gadget ou widget interativos, ou qualquer outra forma de conteúdo independente.",
+      "type": "properties-and-attributes",
+      "completion": "article>"
+    },
+    {
+      "name": "aside",
+      "cat": "Separação de conteúdo",
+      "desc": "O elemento HTML <strong><code>&lt;aside&gt;</code></strong> representa uma seção de uma página que consiste de conteúdo que é tangencialmente relacionado ao conteúdo do seu entorno, que poderia ser considerado separado do conteúdo. Essas seções são, muitas vezes, representadas como barras laterais. Elas muitas vezes contem explicações laterais, como a definição de um glossário; conteúdo vagamente relacionado, como avisos; a biografia do autor; ou, em aplicações web, informações de perfil ou links de blogs relacionados.",
+      "type": "properties-and-attributes",
+      "completion": "aside>"
+    },
+    {
+      "name": "footer",
+      "cat": "Separação de conteúdo",
+      "desc": "O elemento HTML de Rodapé (&lt;footer&gt;) representa um rodapé para o seu sectioning content (conteúdo de seção) mais próximo ou <a href=\"/pt-BR/docs/Sections_and_Outlines_of_an_HTML5_document#sectioning_root\" class=\"page-not-created\" title=\"This is a link to an unwritten page\">sectioning root</a> elemento (ou seja, seu parente mais próximo <a href=\"/pt-BR/docs/Web/HTML/Element/article\"><code>&lt;article&gt;</code></a>, <a href=\"/pt-BR/docs/Web/HTML/Element/aside\"><code>&lt;aside&gt;</code></a>, <a href=\"/pt-BR/docs/Web/HTML/Element/nav\"><code>&lt;nav&gt;</code></a>, <a href=\"/pt-BR/docs/Web/HTML/Element/section\"><code>&lt;section&gt;</code></a>, <a href=\"/pt-BR/docs/Web/HTML/Element/blockquote\"><code>&lt;blockquote&gt;</code></a>, <a href=\"/pt-BR/docs/Web/HTML/Element/body\"><code>&lt;body&gt;</code></a>, <a href=\"/pt-BR/docs/Web/HTML/Element/details\"><code>&lt;details&gt;</code></a>, <a href=\"/pt-BR/docs/Web/HTML/Element/fieldset\"><code>&lt;fieldset&gt;</code></a>, <a href=\"/pt-BR/docs/Web/HTML/Element/figure\"><code>&lt;figure&gt;</code></a>, <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/td\"><code>&lt;td&gt;</code> <small>(en-US)</small></a>). Normalmente um rodapé contém informações sobre o autor da seção de dados, direitos autorais ou links para documentos relacionados.",
+      "type": "properties-and-attributes",
+      "completion": "footer>"
+    },
+    {
+      "name": "header",
+      "cat": "Separação de conteúdo",
+      "desc": "O <strong>elemento HTML</strong> <strong><code>&lt;header&gt;</code></strong> representa um grupo de suporte introdutório ou navegacional. Pode conter alguns elementos de cabeçalho mas também outros elementos como um logo, seções de cabeçalho, formulário de pesquisa, e outros.",
+      "type": "properties-and-attributes",
+      "completion": "header>"
+    },
+    {
+      "name": "h1, <h2>, <h3>, <h4>, <h5>, <h6>",
+      "cat": "Separação de conteúdo",
+      "desc": "Os <strong>elementos HTML</strong> <strong><code>&lt;h1&gt;</code>–<code>&lt;h6&gt;</code></strong> representam seis níveis de título de seção. <code>&lt;h1&gt;</code> é o nível de seção mais alto e <code>&lt;h6&gt;</code> é o mais baixo.",
+      "type": "properties-and-attributes",
+      "completion": "h1>, <h2>, <h3>, <h4>, <h5>, <h6>"
+    },
+    {
+      "name": "main",
+      "cat": "Separação de conteúdo",
+      "desc": "O elemento <strong><code>&lt;main&gt;</code></strong> define o conteúdo principal dentro do <a href=\"/pt-BR/docs/Web/HTML/Element/body\"><code>&lt;body&gt;</code></a> em seu documento ou aplicação. Entende-se como conteúdo principal aquele relacionado diretamente com o tópico central da página ou com a funcionalidade central da aplicação. O mesmo deverá ser único na página, ou seja, dentro do elemento &lt;main&gt; não deverão ser incluidas seções da página que sejam comuns a todo o site ou aplicação, tais como mecanismos de navegação, informações de copyright, logotipo e campos de busca (a não ser, é claro, caso a função principal do documento seja fazer algum tipo de busca).",
+      "type": "properties-and-attributes",
+      "completion": "main>"
+    },
+    {
+      "name": "nav",
+      "cat": "Separação de conteúdo",
+      "desc": "O <em>Elemento</em> <em>HTML</em> <em>de Navegação</em> (<code>&lt;nav&gt;</code>) representa uma seção de uma página que aponta para outras páginas ou para outras áreas da página, ou seja, uma seção com links de navegação.",
+      "type": "properties-and-attributes",
+      "completion": "nav>"
+    },
+    {
+      "name": "section",
+      "cat": "Separação de conteúdo",
+      "desc": "O <strong>elemento HTML <code>&lt;section&gt;</code></strong> representa uma seção genérica contida em um documento HTML, geralmente com um título, quando não existir um elemento semântico mais específico para representá-lo.",
+      "type": "properties-and-attributes",
+      "completion": "section>"
+    },
+    {
+      "name": "blockquote",
+      "cat": "Conteúdo textual",
+      "desc": "O Elemento HTML &lt;blockquote&gt; (ou Elemento HTML de citação de bloco) indica que o texto incluído é uma longa citação. Normalmente, este é processado visualmente pelo recuo (ver <a href=\"/en-US/docs/Web/HTML/Element/blockquote#notes\" class=\"only-in-en-us\" title=\"Currently only available in English (US)\">Notas <small>(en-US)<small></small></small></a> sobre como mudá-lo). A URL para a fonte da citação pode ser dada usando o atributo <strong>cite</strong>, enquanto uma representação de texto da fonte pode ser dada usando o <a href=\"/pt-BR/docs/Web/HTML/Element/cite\"><code>&lt;cite&gt;</code></a> elemento.",
+      "type": "properties-and-attributes",
+      "completion": "blockquote>"
+    },
+    {
+      "name": "dd",
+      "cat": "Conteúdo textual",
+      "desc": "O <strong>elemento HTML &lt;dd&gt;</strong> fornece detalhes ou uma definição mais completa do termo precedente (definido por <a href=\"/pt-BR/docs/Web/HTML/Element/dt\"><code>&lt;dt&gt;</code></a>) numa lista de descrições (<a href=\"/pt-BR/docs/Web/HTML/Element/dl\"><code>&lt;dl&gt;</code></a>).",
+      "type": "properties-and-attributes",
+      "completion": "dd>"
+    },
+    {
+      "name": "div",
+      "cat": "Conteúdo textual",
+      "desc": "O <strong>elemento de divisão</strong> **<a href=\"/pt-BR/docs/Web/HTML\">HTML</a> <code>&lt;div&gt;</code> **é um container genérico para conteúdo de fluxo, que de certa forma não representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos (usando <strong>class</strong> ou <strong>id</strong>), ou porque eles compartilham valores de atributos, como <strong>lang</strong>. Ele deve ser utilizado somente quando não tiver outro elemento de semântica (tal como <a href=\"/pt-BR/docs/Web/HTML/Element/article\"><code>&lt;article&gt;</code></a> ou <a href=\"/pt-BR/docs/Web/HTML/Element/nav\"><code>&lt;nav&gt;</code></a>).",
+      "type": "properties-and-attributes",
+      "completion": "div>"
+    },
+    {
+      "name": "dl",
+      "cat": "Conteúdo textual",
+      "desc": "O elemento HTML <em>Definition List</em> (<code>&lt;dl&gt;</code>) engloba uma lista de pares de termos e descrições. Um uso comum para este elemento é para implementar um glossário ou exibir metadados(uma lista de pares chave e valor).",
+      "type": "properties-and-attributes",
+      "completion": "dl>"
+    },
+    {
+      "name": "dt",
+      "cat": "Conteúdo textual",
+      "desc": "O elemento <strong>HTML <code>&lt;dt&gt;</code></strong> (ou Elemento HTML de Definição de Termo) identifica um termo na lista de definição. Este elemento pode ocorrer somente em um elemento filho de <a href=\"/pt-BR/docs/Web/HTML/Element/dl\"><code>&lt;dl&gt;</code></a>. Geralmente seguido por um elemento <a href=\"/pt-BR/docs/Web/HTML/Element/dd\"><code>&lt;dd&gt;</code></a>; ou multiplos <code>&lt;dt&gt;</code> na mesma linha indicam vários termos sendo definidos pelo próximo element <a href=\"/pt-BR/docs/Web/HTML/Element/dd\"><code>&lt;dd&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "dt>"
+    },
+    {
+      "name": "figcaption",
+      "cat": "Conteúdo textual",
+      "desc": "O <strong>Elemento HTML Figcaption</strong> (<code>&lt;figcaption&gt;</code>) representa uma legenda ou uma legenda associada com uma figura ou ilustração descrita pelo resto dos dados do elemento <a href=\"/pt-BR/docs/Web/HTML/Element/figure\"><code>&lt;figure&gt;</code></a> que seu elemento pai.",
+      "type": "properties-and-attributes",
+      "completion": "figcaption>"
+    },
+    {
+      "name": "figure",
+      "cat": "Conteúdo textual",
+      "desc": "O elemento <strong><code>&lt;figure&gt;</code></strong> <a href=\"/pt-BR/docs/Web/HTML\">HTML</a> representa conteúdo autocontido, potencialmente com uma legenda opcional, que é especificada usando o <a href=\"/pt-BR/docs/Web/HTML/Element/figcaption\"><code>&lt;figcaption&gt;</code></a> elemento. A figura, sua legenda e seu conteúdo são referenciados como uma única unidade.",
+      "type": "properties-and-attributes",
+      "completion": "figure>"
+    },
+    {
+      "name": "hr",
+      "cat": "Conteúdo textual",
+      "desc": "O <strong>elemento HTML <code>&lt;hr&gt;</code></strong> representa uma quebra temática entre elementos de nível de parágrafo (por exemplo , uma mudança da cena de uma história, ou uma mudança de tema com uma seção). Nas versões anteriores do HTML, representava uma linha horizontal. Pode continuar sendo exibida como uma linha horizontal nos navegadores, mas agora está definida em termos semânticos, em vez de termos de apresentação.",
+      "type": "properties-and-attributes",
+      "completion": "hr>"
+    },
+    {
+      "name": "li",
+      "cat": "Conteúdo textual",
+      "desc": "O <strong><em>elemento</em></strong> <strong><em>HTML</em> <code>&lt;li&gt;</code></strong> (ou a Lista dos Itens de um elemento HTML) é usado para representar um item que faz parte de uma lista. Este item deve estar contido em um elemento pai: uma lista ordenada (<a href=\"/pt-BR/docs/Web/HTML/Element/ol\"><code>&lt;ol&gt;</code></a>), uma lista desordenada (<a href=\"/pt-BR/docs/Web/HTML/Element/ul\"><code>&lt;ul&gt;</code></a>) , ou um menu (<a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/menu\"><code>&lt;menu&gt;</code> <small>(en-US)</small></a>) e representa uma única entidade dessa lista. Em menus e listas desordenadas a relação de itens é exibida, normalmente, usando pontos de marcação (as bolinhas). Em listas ordenadas eles são, comumente, mostrados com algum contador ascendente - como um número, ou letra - à sua esquerda.",
+      "type": "properties-and-attributes",
+      "completion": "li>"
+    },
+    {
+      "name": "menu (en-US)",
+      "cat": "Conteúdo textual",
+      "desc": "A semantic alternative to (<a href=\"/pt-BR/docs/Web/HTML/Element/ul\"><code>&lt;ul&gt;</code></a>, but treated by browsers (and exposed through the accessibility tree) as no different than (<a href=\"/pt-BR/docs/Web/HTML/Element/ul\"><code>&lt;ul&gt;</code></a>. It represents an unordered list of items (which are represented by (<a href=\"/pt-BR/docs/Web/HTML/Element/li\"><code>&lt;li&gt;</code></a> elements).",
+      "type": "properties-and-attributes",
+      "completion": "menu> (en-US)"
+    },
+    {
+      "name": "ol",
+      "cat": "Conteúdo textual",
+      "desc": "O <strong>Elemento HTML &lt;ol&gt;</strong> (ou <em>Elemento HTML de lista ordenada</em>) representa uma lista de itens ordenados. De forma característica esses itens ordenados em uma lista são mostrados com uma contagem que os precede, que pode ser de qualquer tipo, como numerais, letras, algarismos romanos, ou simples símbolos. Esse modelo numerado não é definido na descrição html da página, mas na folha de estilos CSS associada, pela propriedade <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/CSS/list-style-type\"><code>list-style-type</code> <small>(en-US)</small></a>.",
+      "type": "properties-and-attributes",
+      "completion": "ol>"
+    },
+    {
+      "name": "p",
+      "cat": "Conteúdo textual",
+      "desc": "O <strong>elemento HTML</strong> <strong><code>&lt;p&gt;</code></strong> representa um parágrafo. Em mídias visuais, parágrafos são representados como blocos indentados de texto com a primeira letra avançada e separados por linhas em branco. Já em HTML, parágrafos são usados para agrupar conteúdos relacionados de qualquer tipo, como imagens e campos de um formulário.",
+      "type": "properties-and-attributes",
+      "completion": "p>"
+    },
+    {
+      "name": "pre",
+      "cat": "Conteúdo textual",
+      "desc": "<em>HTML texto preformatado</em> (<strong>&lt;pre&gt;</strong>) é a tag utilizada para representar texto pré-formatado. Um texto dentro desse elemento é tipicamente exibido em uma fonte não proporcional da mesma maneira em que o texto original foi disposto no arquivo. Espaços em branco são mantidos no texto da mesma forma em que este foi digitado.",
+      "type": "properties-and-attributes",
+      "completion": "pre>"
+    },
+    {
+      "name": "ul",
+      "cat": "Conteúdo textual",
+      "desc": "O <strong>elemento HTML<code>&lt;ul&gt;</code></strong> (ou <em>elemento</em> <em>HTML de Lista desordenada</em>) representa uma lista de itens sem ordem rígida, isto é, uma coleção de itens que não trazem uma ordenação numérica e as suas posições, nessa lista, são irrelevantes. Caracteristicamente, os itens em uma lista desordenada são exibidos com um marcador que pode ter várias formas, como um ponto, um círculo, ou um quadrado. O tipo de marcador não é definido na descrição HTML da página, mas na CSS associada, utilizando a propriedade <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/CSS/list-style-type\"><code>list-style-type</code> <small>(en-US)</small></a>.",
+      "type": "properties-and-attributes",
+      "completion": "ul>"
+    },
+    {
+      "name": "a",
+      "cat": "Semânticas textuais inline",
+      "desc": "O <strong>elemento</strong> <strong><code>&lt;a&gt;</code></strong> em <strong>HTML</strong> (ou elemento âncora), com o atributo <a href=\"#href\"><code>href</code></a> cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL. O conteúdo dentro de cada <code>&lt;a&gt;</code> <strong>precisará</strong> indicar o destino do link.",
+      "type": "properties-and-attributes",
+      "completion": "a>"
+    },
+    {
+      "name": "abbr",
+      "cat": "Semânticas textuais inline",
+      "desc": "O <em>Elemento</em> _HTML <code>&lt;abbr&gt;</code> _(ou Elemento de Abreviação HTML) representa uma abreviação e opcionalmente fornece uma descrição completa para ela. Se presente, o atributo <strong><code>title</code></strong> deve conter a descrição completa e apenas ela.",
+      "type": "properties-and-attributes",
+      "completion": "abbr>"
+    },
+    {
+      "name": "b",
+      "cat": "Semânticas textuais inline",
+      "desc": "O <strong>elemento HTML &lt;b&gt;</strong> representa um intervalo de texto estilísticamente diferente do texto normal, sem transmitir qualquer importância ou relevância. Ele é geralmente usado para destacar palavras-chaves em um resumo, nomes de produtos em um comentário ou outros vãos de texto cuja a apresentação típica seria negrito. Outro exemplo de seu uso é como marcação da frase principal de cada paragrafo de um artigo.",
+      "type": "properties-and-attributes",
+      "completion": "b>"
+    },
+    {
+      "name": "bdi",
+      "cat": "Semânticas textuais inline",
+      "desc": "O HTML &lt;bdi&gt;elemento (ou elemento de isolamento de Bi-direcional) isola um trechode texto que pode ser formatado em uma direção diferente de outro texto fora dela.",
+      "type": "properties-and-attributes",
+      "completion": "bdi>"
+    },
+    {
+      "name": "bdo",
+      "cat": "Semânticas textuais inline",
+      "desc": "O **<em>elemento</em> HTML <code>&lt;bdo&gt;</code> **(<em>bidirectional override</em>) é usado para substituir a direcionalidade atual do texto. Isso faz com que a direcionalidade dos personagens seja ignorada em favor da direcionalidade especificada.",
+      "type": "properties-and-attributes",
+      "completion": "bdo>"
+    },
+    {
+      "name": "br",
+      "cat": "Semânticas textuais inline",
+      "desc": "O elemento HTML <em>quebra-de-linha</em> &lt;br&gt; produz uma quebra de linha em um texto (carriage-return).É útil para escrever poemas ou um endereço, onde a divisão de linha é significante.",
+      "type": "properties-and-attributes",
+      "completion": "br>"
+    },
+    {
+      "name": "cite",
+      "cat": "Semânticas textuais inline",
+      "desc": "O <strong>elemento</strong> <strong>HTML &lt;cite&gt;</strong> representa uma referência a um trabalho artístico. Deve incluir o título do trabalho ou uma URL de referência, que pode ser em uma forma abreviada de acordo com as convenções usadas para a adição dos metadados de citação.",
+      "type": "properties-and-attributes",
+      "completion": "cite>"
+    },
+    {
+      "name": "code",
+      "cat": "Semânticas textuais inline",
+      "desc": "O <strong>elemento</strong> **HTML <code>&lt;code&gt;</code> **apresenta seu conteúdo estilizado de maneira a indicar que o texto é um pequeno fragmento de código. Por padrão, o conteúdo é exibido utilizando a fonte monoespaçada padrão do <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Glossary/User_agent\">user agent's <small>(en-US)</small></a>.",
+      "type": "properties-and-attributes",
+      "completion": "code>"
+    },
+    {
+      "name": "data (en-US)",
+      "cat": "Semânticas textuais inline",
+      "desc": "The <strong>HTML <code>&lt;data&gt;</code> Element</strong> links a given content with a machine-readable translation. If the content is time- or date-related, the <a href=\"/pt-BR/docs/Web/HTML/Element/time\"><code>&lt;time&gt;</code></a> must be used.",
+      "type": "properties-and-attributes",
+      "completion": "data> (en-US)"
+    },
+    {
+      "name": "dfn",
+      "cat": "Semânticas textuais inline",
+      "desc": "O elemento **HTML <code>&lt;dfn&gt;</code> **(ou <em>Elemento Definição</em> <em>HTML</em>) representa uma instância de definição de um termo.",
+      "type": "properties-and-attributes",
+      "completion": "dfn>"
+    },
+    {
+      "name": "em",
+      "cat": "Semânticas textuais inline",
+      "desc": "O <strong>elemento</strong> <strong>HTML</strong> <strong><code>&lt;em&gt;</code></strong> marca o texto que tem ênfase. O elemento &lt;em&gt; pode ser aninhado, com cada nível de aninhamento indicando um grau maior de ênfase.",
+      "type": "properties-and-attributes",
+      "completion": "em>"
+    },
+    {
+      "name": "i",
+      "cat": "Semânticas textuais inline",
+      "desc": "O **elemento HTML <code>&lt;i&gt;</code> **representa uma parte do texto que é destacada do restante por algum motivo, por exemplo, termos técnicos, expressões de outros idiomas ou pensamentos de personagens fictícios. Normalmente, é apresentado com o uso do tipo \"itálico\".",
+      "type": "properties-and-attributes",
+      "completion": "i>"
+    },
+    {
+      "name": "kbd (en-US)",
+      "cat": "Semânticas textuais inline",
+      "desc": "Represents a span of inline text denoting textual user input from a keyboard, voice input, or any other text entry device. By convention, the user agent defaults to rendering the contents of a <code>&lt;kbd&gt;</code> element using its default monospace font, although this is not mandated by the HTML standard.",
+      "type": "properties-and-attributes",
+      "completion": "kbd> (en-US)"
+    },
+    {
+      "name": "mark",
+      "cat": "Semânticas textuais inline",
+      "desc": "O **Elemento HMTL <code>&lt;mark&gt;</code> **representa um trecho de destaque em um texto, por exemplo, uma sequência de texto marcado como referência, devido à sua relevância em um contexto particular. Por Exemplo, pode ser utilizado em uma página que mostra os resultados de uma busca onde todas as instâncias da palavra pesquisadas receberam destaque.",
+      "type": "properties-and-attributes",
+      "completion": "mark>"
+    },
+    {
+      "name": "q",
+      "cat": "Semânticas textuais inline",
+      "desc": "O elemento HTML &lt;q&gt; indica que o texto dentro da tag é uma pequena citação. Este elemento destina-se a citações curtas que não requerem marcações de parágrafo; para citações maiores use o elemento <a href=\"/pt-BR/docs/Web/HTML/Element/blockquote\"><code>&lt;blockquote&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "q>"
+    },
+    {
+      "name": "rp (en-US)",
+      "cat": "Semânticas textuais inline",
+      "desc": "Used to provide fall-back parentheses for browsers that do not support display of ruby annotations using the <a href=\"/pt-BR/docs/Web/HTML/Element/ruby\"><code>&lt;ruby&gt;</code></a> element. One <code>&lt;rp&gt;</code> element should enclose each of the opening and closing parentheses that wrap the <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/rt\"><code>&lt;rt&gt;</code> <small>(en-US)</small></a> element that contains the annotation's text.",
+      "type": "properties-and-attributes",
+      "completion": "rp> (en-US)"
+    },
+    {
+      "name": "rt (en-US)",
+      "cat": "Semânticas textuais inline",
+      "desc": "The <strong>HTML <code>&lt;rt&gt;</code> Element</strong> embraces pronunciation of character presented in a ruby annotations, which are for showing pronunciation of East Asian characters and the <code>&lt;rt&gt;</code> element is used inside of <a href=\"/pt-BR/docs/Web/HTML/Element/ruby\"><code>&lt;ruby&gt;</code></a> element.",
+      "type": "properties-and-attributes",
+      "completion": "rt> (en-US)"
+    },
+    {
+      "name": "ruby",
+      "cat": "Semânticas textuais inline",
+      "desc": "O <strong>elemento</strong> **HTML <code>&lt;ruby&gt;</code> **representa uma anotação ruby. Anotações ruby são para mostrar a pronúncia de caracteres do Leste Asiático",
+      "type": "properties-and-attributes",
+      "completion": "ruby>"
+    },
+    {
+      "name": "s",
+      "cat": "Semânticas textuais inline",
+      "desc": "O <strong>elemento HTML <code>&lt;s&gt;</code></strong> renderiza um texto tachado ou uma linha cortando o texto. Use o elemento <code>&lt;s&gt;</code> para representar texto que não sejam relevante ou que não estam corretos. Não é apropriado o uso do <code>&lt;s&gt;</code> indicar edições no texto; para indicar edições no texto utilize <a href=\"/pt-BR/docs/Web/HTML/Element/del\"><code>&lt;del&gt;</code></a> e <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/ins\"><code>&lt;ins&gt;</code> <small>(en-US)</small></a>, que são elementos mais apropriados.",
+      "type": "properties-and-attributes",
+      "completion": "s>"
+    },
+    {
+      "name": "samp (en-US)",
+      "cat": "Semânticas textuais inline",
+      "desc": "Used to enclose inline text which represents sample (or quoted) output from a computer program. Its contents are typically rendered using the browser's default monospaced font (such as <a href=\"https://en.wikipedia.org/wiki/Courier_(typeface)\" class=\"external\" target=\"_blank\">Courier</a> or Lucida Console).",
+      "type": "properties-and-attributes",
+      "completion": "samp> (en-US)"
+    },
+    {
+      "name": "small (en-US)",
+      "cat": "Semânticas textuais inline",
+      "desc": "Represents side-comments and small print, like copyright and legal text, independent of its styled presentation. By default, it renders text within it one font-size smaller, such as from <code>small</code> to <code>x-small</code>.",
+      "type": "properties-and-attributes",
+      "completion": "small> (en-US)"
+    },
+    {
+      "name": "span",
+      "cat": "Semânticas textuais inline",
+      "desc": "O elemento <strong>HTML <code>&lt;span&gt;</code> é um conteiner generico em linha para conteúdo fraseado</strong> , que não representa nada por natureza. Ele pode ser usado para agrupar elementos para fins de estilo (usando os atributos <code>class</code> ou <code>id</code> ), ou para compartilhar valores de atributos como <code>lang</code>. Ele deve ser usado somente quando nenhum outro elemento semântico for apropriado. <code>&lt;span&gt;</code> é muito parecido com o elemento <a href=\"/pt-BR/docs/Web/HTML/Element/div\"><code>&lt;div&gt;</code></a> , entretando <a href=\"/pt-BR/docs/Web/HTML/Element/div\"><code>&lt;div&gt;</code></a> é um elemento de nível de bloco enquanto <code>&lt;span&gt;</code> é um elemento em linha.",
+      "type": "properties-and-attributes",
+      "completion": "span>"
+    },
+    {
+      "name": "strong",
+      "cat": "Semânticas textuais inline",
+      "desc": "```",
+      "type": "properties-and-attributes",
+      "completion": "strong>"
+    },
+    {
+      "name": "sub (en-US)",
+      "cat": "Semânticas textuais inline",
+      "desc": "Specifies inline text which should be displayed as subscript for solely typographical reasons. Subscripts are typically rendered with a lowered baseline using smaller text.",
+      "type": "properties-and-attributes",
+      "completion": "sub> (en-US)"
+    },
+    {
+      "name": "sup (en-US)",
+      "cat": "Semânticas textuais inline",
+      "desc": "Specifies inline text which is to be displayed as superscript for solely typographical reasons. Superscripts are usually rendered with a raised baseline using smaller text.",
+      "type": "properties-and-attributes",
+      "completion": "sup> (en-US)"
+    },
+    {
+      "name": "time",
+      "cat": "Semânticas textuais inline",
+      "desc": "O elemento HTML <em>time</em> (<code>&lt;time&gt;</code>) representa o tempo tanto no formato de 24 horas ou como uma data precisa no calendário Gregoriano (com informações opcionais de tempo e fuso horário)",
+      "type": "properties-and-attributes",
+      "completion": "time>"
+    },
+    {
+      "name": "u (en-US)",
+      "cat": "Semânticas textuais inline",
+      "desc": "Represents a span of inline text which should be rendered in a way that indicates that it has a non-textual annotation. This is rendered by default as a simple solid underline, but may be altered using CSS.",
+      "type": "properties-and-attributes",
+      "completion": "u> (en-US)"
+    },
+    {
+      "name": "var",
+      "cat": "Semânticas textuais inline",
+      "desc": "O elemento HTML Variable (<code>&lt;var&gt;</code>) representa uma variável em uma expressão matemática ou um contexto de programação.",
+      "type": "properties-and-attributes",
+      "completion": "var>"
+    },
+    {
+      "name": "wbr",
+      "cat": "Semânticas textuais inline",
+      "desc": "O elemento HTML <code>&lt;wbr&gt;</code> representa uma posição no texto onde o navegador pode, opcionalmente, quebrar uma linha, embora suas regras de quebra de linha de outra forma não criar uma ruptura naquele local.",
+      "type": "properties-and-attributes",
+      "completion": "wbr>"
+    },
+    {
+      "name": "area",
+      "cat": "Imagem e multimídia",
+      "desc": "O <em>HTML <code>&lt;area&gt;</code> elemento</em> define uma região hot-spot em uma imagem, e, opcionalmente, associa-lo com um <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Glossary/Hyperlink\">link de hipertexto <small>(en-US)</small></a>. Este elemento é usado somente dentro de um <a href=\"/pt-BR/docs/Web/HTML/Element/map\"><code>&lt;map&gt;</code></a> elemento.",
+      "type": "properties-and-attributes",
+      "completion": "area>"
+    },
+    {
+      "name": "audio",
+      "cat": "Imagem e multimídia",
+      "desc": "O elemento <code>audio</code> é utilizado para embutir conteúdo de som em um documento HTML ou XHTML.O elemento <code>audio</code> foi adicionado como parte do HTML5.",
+      "type": "properties-and-attributes",
+      "completion": "audio>"
+    },
+    {
+      "name": "img",
+      "cat": "Imagem e multimídia",
+      "desc": "O <strong>elemento</strong> **HTML <code>&lt;img&gt;</code> **(or <em>HTML Image Element</em>) representa a inserção de imagem no documento, sendo implementado também pelo HTML5 para uma melhor experiência com o elemento <a href=\"/pt-BR/docs/Web/HTML/Element/figure\"><code>&lt;figure&gt;</code></a> e <a href=\"/pt-BR/docs/Web/HTML/Element/figcaption\"><code>&lt;figcaption&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "img>"
+    },
+    {
+      "name": "map",
+      "cat": "Imagem e multimídia",
+      "desc": "O <strong>elemento HTML <code>&lt;map&gt;</code></strong> é usado com os elementos <a href=\"/pt-BR/docs/Web/HTML/Element/area\"><code>&lt;area&gt;</code></a> para definir um mapa de imagem (a área clicável do link).",
+      "type": "properties-and-attributes",
+      "completion": "map>"
+    },
+    {
+      "name": "track",
+      "cat": "Imagem e multimídia",
+      "desc": "O <strong>elemento HTML <code>&lt;track&gt;</code></strong> é usado como filho dos elementos de mídia<a href=\"/pt-BR/docs/Web/HTML/Element/audio\"><code>&lt;audio&gt;</code></a> e <a href=\"/pt-BR/docs/Web/HTML/Element/video\"><code>&lt;video&gt;</code></a>. Ele permite que você especifique faixas de texto temporizadas (ou dados baseados em tempo), por exemplo, para lidar automaticamente com legendas. As faixas são formatadas em <a href=\"/en-US/docs/Web/API/WebVTT_API\" class=\"only-in-en-us\" title=\"Currently only available in English (US)\">WebVTT format <small>(en-US)<small></small></small></a> (arquivos <code>.vtt</code>) — Web Video Text Tracks or <a href=\"https://w3c.github.io/ttml2/index.html\" class=\"external\" target=\"_blank\">Timed Text Markup Language (TTML).</a>",
+      "type": "properties-and-attributes",
+      "completion": "track>"
+    },
+    {
+      "name": "video",
+      "cat": "Imagem e multimídia",
+      "desc": "O elemento HTML <code>&lt;video&gt;</code> é utilizado para incorporar conteúdo de vídeo em um documento HTML ou XHTML.",
+      "type": "properties-and-attributes",
+      "completion": "video>"
+    },
+    {
+      "name": "embed",
+      "cat": "Conteúdo integrado",
+      "desc": "O **elemento HTML <code>&lt;embed&gt;</code> **incorpora conteúdo externo no ponto especificado no documento. Este conteúdo é fornecido por um aplicativo externo ou outra fonte de conteúdo interativo, como um plug-in de navegador.",
+      "type": "properties-and-attributes",
+      "completion": "embed>"
+    },
+    {
+      "name": "iframe",
+      "cat": "Conteúdo integrado",
+      "desc": "O <strong>elemento</strong> <strong>HTML</strong> <strong>&lt;iframe&gt;</strong> (ou <em>elemento HTML</em> <em>inline frame</em>) representa um contexto de navegação aninhado, efetivamente incorporando outra página HTML para a página atual. Em HTML 4.01, um documento pode conter uma cabeça e um corpo ou uma cabeça e um conjunto de quadros, mas não tanto um corpo e um conjunto de quadros. No entanto, um &lt;iframe&gt; pode ser usado dentro de um corpo de documento normal. Cada contexto de navegação tem sua própria história de sessão e o documento ativo. O contexto de navegação que contém o conteúdo incorporado é chamado o pai de contexto de navegação. O contexto de navegação de nível superior (que não tem um pai) normalmente é a janela do navegador.",
+      "type": "properties-and-attributes",
+      "completion": "iframe>"
+    },
+    {
+      "name": "object (en-US)",
+      "cat": "Conteúdo integrado",
+      "desc": "Represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.",
+      "type": "properties-and-attributes",
+      "completion": "object> (en-US)"
+    },
+    {
+      "name": "picture",
+      "cat": "Conteúdo integrado",
+      "desc": "O <strong>elemento HTML <code>&lt;picture&gt;</code></strong> é um container usado para especificar múltiplos elementos <a href=\"/pt-BR/docs/Web/HTML/Element/source\"><code>&lt;source&gt;</code></a> para um elemento específico <a href=\"/pt-BR/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a> contido nele. O navegador irá escolher a imagem mais adequada de acordo com o layout atual da página, caracteristicas do dispositivo em que será exibido (p.e. um dispositivo normal ou um hiDPI), e a habilidade do navegador de renderizar um certo tipo de imagem (p.e., envie uma imagem WebP para os navegadores baseados no Chromium ou PNG para navegadores não-Chromium); se não houver correspondência entre os elementos <a href=\"/pt-BR/docs/Web/HTML/Element/source\"><code>&lt;source&gt;</code></a>, o arquivo especificado pelo elemento <code>&lt;img&gt;</code> será selecionado. A imagem selecionada é então exibida no espaço ocupado pelo elemento <code>&lt;img&gt;</code>.",
+      "type": "properties-and-attributes",
+      "completion": "picture>"
+    },
+    {
+      "name": "portal (en-US)",
+      "cat": "Conteúdo integrado",
+      "desc": "Enables the embedding of another HTML page into the current one for the purposes of allowing smoother navigation into new pages.",
+      "type": "properties-and-attributes",
+      "completion": "portal> (en-US)"
+    },
+    {
+      "name": "source",
+      "cat": "Conteúdo integrado",
+      "desc": "O elemento <code>source</code> é utilizado para especificar múltiplos recursos de mídia de elementos <a href=\"/pt-BR/docs/Web/HTML/Element/picture\"><code>&lt;picture&gt;</code></a>, <a href=\"/pt-BR/docs/Web/HTML/Element/audio\"><code>&lt;audio&gt;</code></a> ou <a href=\"/pt-BR/docs/Web/HTML/Element/video\"><code>&lt;video&gt;</code></a> em HTML5. É um elemento vazio. É normalmente usado para disponibilizar <a href=\"/en-US/Media_formats_supported_by_the_audio_and_video_elements\">multiple formats supported by different browsers</a>.",
+      "type": "properties-and-attributes",
+      "completion": "source>"
+    },
+    {
+      "name": "svg",
+      "cat": "SVG and MathML",
+      "desc": "O elemento <code>svg</code> é um contêiner que define um novo sistema de coordenadas e <a href=\"/en-US/docs/Web/SVG/Attribute/viewBox\" class=\"only-in-en-us\" title=\"Currently only available in English (US)\">janela de visualização <small>(en-US)<small></small></small></a>. É usado como o elemento mais externo dos documentos SVG, mas também pode ser usado para incorporar um fragmento SVG dentro de um documento SVG ou HTML.",
+      "type": "properties-and-attributes",
+      "completion": "svg>"
+    },
+    {
+      "name": "math (en-US)",
+      "cat": "SVG and MathML",
+      "desc": "The top-level element in MathML is <code>&lt;math&gt;</code>. Every valid MathML instance must be wrapped in <code>&lt;math&gt;</code> tags. In addition you must not nest a second <code>&lt;math&gt;</code> element in another, but you can have an arbitrary number of other child elements in it.",
+      "type": "properties-and-attributes",
+      "completion": "math> (en-US)"
+    },
+    {
+      "name": "canvas",
+      "cat": "Scripting",
+      "desc": "O elemento HTML <em>Canvas</em> (<code>&lt;canvas&gt;</code>) pode ser utilizado para desenhar gráficos utilizando scripts (geralmente <a href=\"/pt-BR/docs/Web/JavaScript\">JavaScript</a>). Por exemplo, além de desenhar gráficos, ele pode ser usado para fazer composições de fotos e também para animações. Você poderá colocar conteúdos alternativos dentro do bloco <code>&lt;canvas&gt;</code>. Este conteúdo será renderizado também em navegadores antigos e em navegadores com JavaScript desabilitado.",
+      "type": "properties-and-attributes",
+      "completion": "canvas>"
+    },
+    {
+      "name": "noscript",
+      "cat": "Scripting",
+      "desc": "O <strong>Elemento HTML <code>&lt;noscript&gt;</code></strong> define uma seção de html a ser inserida se um tipo de script não é suportado pela página ou se o script está desativado no navegador.",
+      "type": "properties-and-attributes",
+      "completion": "noscript>"
+    },
+    {
+      "name": "script",
+      "cat": "Scripting",
+      "desc": "O <strong>elemento HTML <code>&lt;script&gt;</code></strong> é usado para incluir ou referenciar um script executável.",
+      "type": "properties-and-attributes",
+      "completion": "script>"
+    },
+    {
+      "name": "del",
+      "cat": "Demarcando edições",
+      "desc": "O <strong>elemento</strong> <strong>HTML <code>&lt;del&gt;</code></strong> (ou <em>Elemento</em> <em>HTML</em> <em>de Texto Excluído</em>) representa uma parte do texto que foi excluída de um documento. Este elemento é (não necessariamente) renderizado pelos navegadores com uma linha entre o texto.",
+      "type": "properties-and-attributes",
+      "completion": "del>"
+    },
+    {
+      "name": "ins (en-US)",
+      "cat": "Demarcando edições",
+      "desc": "The <strong>HTML <code>&lt;ins&gt;</code> Element</strong> (or <em>HTML Inserted Text</em>) HTML represents a range of text that has been added to a document.",
+      "type": "properties-and-attributes",
+      "completion": "ins> (en-US)"
+    },
+    {
+      "name": "caption",
+      "cat": "Conteúdo tabulado",
+      "desc": "O elemento <a href=\"/pt-BR/docs/Web/HTML\">HTML</a> <strong><code>caption</code></strong> especifica a legenda (ou título) de uma tabela.",
+      "type": "properties-and-attributes",
+      "completion": "caption>"
+    },
+    {
+      "name": "col (en-US)",
+      "cat": "Conteúdo tabulado",
+      "desc": "O elemento <strong>HTML <code>&lt;col&gt;</code></strong> define uma tabela contendo colunas e sendo utilizada para definições semanticas em todas as colunas comuns. É normalmente encontrada dentro do elemento(\"colgroup\")}} .Este elemento permite a estilização de colunas utilizando-se do CSS, porém apenas um numero pequeno de atributos que terão efeito dentro das colunas (<a href=\"https://www.w3.org/TR/CSS21/tables.html#columns\" class=\"external\" target=\"_blank\">veja as especificações do CSS 2.1</a> a partir dessa lista).",
+      "type": "properties-and-attributes",
+      "completion": "col> (en-US)"
+    },
+    {
+      "name": "colgroup (en-US)",
+      "cat": "Conteúdo tabulado",
+      "desc": "Defines a group of columns within a table.",
+      "type": "properties-and-attributes",
+      "completion": "colgroup> (en-US)"
+    },
+    {
+      "name": "table",
+      "cat": "Conteúdo tabulado",
+      "desc": "O elemento HTML <em>Table</em> (<code>&lt;table&gt;</code>) representa dados em duas dimensões ou mais.",
+      "type": "properties-and-attributes",
+      "completion": "table>"
+    },
+    {
+      "name": "tbody (en-US)",
+      "cat": "Conteúdo tabulado",
+      "desc": "Encapsulates a set of table rows (<a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/tr\"><code>&lt;tr&gt;</code> <small>(en-US)</small></a> elements), indicating that they comprise the body of the table (<a href=\"/pt-BR/docs/Web/HTML/Element/table\"><code>&lt;table&gt;</code></a>).",
+      "type": "properties-and-attributes",
+      "completion": "tbody> (en-US)"
+    },
+    {
+      "name": "td (en-US)",
+      "cat": "Conteúdo tabulado",
+      "desc": "Defines a cell of a table that contains data. It participates in the <em>table model</em>.",
+      "type": "properties-and-attributes",
+      "completion": "td> (en-US)"
+    },
+    {
+      "name": "tfoot",
+      "cat": "Conteúdo tabulado",
+      "desc": "O <strong><code>&lt;tfoot&gt;</code></strong> é um <strong>elemento HTML</strong> que define um conjunto de linhas as quais farão parte do rodapé de uma tabela HTML",
+      "type": "properties-and-attributes",
+      "completion": "tfoot>"
+    },
+    {
+      "name": "th",
+      "cat": "Conteúdo tabulado",
+      "desc": "O <strong>elemento HTML <code>&lt;th&gt;</code></strong> define uma célula cabeçalho do grupo de células de sua tabela. A exatidão natural deste grupo é definida pelos atributos <a href=\"/pt-BR/docs/Web/HTML/Element/th#scope\"><code>scope</code></a> e <a href=\"/pt-BR/docs/Web/HTML/Element/th#headers\"><code>headers</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "th>"
+    },
+    {
+      "name": "thead (en-US)",
+      "cat": "Conteúdo tabulado",
+      "desc": "Defines a set of rows defining the head of the columns of the table.",
+      "type": "properties-and-attributes",
+      "completion": "thead> (en-US)"
+    },
+    {
+      "name": "tr (en-US)",
+      "cat": "Conteúdo tabulado",
+      "desc": "Defines a row of cells in a table. The row's cells can then be established using a mix of <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/td\"><code>&lt;td&gt;</code> <small>(en-US)</small></a> (data cell) and <a href=\"/pt-BR/docs/Web/HTML/Element/th\"><code>&lt;th&gt;</code></a> (header cell) elements.",
+      "type": "properties-and-attributes",
+      "completion": "tr> (en-US)"
+    },
+    {
+      "name": "button",
+      "cat": "Formulários",
+      "desc": "O <strong>Elemento HTML <em><code>&lt;button&gt;</code></em></strong> representa um botão clicável.",
+      "type": "properties-and-attributes",
+      "completion": "button>"
+    },
+    {
+      "name": "datalist",
+      "cat": "Formulários",
+      "desc": "O elemento HTML <em>Datalist</em> (&lt;datalist&gt;) contém um conjunto de elementos <a href=\"/pt-BR/docs/Web/HTML/Element/option\"><code>&lt;option&gt;</code></a> que representam as opções possíveis para o valor de outros controles.",
+      "type": "properties-and-attributes",
+      "completion": "datalist>"
+    },
+    {
+      "name": "fieldset",
+      "cat": "Formulários",
+      "desc": "O <strong>elemento</strong> <strong>HTML <code>&lt;fieldset&gt;</code></strong> é usado para agrupar elementos, assim como labels (<a href=\"/pt-BR/docs/Web/HTML/Element/label\"><code>&lt;label&gt;</code></a>), dentro de um formulário web.",
+      "type": "properties-and-attributes",
+      "completion": "fieldset>"
+    },
+    {
+      "name": "form (en-US)",
+      "cat": "Formulários",
+      "desc": "O **elemento HTML <code>&lt;form&gt;</code> **representa uma seção de um documento que contém controles interativos que permitem ao usuário submeter informação a um determinado servidor web.",
+      "type": "properties-and-attributes",
+      "completion": "form> (en-US)"
+    },
+    {
+      "name": "input",
+      "cat": "Formulários",
+      "desc": "O <strong>elemento HTML <code>&lt;input&gt;</code></strong> é usado para criar controles interativos para formulários baseados na web para receber dados do usuário. A semântica de um <code>&lt;input&gt;</code> varia consideravelmente dependendo do valor de seu atributo <code>type</code>.",
+      "type": "properties-and-attributes",
+      "completion": "input>"
+    },
+    {
+      "name": "label",
+      "cat": "Formulários",
+      "desc": "Um <strong>elemento</strong> **HTML <code>&lt;label&gt;</code> **representa uma legenda para um item em uma interface de usuário. Ele pode estar associado com um elemento de controle, colocando este dentro do elemento <code>label</code>, ou usando o atributo <code>for</code>. Tal controle é chamado o <em>controle etiquetado</em> do elemento etiqueta. Um input pode ser associado a diversas etiquetas (&lt;label&gt;s).",
+      "type": "properties-and-attributes",
+      "completion": "label>"
+    },
+    {
+      "name": "legend",
+      "cat": "Formulários",
+      "desc": "O **Elemento HTML &lt;legend&gt; **(ou <em>Elemento</em> <em>HTML Campo \"Legend\"</em>) representa um rótulo para o conteúdo do seu ancestral <a href=\"/pt-BR/docs/Web/HTML/Element/fieldset\"><code>&lt;fieldset&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "legend>"
+    },
+    {
+      "name": "meter",
+      "cat": "Formulários",
+      "desc": "O elemento HTML <em>meter</em> (<code>&lt;meter&gt;</code>) pode representar um valor escalar dentro de um intervalo conhecido ou um valor fracionário.",
+      "type": "properties-and-attributes",
+      "completion": "meter>"
+    },
+    {
+      "name": "optgroup",
+      "cat": "Formulários",
+      "desc": "Em um Formulário Web, o elemento HTML <code>&lt;optgroup&gt;</code> cria um agrupamento de opções dentro do elemento <a href=\"/pt-BR/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "optgroup>"
+    },
+    {
+      "name": "option",
+      "cat": "Formulários",
+      "desc": "Em um formulário Web, o <strong>elemento HTML</strong> <code>&lt;option&gt;</code> é usado para criar um controle que representa um item dentro de um elemento HTML5 <a href=\"/pt-BR/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a>, <a href=\"/pt-BR/docs/Web/HTML/Element/optgroup\"><code>&lt;optgroup&gt;</code></a> ou <a href=\"/pt-BR/docs/Web/HTML/Element/datalist\"><code>&lt;datalist&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "option>"
+    },
+    {
+      "name": "output",
+      "cat": "Formulários",
+      "desc": "O elemento de saída (&lt;output&gt;) é um elemento no qual um site ou aplicativo pode injetar os resultados de um cálculo ou o resultado de uma ação do usuário.",
+      "type": "properties-and-attributes",
+      "completion": "output>"
+    },
+    {
+      "name": "progress",
+      "cat": "Formulários",
+      "desc": "o elemento HTML progress (&lt;progress&gt;) é usado para visualizar o progresso de uma tarefa. Embora as especifidades de como é mostrado ficam a cargo do desenvolvedor, tipicamente, é mostrado como uma barra de progresso.",
+      "type": "properties-and-attributes",
+      "completion": "progress>"
+    },
+    {
+      "name": "select",
+      "cat": "Formulários",
+      "desc": "O elemento HTML <em>select</em> (&lt;select&gt;) representa um controle que apresenta um menu de opções. As opções dentro do menu são representadas pelo elemento <a href=\"/pt-BR/docs/Web/HTML/Element/option\"><code>&lt;option&gt;</code></a>, que podem ser agrupados por elementos <code><a href=\"/pt-BR/docs/Web/HTML/Element/optgroup\"><code>&lt;optgroup&gt;</code></a></code>. As opções podem ser pré-selecionadas para o usuário.",
+      "type": "properties-and-attributes",
+      "completion": "select>"
+    },
+    {
+      "name": "textarea",
+      "cat": "Formulários",
+      "desc": "O <strong>elemento</strong> HTML <code>&lt;textarea&gt;</code> representa um controle de edição para uma caixa de texto, útil quando você quer permitir ao usuário informar um texto extenso em formato livre, como um comentário ou formulário de retorno.",
+      "type": "properties-and-attributes",
+      "completion": "textarea>"
+    },
+    {
+      "name": "details",
+      "cat": "Elementos interativos",
+      "desc": "O elemento HTML <em>details</em> (<code>&lt;details&gt;</code>) é usado como uma ferramenta de onde o usuário irá obter informações adicionais.",
+      "type": "properties-and-attributes",
+      "completion": "details>"
+    },
+    {
+      "name": "dialog",
+      "cat": "Elementos interativos",
+      "desc": "O <strong>elemento HTML <code>&lt;dialog&gt;</code></strong> representa uma caixa de diálogo ou outro componente interativo, tal como um inspetor ou janela.",
+      "type": "properties-and-attributes",
+      "completion": "dialog>"
+    },
+    {
+      "name": "summary",
+      "cat": "Elementos interativos",
+      "desc": "O elemento HTML <em>summary</em> (<code>&lt;summary&gt;</code>) é utilizado como um sumário ou legenda para o conteúdo de um elemento <a href=\"/pt-BR/docs/Web/HTML/Element/details\"><code>&lt;details&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "summary>"
+    },
+    {
+      "name": "slot (en-US)",
+      "cat": "Componentes Web",
+      "desc": "Part of the <a href=\"/pt-BR/docs/Web/API/Web_components\">Web Components</a> technology suite, this element is a placeholder inside a web component that you can fill with your own markup, which lets you create separate DOM trees and present them together.",
+      "type": "properties-and-attributes",
+      "completion": "slot> (en-US)"
+    },
+    {
+      "name": "template",
+      "cat": "Componentes Web",
+      "desc": "O elemento <strong><a href=\"/pt-BR/docs/Web/HTML\">HTML</a> <code>&lt;template&gt;</code></strong> é um mecanismo para encapsular um conteúdo do lado do cliente que não é renderizado quando a página é carregada, mas que pode ser instanciado posteriormente em tempo de execução usando JavaScript.",
+      "type": "properties-and-attributes",
+      "completion": "template>"
+    },
+    {
+      "name": "acronym",
+      "cat": "Elementos obsoletos",
+      "desc": "O Elemento HTML Acrônimo (<code>&lt;acronym&gt;)</code> permite à autores claramente indicar que uma seqüência de caracteres compõe um acrônimo ou uma abreviação de uma palavra.",
+      "type": "properties-and-attributes",
+      "completion": "acronym>"
+    },
+    {
+      "name": "applet",
+      "cat": "Elementos obsoletos",
+      "desc": "The HTML Applet Element (<code>&lt;applet&gt;</code>) identifies the inclusion of a Java applet.",
+      "type": "properties-and-attributes",
+      "completion": "applet>"
+    },
+    {
+      "name": "bgsound (en-US)",
+      "cat": "Elementos obsoletos",
+      "desc": "Sets up a sound file to play in the background while the page is used; use <a href=\"/pt-BR/docs/Web/HTML/Element/audio\"><code>&lt;audio&gt;</code></a> instead.",
+      "type": "properties-and-attributes",
+      "completion": "bgsound> (en-US)"
+    },
+    {
+      "name": "big",
+      "cat": "Elementos obsoletos",
+      "desc": "The obsolete <strong>HTML Big Element</strong> (<strong><code>&lt;big&gt;</code></strong>) renders the enclosed text at a font size one level larger than the surrounding text (<code>medium</code> becomes <code>large</code>, for example). The size is capped at the browser's maximum permitted font size.",
+      "type": "properties-and-attributes",
+      "completion": "big>"
+    },
+    {
+      "name": "center",
+      "cat": "Elementos obsoletos",
+      "desc": "O elemento <strong>Center do HTML</strong> (<strong><code>&lt;center&gt;</code></strong>) se tornou obsoleto, é um <a href=\"/pt-BR/docs/Glossary/Block-level_content\">elemento de nível de bloco</a> que exibe o conteúdo em nível de bloco ou em linha centralizado horizontalmente dentro do elemento que o contém. O contêiner <a href=\"/pt-BR/docs/Web/HTML/Element/body\"><code>&lt;body&gt;</code></a> geralmente está presente, mas não é necessário. Essa tag foi descontinuada no HTML 4 (e XHTML 1) em favor da propriedade CSS <a href=\"/pt-BR/docs/Web/CSS/text-align\"><code>text-align</code></a>, que pode ser aplicada ao elemento <a href=\"/pt-BR/docs/Web/HTML/Element/div\"><code>&lt;div&gt;</code></a> ou à um paragráfo indivídual <a href=\"/pt-BR/docs/Web/HTML/Element/p\"><code>&lt;p&gt;</code></a>. Para blocos de centralização, use outras propriedades CSS como <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/CSS/margin-left\"><code>margin-left</code> <small>(en-US)</small></a> e <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/CSS/margin-right\"><code>margin-right</code> <small>(en-US)</small></a> e defina-as como <code>auto</code> (ou defina <a href=\"/pt-BR/docs/Web/CSS/margin\"><code>margin</code></a> para <code>0 auto</code>).",
+      "type": "properties-and-attributes",
+      "completion": "center>"
+    },
+    {
+      "name": "content (en-US)",
+      "cat": "Elementos obsoletos",
+      "desc": "The <strong>HTML <code>&lt;content&gt;</code> element</strong>—an obsolete part of the <a href=\"/pt-BR/docs/Web/API/Web_components\">Web Components</a> suite of technologies—was used inside of <a href=\"/en-US/docs/Web/API/Web_components/Using_shadow_DOM\" class=\"only-in-en-us\" title=\"Currently only available in English (US)\">Shadow DOM <small>(en-US)<small></small></small></a> as an <a class=\"page-not-created\" title=\"A documentação sobre isto ainda não foi escrita; por favor considere contribuir!\">insertion point</a>, and wasn't meant to be used in ordinary HTML. It has now been replaced by the <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/slot\"><code>&lt;slot&gt;</code> <small>(en-US)</small></a> element, which creates a point in the DOM at which a shadow DOM can be inserted.",
+      "type": "properties-and-attributes",
+      "completion": "content> (en-US)"
+    },
+    {
+      "name": "dir",
+      "cat": "Elementos obsoletos",
+      "desc": "O elemento de diretório HTML obsoleto (<strong><code>&lt;dir&gt;</code></strong>) é usado como um contêiner para um diretório de arquivos e/ou pastas, potencialmente com estilos e ícones aplicados pelo <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Glossary/User_agent\">user agent <small>(en-US)</small></a>. Não use este elemento obsoleto; em vez disso, você deve usar o <a href=\"/pt-BR/docs/Web/HTML/Element/ul\"><code>&lt;ul&gt;</code></a> elemento para listas, incluindo listas de arquivos.",
+      "type": "properties-and-attributes",
+      "completion": "dir>"
+    },
+    {
+      "name": "font (en-US)",
+      "cat": "Elementos obsoletos",
+      "desc": "Defines the font size, color and face for its content.",
+      "type": "properties-and-attributes",
+      "completion": "font> (en-US)"
+    },
+    {
+      "name": "frame (en-US)",
+      "cat": "Elementos obsoletos",
+      "desc": "Defines a particular area in which another HTML document can be displayed. A frame should be used within a <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/frameset\"><code>&lt;frameset&gt;</code> <small>(en-US)</small></a>.",
+      "type": "properties-and-attributes",
+      "completion": "frame> (en-US)"
+    },
+    {
+      "name": "frameset (en-US)",
+      "cat": "Elementos obsoletos",
+      "desc": "Used to contain <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/frame\"><code>&lt;frame&gt;</code> <small>(en-US)</small></a> elements.",
+      "type": "properties-and-attributes",
+      "completion": "frameset> (en-US)"
+    },
+    {
+      "name": "image (en-US)",
+      "cat": "Elementos obsoletos",
+      "desc": "O **elemento HTML <code>&lt;hgroup&gt;</code> **destina-se a agrupar cabeçalhos de diferentes níveis para uma seção do documento. Ele agrupa (é um container para) um conjunto de elementos <a href=\"/pt-BR/docs/Web/HTML/Element/Heading_Elements\"><code>&lt;h1&gt;–&lt;h6&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "image> (en-US)"
+    },
+    {
+      "name": "marquee",
+      "cat": "Elementos obsoletos",
+      "desc": "Used to insert a scrolling area of text. You can control what happens when the text reaches the edges of its content area using its attributes.",
+      "type": "properties-and-attributes",
+      "completion": "marquee>"
+    },
+    {
+      "name": "menuitem (en-US)",
+      "cat": "Elementos obsoletos",
+      "desc": "O elemento html &lt;marquee&gt; é usado para inserir uma área de rolagem de texto\"scrolling\" , similar a um letreiro. Você pode controlar o comportamento do conteúdo fornecendo alguns atributos extras.",
+      "type": "properties-and-attributes",
+      "completion": "menuitem> (en-US)"
+    },
+    {
+      "name": "nobr",
+      "cat": "Elementos obsoletos",
+      "desc": "Prevents the text it contains from automatically wrapping across multiple lines, potentially resulting in the user having to scroll horizontally to see the entire width of the text.",
+      "type": "properties-and-attributes",
+      "completion": "nobr>"
+    },
+    {
+      "name": "noembed (en-US)",
+      "cat": "Elementos obsoletos",
+      "desc": "<code>O elemento HTML &lt;nobr&gt;</code> previne que um texto quebre em uma nova linha automaticamente, de forma que ele seja exibido em uma única grande linha, podendo tornar o <em>scroll</em> (horizontal) necessário. Esta tag não é padrão HTML e não deve ser usada. Como alternativa, use a propriedade CSS <a href=\"/pt-BR/docs/Web/CSS/white-space\"><code>white-space</code></a> como segue:",
+      "type": "properties-and-attributes",
+      "completion": "noembed> (en-US)"
+    },
+    {
+      "name": "noframes (en-US)",
+      "cat": "Elementos obsoletos",
+      "desc": "Provides content to be presented in browsers that don't support (or have disabled support for) the <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/frame\"><code>&lt;frame&gt;</code> <small>(en-US)</small></a> element. Although most commonly-used browsers support frames, there are exceptions, including certain special-use browsers including some mobile browsers, as well as text-mode browsers.",
+      "type": "properties-and-attributes",
+      "completion": "noframes> (en-US)"
+    },
+    {
+      "name": "param (en-US)",
+      "cat": "Elementos obsoletos",
+      "desc": "Defines parameters for an <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/object\"><code>&lt;object&gt;</code> <small>(en-US)</small></a> element.",
+      "type": "properties-and-attributes",
+      "completion": "param> (en-US)"
+    },
+    {
+      "name": "plaintext (en-US)",
+      "cat": "Elementos obsoletos",
+      "desc": "Renders everything following the start tag as raw text, ignoring any following HTML. There is no closing tag, since everything after it is considered raw text.",
+      "type": "properties-and-attributes",
+      "completion": "plaintext> (en-US)"
+    },
+    {
+      "name": "rb (en-US)",
+      "cat": "Elementos obsoletos",
+      "desc": "Used to delimit the base text component of a ruby annotation, i.e. the text that is being annotated. One <code>&lt;rb&gt;</code> element should wrap each separate atomic segment of the base text.",
+      "type": "properties-and-attributes",
+      "completion": "rb> (en-US)"
+    },
+    {
+      "name": "rtc (en-US)",
+      "cat": "Elementos obsoletos",
+      "desc": "Embraces semantic annotations of characters presented in a ruby of <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/rb\"><code>&lt;rb&gt;</code> <small>(en-US)</small></a> elements used inside of <a href=\"/pt-BR/docs/Web/HTML/Element/ruby\"><code>&lt;ruby&gt;</code></a> element. <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/rb\"><code>&lt;rb&gt;</code> <small>(en-US)</small></a> elements can have both pronunciation (<a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/rt\"><code>&lt;rt&gt;</code> <small>(en-US)</small></a>) and semantic (<a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/rtc\"><code>&lt;rtc&gt;</code> <small>(en-US)</small></a>) annotations.",
+      "type": "properties-and-attributes",
+      "completion": "rtc> (en-US)"
+    },
+    {
+      "name": "shadow",
+      "cat": "Elementos obsoletos",
+      "desc": "An obsolete part of the <a href=\"/pt-BR/docs/Web/API/Web_components\">Web Components</a> technology suite that was intended to be used as a shadow DOM insertion point. You might have used it if you have created multiple shadow roots under a shadow host.",
+      "type": "properties-and-attributes",
+      "completion": "shadow>"
+    },
+    {
+      "name": "spacer",
+      "cat": "Elementos obsoletos",
+      "desc": "Allows insertion of empty spaces on pages. It was devised by Netscape to accomplish the same effect as a single-pixel layout image, which was something web designers used to use to add white spaces to web pages without actually using an image. However, <code>&lt;spacer&gt;</code> is no longer supported by any major browser and the same effects can now be achieved using simple CSS.",
+      "type": "properties-and-attributes",
+      "completion": "spacer>"
+    },
+    {
+      "name": "strike (en-US)",
+      "cat": "Elementos obsoletos",
+      "desc": "Places a strikethrough (horizontal line) over text.",
+      "type": "properties-and-attributes",
+      "completion": "strike> (en-US)"
+    },
+    {
+      "name": "tt (en-US)",
+      "cat": "Elementos obsoletos",
+      "desc": "Creates inline text which is presented using the user agent default monospace font face. This element was created for the purpose of rendering text as it would be displayed on a fixed-width display such as a teletype, text-only screen, or line printer.",
+      "type": "properties-and-attributes",
+      "completion": "tt> (en-US)"
+    },
+    {
+      "name": "xmp (en-US)",
+      "cat": "Elementos obsoletos",
+      "desc": "Renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. The HTML2 specification recommended that it should be rendered wide enough to allow 80 characters per line.",
+      "type": "properties-and-attributes",
+      "completion": "xmp> (en-US)"
+    }
+  ]

@@ -1,0 +1,926 @@
+[
+    {
+      "name": "html",
+      "cat": "Основные элементы",
+      "desc": "Представляет собой корень (элемент верхнего уровня) HTML-документа, поэтому его так же называют корневым элементом. Все другие элементы должны быть потомками этого элемента (должны находиться внутри него).",
+      "type": "properties-and-attributes",
+      "completion": "html>"
+    },
+    {
+      "name": "base",
+      "cat": "Метаданные документа",
+      "desc": "Определяет основной адрес (URL), используемый для всех относительных адресов (URLs) в документе. Может быть только один <strong><code>&lt;base&gt;</code></strong> элемент в одном документе.",
+      "type": "properties-and-attributes",
+      "completion": "base>"
+    },
+    {
+      "name": "head",
+      "cat": "Метаданные документа",
+      "desc": "Содержит машиночитаемую информацию (<a href=\"/ru/docs/Glossary/Metadata\">metadata</a>) о документе, например его <a href=\"/ru/docs/Web/HTML/Element/title\">заголовок</a>, <a href=\"/ru/docs/Web/HTML/Element/script\">скрипты</a> и <a href=\"/ru/docs/Web/HTML/Element/style\">страницы стилей</a>.",
+      "type": "properties-and-attributes",
+      "completion": "head>"
+    },
+    {
+      "name": "link",
+      "cat": "Метаданные документа",
+      "desc": "Определяет отношения между текущим документом и внешним ресурсом. Этот элемент чаще всего используется для ссылки на <a href=\"/ru/docs/Glossary/CSS\">stylesheets</a>, а также для создания иконок сайта (как для иконок в стиле \"favicon\", так и для иконок домашних экранов и приложений мобильных устройств) среди прочего.",
+      "type": "properties-and-attributes",
+      "completion": "link>"
+    },
+    {
+      "name": "meta",
+      "cat": "Метаданные документа",
+      "desc": "Представляет такие <a href=\"/ru/docs/Glossary/Metadata\">метаданные</a>, которые не могут быть представлены другими HTML-метатегами, такими как <a href=\"/ru/docs/Web/HTML/Element/base\"><code>&lt;base&gt;</code></a>, <a href=\"/ru/docs/Web/HTML/Element/link\"><code>&lt;link&gt;</code></a>, <a href=\"/ru/docs/Web/HTML/Element/script\"><code>&lt;script&gt;</code></a>, <a href=\"/ru/docs/Web/HTML/Element/style\"><code>&lt;style&gt;</code></a> или <a href=\"/ru/docs/Web/HTML/Element/title\"><code>&lt;title&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "meta>"
+    },
+    {
+      "name": "style",
+      "cat": "Метаданные документа",
+      "desc": "Содержит стилевую информацию для документа или его части. По умолчанию стилевые инструкции внутри этого элемента считаются написанными на <a href=\"/ru/docs/Web/CSS\">CSS</a>.",
+      "type": "properties-and-attributes",
+      "completion": "style>"
+    },
+    {
+      "name": "title",
+      "cat": "Метаданные документа",
+      "desc": "Определяет заголовок документа, который отображается в заголовке окна <a href=\"/ru/docs/Glossary/Browser\">браузера</a> или на вкладке страницы. Он содержит только текст, а теги внутри элемента игнорируются.",
+      "type": "properties-and-attributes",
+      "completion": "title>"
+    },
+    {
+      "name": "body",
+      "cat": "Секционирование корня",
+      "desc": "Представляет собой контент (содержимое) документа HTML. В документе может быть только один элемент <code>&lt;body&gt;</code>.",
+      "type": "properties-and-attributes",
+      "completion": "body>"
+    },
+    {
+      "name": "address",
+      "cat": "Секционирование содержания",
+      "desc": "Задаёт контактные данные для ближайшего родительского <a href=\"/ru/docs/Web/HTML/Element/article\"><code>&lt;article&gt;</code></a> или <a href=\"/ru/docs/Web/HTML/Element/body\"><code>&lt;body&gt;</code></a> ; В последнем случае применяется ко всему документу, визуально выделяется курсивом.",
+      "type": "properties-and-attributes",
+      "completion": "address>"
+    },
+    {
+      "name": "article",
+      "cat": "Секционирование содержания",
+      "desc": "Представляет самостоятельную часть документа, страницы, приложения или сайта, предназначенную для независимого распространения или повторного использования. Этот элемент может представлять статью на форуме, статью в журнале или газете, запись в блоге или какой-либо другой самостоятельный фрагмент содержимого.",
+      "type": "properties-and-attributes",
+      "completion": "article>"
+    },
+    {
+      "name": "aside",
+      "cat": "Секционирование содержания",
+      "desc": "Представляет собой часть документа, чьё содержимое только косвенно связанно с основным содержимым документа. Чаще всего представлен в виде боковой панели, сносок или меток.",
+      "type": "properties-and-attributes",
+      "completion": "aside>"
+    },
+    {
+      "name": "footer",
+      "cat": "Секционирование содержания",
+      "desc": "Представляет собой нижний колонтитул (футер, подвал) для своего ближайшего <a href=\"/ru/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document#%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%BE%D0%B2_%D0%B2_HTML5\" class=\"page-not-created\" title=\"This is a link to an unwritten page\">секционного контента</a> или <a href=\"/ru/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document#%D0%9A%D0%BE%D1%80%D0%BD%D0%B8_%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F_%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%BE%D0%B2\" class=\"page-not-created\" title=\"This is a link to an unwritten page\">секционного корня</a>. Футер обычно содержит информацию об авторе раздела, информацию об авторском праве или ссылки на связанные документы.",
+      "type": "properties-and-attributes",
+      "completion": "footer>"
+    },
+    {
+      "name": "header",
+      "cat": "Секционирование содержания",
+      "desc": "Представляет собой вводный контент, обычно группу вводных или навигационных средств. Он может содержать другие элементы-заголовки, а также логотип, форму поиска, имя автора и другие элементы.",
+      "type": "properties-and-attributes",
+      "completion": "header>"
+    },
+    {
+      "name": "h1, <h2>, <h3>, <h4>, <h5>, <h6>",
+      "cat": "Секционирование содержания",
+      "desc": "<strong>HTML-элементы <code>&lt;h1&gt;</code>–<code>&lt;h6&gt;</code></strong> представляют собой 6 уровней заголовков секций. <code>&lt;h1&gt;</code> это наибольший заголовок и <code>&lt;h6&gt;</code> - наименьший",
+      "type": "properties-and-attributes",
+      "completion": "h1>, <h2>, <h3>, <h4>, <h5>, <h6>"
+    },
+    {
+      "name": "main",
+      "cat": "Секционирование содержания",
+      "desc": "Предназначен для основного контента (содержимого) <a href=\"/ru/docs/Web/HTML/Element/body\"><code>&lt;body&gt;</code></a> документа (страницы). Основной контент состоит из контента, который непосредственно относится к главной теме документа или её развивает.",
+      "type": "properties-and-attributes",
+      "completion": "main>"
+    },
+    {
+      "name": "nav",
+      "cat": "Секционирование содержания",
+      "desc": "Определяет отдельную секцию документа, назначение которой обозначение ссылок навигации (как внутри текущего документа, так и ведущих на другую страницу). В качестве примера такой секции можно привести меню, якорные ссылки.",
+      "type": "properties-and-attributes",
+      "completion": "nav>"
+    },
+    {
+      "name": "section",
+      "cat": "Секционирование содержания",
+      "desc": "Представляет собой автономный раздел — который не может быть представлен более точным по семантике элементом — внутри HTML-документа. Как правило, но не всегда, разделы имеют заголовок.",
+      "type": "properties-and-attributes",
+      "completion": "section>"
+    },
+    {
+      "name": "blockquote",
+      "cat": "Текстовое содержание",
+      "desc": "Указывает на то, что заключённый в нем текст является развёрнутой цитатой. Обычно он (текст) визуально выделяется наклонным (смотри <a href=\"/en-US/docs/Web/HTML/Element/blockquote#notes\" class=\"only-in-en-us\" title=\"Currently only available in English (US)\">Примечание <small>(en-US)<small></small></small></a>, где говорится о том, как это изменить). URI на источник цитаты можно указать в атрибуте <strong>cite</strong>, тогда как текстовое представление источника может быть задано элементом <a href=\"/ru/docs/Web/HTML/Element/cite\"><code>&lt;cite&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "blockquote>"
+    },
+    {
+      "name": "dd",
+      "cat": "Текстовое содержание",
+      "desc": "Предоставляет подробности или определение предшествующего термина (<a href=\"/ru/docs/Web/HTML/Element/dt\"><code>&lt;dt&gt;</code></a>) в списке определений (<a href=\"/ru/docs/Web/HTML/Element/dl\"><code>&lt;dl&gt;</code></a>).",
+      "type": "properties-and-attributes",
+      "completion": "dd>"
+    },
+    {
+      "name": "div",
+      "cat": "Текстовое содержание",
+      "desc": "Является универсальным контейнером для <a href=\"/ru/docs/Web/HTML/Content_categories#%d0%9f%d0%be%d1%82%d0%be%d0%ba%d0%be%d0%b2%d1%8b%d0%b9_%d0%ba%d0%be%d0%bd%d1%82%d0%b5%d0%bd%d1%82\">потокового контента</a>. Он не влияет на контент или макет до тех пор, пока не будет стилизован с помощью <a href=\"/ru/docs/Glossary/CSS\">CSS</a>.",
+      "type": "properties-and-attributes",
+      "completion": "div>"
+    },
+    {
+      "name": "dl",
+      "cat": "Текстовое содержание",
+      "desc": "Представляет собой список описаний. Этот элемент служит контейнером для списка пар терминов (определяемых элементом <a href=\"/ru/docs/Web/HTML/Element/dt\"><code>&lt;dt&gt;</code></a>) и их описаний (определяемых элементами <a href=\"/ru/docs/Web/HTML/Element/dd\"><code>&lt;dd&gt;</code></a>). Этот элемент обычно используют при создании глоссария или для отображения метаданных (списка пар ключ-значение).",
+      "type": "properties-and-attributes",
+      "completion": "dl>"
+    },
+    {
+      "name": "dt",
+      "cat": "Текстовое содержание",
+      "desc": "Определяет термин в описании или списке определений, как таковой должен использоваться внутри элемента <a href=\"/ru/docs/Web/HTML/Element/dl\"><code>&lt;dl&gt;</code></a> . Обычно за ним следует элемент <a href=\"/ru/docs/Web/HTML/Element/dd\"><code>&lt;dd&gt;</code></a>. Кроме того, несколько элементов <code>&lt;dt&gt;</code> идущие друг за другом будут содержать своё определение в следующем идущем за ним элементом<a href=\"/ru/docs/Web/HTML/Element/dd\"><code>&lt;dd&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "dt>"
+    },
+    {
+      "name": "figcaption",
+      "cat": "Текстовое содержание",
+      "desc": "Представляет собой подпись (заголовок) или легенду, описывающую остальную часть содержимого родительского элемента <a href=\"/ru/docs/Web/HTML/Element/figure\"><code>&lt;figure&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "figcaption>"
+    },
+    {
+      "name": "figure",
+      "cat": "Текстовое содержание",
+      "desc": "Представляет самостоятельный контент, часто с подписью (заголовком), которая указывается с помощью элемента (<a href=\"/ru/docs/Web/HTML/Element/figcaption\"><code>&lt;figcaption&gt;</code></a>). Диаграмма и её подпись представляет собой единое целое.",
+      "type": "properties-and-attributes",
+      "completion": "figure>"
+    },
+    {
+      "name": "hr",
+      "cat": "Текстовое содержание",
+      "desc": "Служит для тематического разделения абзацев. Рисует горизонтальную прямую",
+      "type": "properties-and-attributes",
+      "completion": "hr>"
+    },
+    {
+      "name": "li",
+      "cat": "Текстовое содержание",
+      "desc": "Используется для создания элементов списка. Он также должен находиться в родительском элементе: упорядоченном списке (<a href=\"/ru/docs/Web/HTML/Element/ol\"><code>&lt;ol&gt;</code></a>), неупорядоченном списке (<a href=\"/ru/docs/Web/HTML/Element/ul\"><code>&lt;ul&gt;</code></a>), или меню (<a href=\"/ru/docs/Web/HTML/Element/menu\"><code>&lt;menu&gt;</code></a>). В меню и неупорядоченных списках, элементы списка обычно отображаются с маркерами в виде круга. В упорядоченных списках, они обычно отображаются с маркерами в виде возрастающего счётчика слева, например числа или буквы.",
+      "type": "properties-and-attributes",
+      "completion": "li>"
+    },
+    {
+      "name": "menu",
+      "cat": "Текстовое содержание",
+      "desc": "Представляет группу команд, которые пользователь может выполнить или активировать. Он включает как меню-списки, которые могут отображаться в верхней части экрана, так и <a href=\"/ru/docs/Web/HTML/Element/menu#context_menu\">контекстные меню</a>, например, такие, что могут появиться под кнопкой после нажатия.",
+      "type": "properties-and-attributes",
+      "completion": "menu>"
+    },
+    {
+      "name": "ol",
+      "cat": "Текстовое содержание",
+      "desc": "Используется для упорядоченного списка — в частности для пронумерованного списка.",
+      "type": "properties-and-attributes",
+      "completion": "ol>"
+    },
+    {
+      "name": "p",
+      "cat": "Текстовое содержание",
+      "desc": "Представляет собой абзац. Абзацы обычно представлены в визуальной среде в виде блоков текста, отделённых от соседних блоков пустыми строками и/или отступом в первой строке, кроме этого HTML-абзацы могут представлять собой структурную группировку однотипного содержимого, например изображений или полей формы.",
+      "type": "properties-and-attributes",
+      "completion": "p>"
+    },
+    {
+      "name": "pre",
+      "cat": "Текстовое содержание",
+      "desc": "Представляет собой предварительно отформатированный текст, который должен быть представлен точно так, как написано в HTML-файле. Текст обычно отображается с использованием непропорционального (\"<a href=\"/ru/docs/XUL/Style/monospace\" class=\"page-not-created\" title=\"This is a link to an unwritten page\">monospace</a>\") шрифта. Пробелы внутри этого элемента отображаются как записанные.",
+      "type": "properties-and-attributes",
+      "completion": "pre>"
+    },
+    {
+      "name": "ul",
+      "cat": "Текстовое содержание",
+      "desc": "Используется для неупорядоченного списка - в частности для маркированного списка.",
+      "type": "properties-and-attributes",
+      "completion": "ul>"
+    },
+    {
+      "name": "a",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Определяет гиперссылку для перехода на определённое место на странице или на другую страницу в Интернете. Также он может быть использован (в устаревшем варианте) для создания якоря — это место назначения для гиперссылок внутри страницы: так ссылки не ограничены только в перемещении между страницами.",
+      "type": "properties-and-attributes",
+      "completion": "a>"
+    },
+    {
+      "name": "abbr",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Представляет собой аббревиатуру и, опционально, может показывать её расшифровку. Расшифровка записывается в атрибут <a href=\"/ru/docs/Web/HTML/Global_attributes#title\"><code>title</code></a>. Иные значения <code>title</code>, кроме расшифровки аббревиатуры не допускаются.",
+      "type": "properties-and-attributes",
+      "completion": "abbr>"
+    },
+    {
+      "name": "b",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Является частью текста стилистически отличающейся от нормального текста, не носящий какого-либо специального значения или важности, и как правило выделен жирным шрифтом.",
+      "type": "properties-and-attributes",
+      "completion": "b>"
+    },
+    {
+      "name": "bdi",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Изолирует от окружающего текста текстовый фрагмент, направление в котором может отличаться от направления окружающего текста (но не обязательно отличается).",
+      "type": "properties-and-attributes",
+      "completion": "bdi>"
+    },
+    {
+      "name": "bdo",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Переопределяет текущее направление текста так, что текст внутри отображается в другом направлении.",
+      "type": "properties-and-attributes",
+      "completion": "bdo>"
+    },
+    {
+      "name": "br",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Устанавливает перевод строки в тексте (возврат каретки). Он полезен при написании поэмы или адреса, где важно деление на строки.",
+      "type": "properties-and-attributes",
+      "completion": "br>"
+    },
+    {
+      "name": "cite",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Представляет из себя ссылку на источник цитаты. Он должен включать в себя название произведения или URL, который может быть в сокращённом виде в соответствии с правилами, используемых для добавления метаданных цитирования.",
+      "type": "properties-and-attributes",
+      "completion": "cite>"
+    },
+    {
+      "name": "code",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Отображает его содержимое в стиле, предназначенном для указания на то, что текст является коротким фрагментом компьютерного кода. По умолчанию текст содержимого отображается с использованием шрифта монопространства по умолчанию <a href=\"/ru/docs/Glossary/User_agent\">пользовательского агента</a>.",
+      "type": "properties-and-attributes",
+      "completion": "code>"
+    },
+    {
+      "name": "data",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "*Связывает данное содержимое с машиночитаемым представлением. Если содержимое относится к времени или дате, необходимо использовать элемент <a href=\"/ru/docs/Web/HTML/Element/time\"><code>&lt;time&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "data>"
+    },
+    {
+      "name": "dfn",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Используется для указания термина, определяемого в контексте фразы или предложения. Элемент <a href=\"/ru/docs/Web/HTML/Element/p\"><code>&lt;p&gt;</code></a>, пара <a href=\"/ru/docs/Web/HTML/Element/dt\"><code>&lt;dt&gt;</code></a>/<a href=\"/ru/docs/Web/HTML/Element/dd\"><code>&lt;dd&gt;</code></a> или элемент <a href=\"/ru/docs/Web/HTML/Element/section\"><code>&lt;section&gt;</code></a>, который является ближайшим предком <code>&lt;dfn&gt;</code> считается определением термина.",
+      "type": "properties-and-attributes",
+      "completion": "dfn>"
+    },
+    {
+      "name": "em",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Отмечает акцентируемый текст. Элемент <code>&lt;em&gt;</code> может быть вложенным, причём каждый уровень вложенности указывает на большую степень акцента.",
+      "type": "properties-and-attributes",
+      "completion": "em>"
+    },
+    {
+      "name": "i (en-US)",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Представляет собой отрывок текста, выделяемый среди прочего по определенным причинам, например: идиоматический текст, технические термины, систематические обозначения и прочее. Обычно отмечается курсивом, от чего и получил свое название (от англ. <em>Italic</em>).",
+      "type": "properties-and-attributes",
+      "completion": "i> (en-US)"
+    },
+    {
+      "name": "kbd",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Указывает на то, что текст внутри элемента описывает пользовательский ввод с клавиатуры, голосовой ввод или ввод с использованием любого другого типа устройств ввода текста. По общему соглашению, <a href=\"/ru/docs/Glossary/User_agent\">user agent</a> использует моноширинный шрифт для отображения содержимого элемента <code>&lt;kbd&gt;</code> по умолчанию, хотя это и не указывается HTML стандартом явно.",
+      "type": "properties-and-attributes",
+      "completion": "kbd>"
+    },
+    {
+      "name": "mark",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Представляет текст, выделенный в справочных целях из-за своей <em>актуальности</em> в определённом контексте. Например, он может быть использован на странице с результатом поиска, в которой выделяется каждый экземпляр искомого слова.",
+      "type": "properties-and-attributes",
+      "completion": "mark>"
+    },
+    {
+      "name": "q (en-US)",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Indicates that the enclosed text is a short inline quotation. Most modern browsers implement this by surrounding the text in quotation marks. This element is intended for short quotations that don't require paragraph breaks; for long quotations use the <a href=\"/ru/docs/Web/HTML/Element/blockquote\"><code>&lt;blockquote&gt;</code></a> element.",
+      "type": "properties-and-attributes",
+      "completion": "q> (en-US)"
+    },
+    {
+      "name": "rp (en-US)",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Used to provide fall-back parentheses for browsers that do not support display of ruby annotations using the <a href=\"/ru/docs/Web/HTML/Element/ruby\"><code>&lt;ruby&gt;</code></a> element. One <code>&lt;rp&gt;</code> element should enclose each of the opening and closing parentheses that wrap the <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/rt\"><code>&lt;rt&gt;</code> <small>(en-US)</small></a> element that contains the annotation's text.",
+      "type": "properties-and-attributes",
+      "completion": "rp> (en-US)"
+    },
+    {
+      "name": "rt (en-US)",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Specifies the ruby text component of a ruby annotation, which is used to provide pronunciation, translation, or transliteration information for East Asian typography. The <code>&lt;rt&gt;</code> element must always be contained within a <a href=\"/ru/docs/Web/HTML/Element/ruby\"><code>&lt;ruby&gt;</code></a> element.",
+      "type": "properties-and-attributes",
+      "completion": "rt> (en-US)"
+    },
+    {
+      "name": "ruby",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Предназначен для добавления небольшой аннотации сверху или снизу от заданного текста. Такая форма записи преимущественно используется для идеографической письменности вроде китайского языка, но может применяться и для других языков, если требуется написать один текст над другим.",
+      "type": "properties-and-attributes",
+      "completion": "ruby>"
+    },
+    {
+      "name": "s (en-US)",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Renders text with a strikethrough, or a line through it. Use the <code>&lt;s&gt;</code> element to represent things that are no longer relevant or no longer accurate. However, <code>&lt;s&gt;</code> is not appropriate when indicating document edits; for that, use the del and ins elements, as appropriate.",
+      "type": "properties-and-attributes",
+      "completion": "s> (en-US)"
+    },
+    {
+      "name": "samp (en-US)",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Used to enclose inline text which represents sample (or quoted) output from a computer program. Its contents are typically rendered using the browser's default monospaced font (such as <a href=\"https://en.wikipedia.org/wiki/Courier_(typeface)\" class=\"external\" target=\"_blank\">Courier</a> or Lucida Console).",
+      "type": "properties-and-attributes",
+      "completion": "samp> (en-US)"
+    },
+    {
+      "name": "small (en-US)",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Represents side-comments and small print, like copyright and legal text, independent of its styled presentation. By default, it renders text within it one font-size smaller, such as from <code>small</code> to <code>x-small</code>.",
+      "type": "properties-and-attributes",
+      "completion": "small> (en-US)"
+    },
+    {
+      "name": "span",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Является основным строковым контейнером для фразового контента, который, по существу, ничего не представляет. Он может использоваться для группировки элементов в целях стилизации (использование атрибутов <a href=\"/ru/docs/Web/HTML/Global_attributes#class\"><code>class</code></a> или <a href=\"/ru/docs/Web/HTML/Global_attributes#id\"><code>id</code></a>) или потому, что они имеет общие значения атрибутов, например <a href=\"/ru/docs/Web/HTML/Global_attributes#lang\"><code>lang</code></a>. Он должен быть использован только когда нет другого подходящего по семантике элемента. <code>&lt;span&gt;</code> очень похож на элемент <a href=\"/ru/docs/Web/HTML/Element/div\"><code>&lt;div&gt;</code></a>, но <a href=\"/ru/docs/Web/HTML/Element/div\"><code>&lt;div&gt;</code></a> является <a href=\"/ru/docs/Glossary/Block-level_content\">блочным</a> элементом, в то время как <code>&lt;span&gt;</code> является <a href=\"/ru/docs/Web/HTML/%D0%A1%D1%82%D1%80%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%AD%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D1%8B\" class=\"page-not-created\" title=\"This is a link to an unwritten page\">строчным</a>.",
+      "type": "properties-and-attributes",
+      "completion": "span>"
+    },
+    {
+      "name": "strong",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Указывает на то, что его содержание имеет большое значение, серьёзность или срочность. Браузеры обычно отображают содержимое жирным шрифтом.",
+      "type": "properties-and-attributes",
+      "completion": "strong>"
+    },
+    {
+      "name": "sub (en-US)",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Specifies inline text which should be displayed as subscript for solely typographical reasons. Subscripts are typically rendered with a lowered baseline using smaller text.",
+      "type": "properties-and-attributes",
+      "completion": "sub> (en-US)"
+    },
+    {
+      "name": "sup (en-US)",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Specifies inline text which is to be displayed as superscript for solely typographical reasons. Superscripts are usually rendered with a raised baseline using smaller text.",
+      "type": "properties-and-attributes",
+      "completion": "sup> (en-US)"
+    },
+    {
+      "name": "time",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Используется для представления либо времени в 24-часовом формате, либо точной даты по <a href=\"http://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%B8%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C\" class=\"external\" target=\"_blank\">Григорианскому календарю</a> (с опциональным указанием времени и часового пояса).",
+      "type": "properties-and-attributes",
+      "completion": "time>"
+    },
+    {
+      "name": "u (en-US)",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "The HTML <strong>Unarticulated Annotation Element</strong> (<strong><code>&lt;u&gt;</code></strong>) represents a span of inline text which should be rendered in a way that indicates that it has a non-textual annotation. This is rendered by default as a simple solid underline, but may be altered using CSS.",
+      "type": "properties-and-attributes",
+      "completion": "u> (en-US)"
+    },
+    {
+      "name": "var (en-US)",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Represents the name of a variable in a mathematical expression or a programming context. It's typically presented using an italicized version of the current typeface, although that behavior is browser-dependent.",
+      "type": "properties-and-attributes",
+      "completion": "var> (en-US)"
+    },
+    {
+      "name": "wbr",
+      "cat": "Встроенные текстовые семантики",
+      "desc": "Предоставляет возможность переноса слова – позицию в тексте, где браузер может по желанию разбить строку, в противном случае его правила разрыва строки не будут создавать разрыв в этом месте.",
+      "type": "properties-and-attributes",
+      "completion": "wbr>"
+    },
+    {
+      "name": "area",
+      "cat": "Изображения и мультимедиа",
+      "desc": "Определяет активную область на изображении и, при желании, связывает её с <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Glossary/Hyperlink\">гипертекстовой ссылкой <small>(en-US)</small></a>. Этот элемент используется только внутри элемента <a href=\"/ru/docs/Web/HTML/Element/map\"><code>&lt;map&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "area>"
+    },
+    {
+      "name": "audio",
+      "cat": "Изображения и мультимедиа",
+      "desc": "Используется для встраивания звукового контента в документ. Он может содержать один или более источников аудио, представленных с помощью атрибута <code>src</code> или элемента <a href=\"/ru/docs/Web/HTML/Element/source\"><code>&lt;source&gt;</code></a> – браузер выберет один наиболее подходящий. Он так же может предназначаться для потокового мультимедиа, используя интерфейс <a href=\"/ru/docs/Web/API/MediaStream\"><code>MediaStream</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "audio>"
+    },
+    {
+      "name": "img",
+      "cat": "Изображения и мультимедиа",
+      "desc": "Встраивает изображение в документ. Это <a href=\"/ru/docs/Web/CSS/Replaced_element\">замещаемый элемент</a>.",
+      "type": "properties-and-attributes",
+      "completion": "img>"
+    },
+    {
+      "name": "map",
+      "cat": "Изображения и мультимедиа",
+      "desc": "Используется с элементами <a href=\"/ru/docs/Web/HTML/Element/area\"><code>&lt;area&gt;</code></a> для определения карты изображения (интерактивной области ссылок).",
+      "type": "properties-and-attributes",
+      "completion": "map>"
+    },
+    {
+      "name": "track",
+      "cat": "Изображения и мультимедиа",
+      "desc": "Используется как дочерний элемент медиа-элементов <a href=\"/ru/docs/Web/HTML/Element/audio\"><code>&lt;audio&gt;</code></a> and <a href=\"/ru/docs/Web/HTML/Element/video\"><code>&lt;video&gt;</code></a>. Позволяет указать синхронизированные текстовые дорожки (или данные на основе времени), например, для автоматической обработки субтитров. Файлы треков используют <a href=\"/ru/docs/Web/API/WebVTT_API\">формат WebVTT</a> (<code>.vtt</code> файлы) — Web Video Text Tracks или <a href=\"https://w3c.github.io/ttml2/index.html\" class=\"external\" target=\"_blank\">Timed Text Markup Language (TTML).</a>",
+      "type": "properties-and-attributes",
+      "completion": "track>"
+    },
+    {
+      "name": "video",
+      "cat": "Изображения и мультимедиа",
+      "desc": "Для встраивания видео контента в документ используйте <strong>элемент HTML &lt;video&gt;</strong>. Видео элемент может содержать один или несколько источников видео. Чтобы указать источник видео, необходимо использовать атрибут <strong>src</strong> или элемент <a href=\"/ru/docs/Web/HTML/Element/source\"><code>&lt;source&gt;</code></a>; браузер сам определит наиболее подходящий источник.",
+      "type": "properties-and-attributes",
+      "completion": "video>"
+    },
+    {
+      "name": "embed",
+      "cat": "Встроенное содержание",
+      "desc": "Вставляет расширенный контент в выбранное место документа. Этот контент может быть представлен от внешнего приложения или другого источника интерактивного контента, такого как плагин для браузера, например.",
+      "type": "properties-and-attributes",
+      "completion": "embed>"
+    },
+    {
+      "name": "iframe (en-US)",
+      "cat": "Встроенное содержание",
+      "desc": "Represents a nested browsing context, embedding another HTML page into the current one.",
+      "type": "properties-and-attributes",
+      "completion": "iframe> (en-US)"
+    },
+    {
+      "name": "object (en-US)",
+      "cat": "Встроенное содержание",
+      "desc": "Represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.",
+      "type": "properties-and-attributes",
+      "completion": "object> (en-US)"
+    },
+    {
+      "name": "picture",
+      "cat": "Встроенное содержание",
+      "desc": "Служит контейнером для одного или более элементов <a href=\"/ru/docs/Web/HTML/Element/source\"><code>&lt;source&gt;</code></a> и одного элемента <a href=\"/ru/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a> для обеспечения оптимальной версии изображения для различных размеров экрана. Браузер рассмотрит каждый из дочерних элементов <code>&lt;source&gt;</code> и выберет один, соответствующий лучшему совпадению; если совпадений среди элементов <code>&lt;source&gt;</code> найдено не будет, то будет выбран файл, указанный атрибутом <a href=\"/ru/docs/Web/HTML/Element/img#src\"><code>src</code></a> элемента <code>&lt;img&gt;</code> . Затем выбранное изображение отображается в пространстве, занятом элементом <code>&lt;img&gt;</code>.",
+      "type": "properties-and-attributes",
+      "completion": "picture>"
+    },
+    {
+      "name": "portal (en-US)",
+      "cat": "Встроенное содержание",
+      "desc": "Enables the embedding of another HTML page into the current one for the purposes of allowing smoother navigation into new pages.",
+      "type": "properties-and-attributes",
+      "completion": "portal> (en-US)"
+    },
+    {
+      "name": "source",
+      "cat": "Встроенное содержание",
+      "desc": "Указывает несколько медиа-ресурсов для элементов <a href=\"/ru/docs/Web/HTML/Element/picture\"><code>&lt;picture&gt;</code></a>, <a href=\"/ru/docs/Web/HTML/Element/video\"><code>&lt;video&gt;</code></a> и <a href=\"/ru/docs/Web/HTML/Element/audio\"><code>&lt;audio&gt;</code></a>. Это пустой элемент. Он обычно используется для обслуживания одного и того же медиа-контента <a href=\"/en-US/docs/Web/Media/Formats\" class=\"only-in-en-us\" title=\"Currently only available in English (US)\">в нескольких форматах, поддерживаемых различными браузерами <small>(en-US)<small></small></small></a>.",
+      "type": "properties-and-attributes",
+      "completion": "source>"
+    },
+    {
+      "name": "svg",
+      "cat": "SVG and MathML",
+      "desc": "Представляет собой контейнер, который определяет новую систему координат и <a href=\"/ru/docs/Web/SVG/Attribute/viewBox\">область просмотра</a>. Он используется, как самый внешний элемент документов SVG, но также может использоваться для встраивания фрагмента SVG в документ SVG или HTML.",
+      "type": "properties-and-attributes",
+      "completion": "svg>"
+    },
+    {
+      "name": "math",
+      "cat": "SVG and MathML",
+      "desc": "Элементом верхнего уровня в MathML является тэг <code>&lt;math&gt;</code>. Каждый допустимый экземпляр MathML должен быть внутри этого контейнера. Он не допускает вложений, но внутри может быть произвольное число других дочерних элементов.",
+      "type": "properties-and-attributes",
+      "completion": "math>"
+    },
+    {
+      "name": "canvas",
+      "cat": "Скриптинг",
+      "desc": "Может быть использован для отрисовки графики при помощи скриптов (обычно используется <a href=\"/ru/docs/Web/JavaScript\">JavaScript</a>). Например, его можно использовать для отрисовки графиков, делать композиции фото или даже выполнять анимации. Вы можете (и должны) дать альтернативное содержание внутри блока <code>&lt;canvas&gt;</code>. Этот контент будет рендерится в обоих браузерах, в старых которые не поддерживают canvas и в браузерах с отключённым JavaScript.",
+      "type": "properties-and-attributes",
+      "completion": "canvas>"
+    },
+    {
+      "name": "noscript",
+      "cat": "Скриптинг",
+      "desc": "Определяет секцию HTML кода, которая будет вставлена, если в браузере пользователя нет либо отключена поддержка JavaScript.",
+      "type": "properties-and-attributes",
+      "completion": "noscript>"
+    },
+    {
+      "name": "script",
+      "cat": "Скриптинг",
+      "desc": "Используется для встраивания или подключения исполняемого JavaScript кода. Элемент <code>&lt;script&gt;</code> также может использоваться с другими языками, такими как <a href=\"/en-US/docs/Web/API/WebGL_API/By_example/Hello_GLSL\" class=\"only-in-en-us\" title=\"Currently only available in English (US)\">GLSL <small>(en-US)<small></small></small></a> от <a href=\"/ru/docs/Web/API/WebGL_API\">WebGL</a>.",
+      "type": "properties-and-attributes",
+      "completion": "script>"
+    },
+    {
+      "name": "del",
+      "cat": "Разграничительные правки",
+      "desc": "Представляет диапазон текста, который был удалён из документа. Он может быть использован, например, при отображении \"отслеживания изменений\" или различий в исходном коде. Элемент <a href=\"/ru/docs/Web/HTML/Element/ins\"><code>&lt;ins&gt;</code></a> можно использовать для противоположной цели: указание текста, который был добавлен в документ.",
+      "type": "properties-and-attributes",
+      "completion": "del>"
+    },
+    {
+      "name": "ins",
+      "cat": "Разграничительные правки",
+      "desc": "Представляет собой диапазон текста, который был добавлен в документ",
+      "type": "properties-and-attributes",
+      "completion": "ins>"
+    },
+    {
+      "name": "caption",
+      "cat": "Содержание таблиц",
+      "desc": "Определяет название (заголовок) таблицы. Если этот элемент используется, он <em>всегда</em> должен быть первым вложенным элементом тэга <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/table\"><code>&lt;table&gt;</code> <small>(en-US)</small></a>. Внешний вид и расположение заголовка по отношению к самой таблице может быть изменено с помощью стилей CSS <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/CSS/caption-side\"><code>caption-side</code> <small>(en-US)</small></a> and <a href=\"/ru/docs/Web/CSS/text-align\"><code>text-align</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "caption>"
+    },
+    {
+      "name": "col",
+      "cat": "Содержание таблиц",
+      "desc": "Определяет столбец в таблице и используется для определения общей семантики на всех ячейках. Обычно он находится в элементе <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/colgroup\"><code>&lt;colgroup&gt;</code> <small>(en-US)</small></a>.",
+      "type": "properties-and-attributes",
+      "completion": "col>"
+    },
+    {
+      "name": "colgroup (en-US)",
+      "cat": "Содержание таблиц",
+      "desc": "Defines a group of columns within a table.",
+      "type": "properties-and-attributes",
+      "completion": "colgroup> (en-US)"
+    },
+    {
+      "name": "table (en-US)",
+      "cat": "Содержание таблиц",
+      "desc": "Represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.",
+      "type": "properties-and-attributes",
+      "completion": "table> (en-US)"
+    },
+    {
+      "name": "tbody (en-US)",
+      "cat": "Содержание таблиц",
+      "desc": "Encapsulates a set of table rows (<a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/tr\"><code>&lt;tr&gt;</code> <small>(en-US)</small></a> elements), indicating that they comprise the body of the table (<a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/table\"><code>&lt;table&gt;</code> <small>(en-US)</small></a>).",
+      "type": "properties-and-attributes",
+      "completion": "tbody> (en-US)"
+    },
+    {
+      "name": "td",
+      "cat": "Содержание таблиц",
+      "desc": "Определяет ячейку таблицы которая содержит данные. Участвует в <em>табличной модели</em>.",
+      "type": "properties-and-attributes",
+      "completion": "td>"
+    },
+    {
+      "name": "tfoot",
+      "cat": "Содержание таблиц",
+      "desc": "Определяет набор строк суммирующих столбцы таблицы.",
+      "type": "properties-and-attributes",
+      "completion": "tfoot>"
+    },
+    {
+      "name": "th (en-US)",
+      "cat": "Содержание таблиц",
+      "desc": "Defines a cell as header of a group of table cells. The exact nature of this group is defined by the <code>scope</code> and <code>headers</code> attributes.",
+      "type": "properties-and-attributes",
+      "completion": "th> (en-US)"
+    },
+    {
+      "name": "thead (en-US)",
+      "cat": "Содержание таблиц",
+      "desc": "Defines a set of rows defining the head of the columns of the table.",
+      "type": "properties-and-attributes",
+      "completion": "thead> (en-US)"
+    },
+    {
+      "name": "tr (en-US)",
+      "cat": "Содержание таблиц",
+      "desc": "Defines a row of cells in a table. The row's cells can then be established using a mix of <a href=\"/ru/docs/Web/HTML/Element/td\"><code>&lt;td&gt;</code></a> (data cell) and <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/th\"><code>&lt;th&gt;</code> <small>(en-US)</small></a> (header cell) elements.",
+      "type": "properties-and-attributes",
+      "completion": "tr> (en-US)"
+    },
+    {
+      "name": "button",
+      "cat": "Формы",
+      "desc": "Создаёт интерактивную кнопку, которая может быть использована в формах или в любом другом месте документа, который требует простой, стандартной кнопки. По умолчанию, кнопки HTML обычно представлены в стиле, аналогичном стилю хост-платформы, на которой работает <a href=\"/ru/docs/Glossary/User_agent\">user agent</a>, но вы можете изменить внешний вид кнопки, используя CSS.",
+      "type": "properties-and-attributes",
+      "completion": "button>"
+    },
+    {
+      "name": "datalist",
+      "cat": "Формы",
+      "desc": "Содержит набор опций (<a href=\"/ru/docs/Web/HTML/Element/option\"><code>&lt;option&gt;</code></a>), доступных для выбора. Выбранное значение будет установлено для элемента <a href=\"/ru/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, с атрибутом <a href=\"/ru/docs/Web/HTML/Element/input#list\"><code>list</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "datalist>"
+    },
+    {
+      "name": "fieldset",
+      "cat": "Формы",
+      "desc": "Используется для группировки нескольких элементов управления в веб-форме.",
+      "type": "properties-and-attributes",
+      "completion": "fieldset>"
+    },
+    {
+      "name": "form",
+      "cat": "Формы",
+      "desc": "Представляет (собой) раздел документа, содержащий интерактивные элементы управления, которые позволяют пользователю отправлять информацию на веб-сервер.",
+      "type": "properties-and-attributes",
+      "completion": "form>"
+    },
+    {
+      "name": "input",
+      "cat": "Формы",
+      "desc": "Используется для создания интерактивных элементов управления в веб-формах для получения данных от пользователя; в зависимости от устройства и <a href=\"/ru/docs/Glossary/User_agent\">user agent</a>, доступен широкий выбор типов входных данных и виджетов управления. Из-за огромного количества возможных сочетаний типов ввода и атрибутов это один из самых мощных и сложных элементов HTML.",
+      "type": "properties-and-attributes",
+      "completion": "input>"
+    },
+    {
+      "name": "label",
+      "cat": "Формы",
+      "desc": "Представляет собой подпись к элементу пользовательского интерфейса.",
+      "type": "properties-and-attributes",
+      "completion": "label>"
+    },
+    {
+      "name": "legend",
+      "cat": "Формы",
+      "desc": "Представляет собой заголовок содержания родительского элемента <a href=\"/ru/docs/Web/HTML/Element/fieldset\"><code>&lt;fieldset&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "legend>"
+    },
+    {
+      "name": "meter",
+      "cat": "Формы",
+      "desc": "Представляет собой скалярное значение в пределах известного диапазона или дробного значения.",
+      "type": "properties-and-attributes",
+      "completion": "meter>"
+    },
+    {
+      "name": "optgroup",
+      "cat": "Формы",
+      "desc": "Позволяет группировать опции, находящиеся внутри элемента <a href=\"/ru/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "optgroup>"
+    },
+    {
+      "name": "option",
+      "cat": "Формы",
+      "desc": "Используется для определения пункта списка контейнера <a href=\"/ru/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a>, элемента <a href=\"/ru/docs/Web/HTML/Element/optgroup\"><code>&lt;optgroup&gt;</code></a>, или элемента <a href=\"/ru/docs/Web/HTML/Element/datalist\"><code>&lt;datalist&gt;</code></a>. Элемент <code>&lt;option&gt;</code> может представлять раздел меню всплывающих окон и других перечней или списков HTML документа.",
+      "type": "properties-and-attributes",
+      "completion": "option>"
+    },
+    {
+      "name": "output",
+      "cat": "Формы",
+      "desc": "Является контейнерным элементом, в котором сайт или приложение могут выводить результаты вычислений или действий пользователя.",
+      "type": "properties-and-attributes",
+      "completion": "output>"
+    },
+    {
+      "name": "progress",
+      "cat": "Формы",
+      "desc": "Отображает индикатор, показывающий ход выполнения задачи, обычно отображаемый в виде прогресс бара (индикатора выполнения).",
+      "type": "properties-and-attributes",
+      "completion": "progress>"
+    },
+    {
+      "name": "select",
+      "cat": "Формы",
+      "desc": "Представляет собой элемент управления который содержит меню опций:",
+      "type": "properties-and-attributes",
+      "completion": "select>"
+    },
+    {
+      "name": "textarea (en-US)",
+      "cat": "Формы",
+      "desc": "Represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.",
+      "type": "properties-and-attributes",
+      "completion": "textarea> (en-US)"
+    },
+    {
+      "name": "details",
+      "cat": "Интерактивные элементы",
+      "desc": "Используется для раскрытия скрытой (дополнительной) информации.",
+      "type": "properties-and-attributes",
+      "completion": "details>"
+    },
+    {
+      "name": "dialog",
+      "cat": "Интерактивные элементы",
+      "desc": "Определяет диалоговое окно или другой интерактивный элемент, такой как инспектор или окно. Элементы <code>&lt;form&gt;</code> могут интегрироваться с диалогом с помощью указания атрибута <code>method=\"dialog\"</code>. Когда отправляется такая форма, диалог закрывается с returnValue равным value нажатой кнопки submit.",
+      "type": "properties-and-attributes",
+      "completion": "dialog>"
+    },
+    {
+      "name": "summary",
+      "cat": "Интерактивные элементы",
+      "desc": "The <strong>HTML Disclosure Summary element</strong> (<strong><code>&lt;summary&gt;</code></strong>) element specifies a summary, caption, or legend for a <a href=\"/ru/docs/Web/HTML/Element/details\"><code>&lt;details&gt;</code></a> element's disclosure box. Clicking the <code>&lt;summary&gt;</code> element toggles the state of the parent <code>&lt;details&gt;</code> element open and closed.",
+      "type": "properties-and-attributes",
+      "completion": "summary>"
+    },
+    {
+      "name": "slot",
+      "cat": "Веб-компоненты",
+      "desc": "Является частью набора технологии <a href=\"/ru/docs/Web/API/Web_components\">Web Components</a>, является заполнителем внутри веб компонента, который можно заполнить собственной разметкой, которая позволяет создавать отдельные деревья DOM и представлять их вместе.",
+      "type": "properties-and-attributes",
+      "completion": "slot>"
+    },
+    {
+      "name": "template",
+      "cat": "Веб-компоненты",
+      "desc": "Представляет собой механизм для отложенного создания клиентского контента, который не отображается во время загрузки страницы, но может быть инициализирован при помощи JavaScript.",
+      "type": "properties-and-attributes",
+      "completion": "template>"
+    },
+    {
+      "name": "acronym",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Позволяет явно указать, что данная последовательность букв, являющуюся акронимом или аббревиатурой.",
+      "type": "properties-and-attributes",
+      "completion": "acronym>"
+    },
+    {
+      "name": "bgsound (en-US)",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Sets up a sound file to play in the background while the page is used; use <a href=\"/ru/docs/Web/HTML/Element/audio\"><code>&lt;audio&gt;</code></a> instead.",
+      "type": "properties-and-attributes",
+      "completion": "bgsound> (en-US)"
+    },
+    {
+      "name": "big (en-US)",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Renders the enclosed text at a font size one level larger than the surrounding text (<code>medium</code> becomes <code>large</code>, for example). The size is capped at the browser's maximum permitted font size.",
+      "type": "properties-and-attributes",
+      "completion": "big> (en-US)"
+    },
+    {
+      "name": "center (en-US)",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Displays its block-level or inline contents centered horizontally within its containing element.",
+      "type": "properties-and-attributes",
+      "completion": "center> (en-US)"
+    },
+    {
+      "name": "content (en-US)",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "An obsolete part of the <a href=\"/ru/docs/Web/API/Web_components\">Web Components</a> suite of technologies—was used inside of <a href=\"/en-US/docs/Web/API/Web_components/Using_shadow_DOM\" class=\"only-in-en-us\" title=\"Currently only available in English (US)\">Shadow DOM <small>(en-US)<small></small></small></a> as an insertion point, and wasn't meant to be used in ordinary HTML. It has now been replaced by the <a href=\"/ru/docs/Web/HTML/Element/slot\"><code>&lt;slot&gt;</code></a> element, which creates a point in the DOM at which a shadow DOM can be inserted.",
+      "type": "properties-and-attributes",
+      "completion": "content> (en-US)"
+    },
+    {
+      "name": "dir (en-US)",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Container for a directory of files and/or folders, potentially with styles and icons applied by the user agent. Do not use this obsolete element; instead, you should use the <a href=\"/ru/docs/Web/HTML/Element/ul\"><code>&lt;ul&gt;</code></a> element for lists, including lists of files.",
+      "type": "properties-and-attributes",
+      "completion": "dir> (en-US)"
+    },
+    {
+      "name": "font",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Определяет размер шрифта, цвета и лицо для его содержимого",
+      "type": "properties-and-attributes",
+      "completion": "font>"
+    },
+    {
+      "name": "frame (en-US)",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Defines a particular area in which another HTML document can be displayed. A frame should be used within a <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/frameset\"><code>&lt;frameset&gt;</code> <small>(en-US)</small></a>.",
+      "type": "properties-and-attributes",
+      "completion": "frame> (en-US)"
+    },
+    {
+      "name": "frameset (en-US)",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Used to contain <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/frame\"><code>&lt;frame&gt;</code> <small>(en-US)</small></a> elements.",
+      "type": "properties-and-attributes",
+      "completion": "frameset> (en-US)"
+    },
+    {
+      "name": "image",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Элемент HTML <code>&lt;image&gt;</code> был экспериментальным элементом, предназначенный для отображения изображений. Он никогда не был реализован, вместо него должен использоваться стандартный элемент <a href=\"/ru/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a>.",
+      "type": "properties-and-attributes",
+      "completion": "image>"
+    },
+    {
+      "name": "marquee",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Used to insert a scrolling area of text. You can control what happens when the text reaches the edges of its content area using its attributes.",
+      "type": "properties-and-attributes",
+      "completion": "marquee>"
+    },
+    {
+      "name": "menuitem (en-US)",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "HTML-элемент <code>&lt;marquee&gt;</code> используется для создания на странице прокручивающегося текста (бегущей строки).",
+      "type": "properties-and-attributes",
+      "completion": "menuitem> (en-US)"
+    },
+    {
+      "name": "nobr (en-US)",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Prevents the text it contains from automatically wrapping across multiple lines, potentially resulting in the user having to scroll horizontally to see the entire width of the text.",
+      "type": "properties-and-attributes",
+      "completion": "nobr> (en-US)"
+    },
+    {
+      "name": "noembed (en-US)",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "An obsolete, non-standard way to provide alternative, or \"fallback\", content for browsers that do not support the embed element or do not support the type of <a href=\"/ru/docs/Web/HTML/Content_categories#embedded_content\">embedded content</a> an author wishes to use. This element was deprecated in HTML 4.01 and above in favor of placing fallback content between the opening and closing tags of an <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/object\"><code>&lt;object&gt;</code> <small>(en-US)</small></a> element.",
+      "type": "properties-and-attributes",
+      "completion": "noembed> (en-US)"
+    },
+    {
+      "name": "noframes (en-US)",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Provides content to be presented in browsers that don't support (or have disabled support for) the <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/frame\"><code>&lt;frame&gt;</code> <small>(en-US)</small></a> element. Although most commonly-used browsers support frames, there are exceptions, including certain special-use browsers including some mobile browsers, as well as text-mode browsers.",
+      "type": "properties-and-attributes",
+      "completion": "noframes> (en-US)"
+    },
+    {
+      "name": "param (en-US)",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Defines parameters for an <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/object\"><code>&lt;object&gt;</code> <small>(en-US)</small></a> element.",
+      "type": "properties-and-attributes",
+      "completion": "param> (en-US)"
+    },
+    {
+      "name": "plaintext (en-US)",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Renders everything following the start tag as raw text, ignoring any following HTML. There is no closing tag, since everything after it is considered raw text.",
+      "type": "properties-and-attributes",
+      "completion": "plaintext> (en-US)"
+    },
+    {
+      "name": "rb (en-US)",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Used to delimit the base text component of a ruby annotation, i.e. the text that is being annotated. One <code>&lt;rb&gt;</code> element should wrap each separate atomic segment of the base text.",
+      "type": "properties-and-attributes",
+      "completion": "rb> (en-US)"
+    },
+    {
+      "name": "rtc (en-US)",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Embraces semantic annotations of characters presented in a ruby of <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/rb\"><code>&lt;rb&gt;</code> <small>(en-US)</small></a> elements used inside of <a href=\"/ru/docs/Web/HTML/Element/ruby\"><code>&lt;ruby&gt;</code></a> element. <a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/rb\"><code>&lt;rb&gt;</code> <small>(en-US)</small></a> elements can have both pronunciation (<a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/rt\"><code>&lt;rt&gt;</code> <small>(en-US)</small></a>) and semantic (<a class=\"only-in-en-us\" title=\"Currently only available in English (US)\" href=\"/en-US/docs/Web/HTML/Element/rtc\"><code>&lt;rtc&gt;</code> <small>(en-US)</small></a>) annotations.",
+      "type": "properties-and-attributes",
+      "completion": "rtc> (en-US)"
+    },
+    {
+      "name": "shadow",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "An obsolete part of the <a href=\"/ru/docs/Web/API/Web_components\">Web Components</a> technology suite that was intended to be used as a shadow DOM insertion point. You might have used it if you have created multiple shadow roots under a shadow host.",
+      "type": "properties-and-attributes",
+      "completion": "shadow>"
+    },
+    {
+      "name": "spacer",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Allows insertion of empty spaces on pages. It was devised by Netscape to accomplish the same effect as a single-pixel layout image, which was something web designers used to use to add white spaces to web pages without actually using an image. However, <code>&lt;spacer&gt;</code> is no longer supported by any major browser and the same effects can now be achieved using simple CSS.",
+      "type": "properties-and-attributes",
+      "completion": "spacer>"
+    },
+    {
+      "name": "strike (en-US)",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Places a strikethrough (horizontal line) over text.",
+      "type": "properties-and-attributes",
+      "completion": "strike> (en-US)"
+    },
+    {
+      "name": "tt (en-US)",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Creates inline text which is presented using the user agent default monospace font face. This element was created for the purpose of rendering text as it would be displayed on a fixed-width display such as a teletype, text-only screen, or line printer.",
+      "type": "properties-and-attributes",
+      "completion": "tt> (en-US)"
+    },
+    {
+      "name": "xmp (en-US)",
+      "cat": "Устаревшие и осуждаемые элементы",
+      "desc": "Renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. The HTML2 specification recommended that it should be rendered wide enough to allow 80 characters per line.",
+      "type": "properties-and-attributes",
+      "completion": "xmp> (en-US)"
+    }
+  ]
