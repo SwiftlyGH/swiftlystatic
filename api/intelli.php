@@ -24,13 +24,12 @@ try {
     $lang = "en";
     $filePath = "../airacloud/references/".$syntax."/".$lang.".json";
 
+    echo file_get_contents($filePath);   
+
     // Check if the file exists
     if (!file_exists($filePath)) {
         throw new Exception("File not found. Path: ".$filePath);
     }
-
-    // Read and output file contents
-    echo file_get_contents($filePath);   
 } catch(Exception $e) {
     // Handle exceptions
     http_response_code(500);
