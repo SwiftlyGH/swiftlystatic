@@ -7,6 +7,6 @@ header("Allow: GET, POST, OPTIONS, PUT, DELETE");
 
 header('Content-Type: application/json; charset=utf-8');
 $syntax = str_replace("..", "", $_GET["syntax"]);
-$lang = $_GET["lang"];
+$lang = str_replace("..", "", $_GET["lang"]);
 
 echo file_get_contents("../airacloud/references/$syntax/$lang.json");
