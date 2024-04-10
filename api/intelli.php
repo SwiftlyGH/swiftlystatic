@@ -10,10 +10,6 @@ try {
 
     header('Content-Type: application/json; charset=utf-8');
 
-        
-    echo json_encode(scandir("../"));
-    die();
-
     // Sanitize and validate inputs
     $syntax = isset($_GET["syntax"]) ? basename($_GET["syntax"]) : ""; // Assuming syntax is a file name
     $lang = isset($_GET["lang"]) ? basename($_GET["lang"]) : ""; // Assuming lang is a file name
@@ -26,14 +22,9 @@ try {
     // Construct file path
     $syntax = "html";
     $lang = "en";
-    $filePath = "../airacloud/references/".$syntax."/".$lang.".json";
+    $filePath = "https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/references/".$syntax."/".$lang.".json";
 
-    echo file_get_contents($filePath);   
-
-    // Check if the file exists
-    if (!file_exists($filePath)) {
-        throw new Exception("File not found. Path: ".$filePath);
-    }
+    echo file_get_contents($filePath); 
 } catch(Exception $e) {
     // Handle exceptions
     http_response_code(500);
