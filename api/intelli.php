@@ -20,8 +20,6 @@ try {
     }
 
     // Construct file path
-    $syntax = "html";
-    $lang = "en";
     $filePath = "https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/references/".$syntax."/".$lang.".json";
 
     echo file_get_contents($filePath); 
