@@ -1,20 +1,36 @@
 <?php
-// try {
-//     ini_set('display_errors', 0);
-//     header('Access-Control-Allow-Origin: *');
-//     header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method");
-//     header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
-//     header("Allow: GET, POST, OPTIONS, PUT, DELETE");
+try {
+    ini_set('display_errors', 0);
 
-//     header('Content-Type: application/json; charset=utf-8');
-//     $syntax = str_replace("..", "", $_GET["syntax"]);
-//     $lang = str_replace("..", "", $_GET["lang"]);
-
-//     echo file_get_contents("../airacloud/references/$syntax/$lang.json");   
-// } catch(Error $ERR) {
-//     print_r($ERR);
-// }
+    // Set appropriate CORS headers
+    header('Access-Control-Allow-Origin: http://example.com'); // Set the allowed origin
+    header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method");
+    header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
+    header("Allow: GET, POST, OPTIONS, PUT, DELETE");
 
     header('Content-Type: application/json; charset=utf-8');
-    echo json_encode($_GET);
-    
+
+    // Sanitize and validate inputs
+    $syntax = isset($_GET["syntax"]) ? basename($_GET["syntax"]) : ""; // Assuming syntax is a file name
+    $lang = isset($_GET["lang"]) ? basename($_GET["lang"]) : ""; // Assuming lang is a file name
+
+    // Validate syntax and lang
+    if (empty($syntax) || empty($lang)) {
+        throw new Exception("Syntax and lang parameters are required.");
+    }
+
+    // Construct file path
+    $filePath = "../airacloud/references/{$syntax}/{$lang}.json";
+
+    // Check if the file exists
+    if (!file_exists($filePath)) {
+        throw new Exception("File not found.");
+    }
+
+    // Read and output file contents
+    echo file_get_contents($filePath);   
+} catch(Exception $e) {
+    // Handle exceptions
+    http_response_code(500);
+    echo json_encode(array("error" => $e->getMessage()));
+}
