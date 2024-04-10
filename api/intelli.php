@@ -20,7 +20,7 @@ try {
     }
 
     // Construct file path
-    $filePath = "../airacloud/references/{$syntax}/{$lang}.json";
+    $filePath = "../airacloud/references/$syntax/$lang.json";
 
     // Check if the file exists
     if (!file_exists($filePath)) {
