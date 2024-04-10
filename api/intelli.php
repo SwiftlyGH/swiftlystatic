@@ -10,6 +10,10 @@ try {
 
     header('Content-Type: application/json; charset=utf-8');
 
+        
+    echo json_encode(scandir("../"));
+    die();
+
     // Sanitize and validate inputs
     $syntax = isset($_GET["syntax"]) ? basename($_GET["syntax"]) : ""; // Assuming syntax is a file name
     $lang = isset($_GET["lang"]) ? basename($_GET["lang"]) : ""; // Assuming lang is a file name
