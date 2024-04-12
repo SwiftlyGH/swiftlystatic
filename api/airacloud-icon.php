@@ -17,17 +17,16 @@ if (!isset($_GET['icon']) || !isset($_GET['fill'])) {
 
 $icon = $_GET['icon'];
 $fill = $_GET['fill'];
-
 $svgPath = 'https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/ionicons/'.$icon.'-outline.svg';
 
-if (!file_exists($svgPath)) {
+// if (!file_exists($svgPath)) {
     
-    $svgPath = 'https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/ionicons/help-circle-outline.svg';
-    echo file_get_contents($svgPath);
-    die();
-}
+//     $svgPath = 'https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/ionicons/help-circle-outline.svg';
+//     echo file_get_contents($svgPath);
+//     die();
+// }
 
 $svgContent = file_get_contents($svgPath);
-$svgContent = str_replace('#000', $fill, $svgContent);
+$svgContent = str_replace('#000', str_replace("0x", "#", $fill), $svgContent);
 
 echo $svgContent;
