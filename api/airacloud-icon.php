@@ -10,7 +10,7 @@
 header('Content-type: image/svg+xml');
 
 if (!isset($_GET['icon']) || !isset($_GET['fill'])) {
-    $svgPath = '../airacloud/ionicons/help-circle-outline.svg';
+    $svgPath = 'https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/ionicons/help-circle-outline.svg';
     echo file_get_contents($svgPath);
     die();
 }
@@ -18,10 +18,11 @@ if (!isset($_GET['icon']) || !isset($_GET['fill'])) {
 $icon = $_GET['icon'];
 $fill = $_GET['fill'];
 
-$svgPath = '../airacloud/ionicons/'.$icon.'-outline.svg';
+$svgPath = 'https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/ionicons/'.$icon.'-outline.svg';
 
 if (!file_exists($svgPath)) {
-    $svgPath = '../airacloud/ionicons/help-circle-outline.svg';
+    
+    $svgPath = 'https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/ionicons/help-circle-outline.svg';
     echo file_get_contents($svgPath);
     die();
 }

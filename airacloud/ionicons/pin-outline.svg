@@ -11,13 +11,13 @@
   <g
      id="g3"
      transform="translate(12.198354,-8.4102203)"
-     style="stroke:#000000">
+     style="stroke:#000">
     <path
-       style="fill:none;stroke:#000000;stroke-width:32.126;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       style="fill:none;stroke:#000;stroke-width:32.126;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
        d="M 33.562549,474.1237 145.63423,366.40463"
        id="path378" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:32.126;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       style="fill:none;stroke:#000;stroke-width:32.126;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
        d="M 65.906352,286.04934 225.36212,446.75988 c 20.35703,23.76722 24.80202,3.20818 31.6303,-10.71178 L 293.4124,333.2152 425.167,270.01579 c 56.41036,-26.67288 16.24188,-64.04209 -1.60679,-85.15842 L 305.19531,69.705926 c -13.06568,-12.45796 -49.52829,-34.70581 -72.84,21.42354 L 170.22709,223.9553 85.301672,249.08984 c -16.57156,4.21719 -39.76025,16.06064 -19.39532,36.9595 z"
        id="path379" />
   </g>
