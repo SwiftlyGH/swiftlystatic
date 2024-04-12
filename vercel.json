@@ -7,6 +7,10 @@
     "routes": [
         { "src": "/airacloud/intelli", "dest": "/api/intelli.php" },
         { "src": "/airacloud/favicon.ico", "dest": "/airacloud/favicon.ico" },
-        { "src": "/airacloud/favicon.svg", "dest": "/airacloud/favicon.svg" }
+        { "src": "/airacloud/favicon.svg", "dest": "/airacloud/favicon.svg" },
+        { "src": "/airacloud/background-colors.png", "dest": "/airacloud/background-colors.png" },
+        { "src": "/airacloud/aira.sidebar.svg", "dest": "/airacloud/aira.sidebar.svg" },
+        { "src": "/airacloud/coming-soon.png", "dest": "coming-soon.png" },
+        { "src": "/airacloud/loaderbg.png", "dest": "/airacloud/loaderbg.png" }
     ]
 }
