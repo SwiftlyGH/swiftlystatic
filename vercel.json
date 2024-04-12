@@ -5,6 +5,8 @@
         }
     },
     "routes": [
-        { "src": "/intelli", "dest": "/api/intelli.php" }
+        { "src": "/airacloud/intelli", "dest": "/api/intelli.php" },
+        { "src": "/airacloud/favicon.ico", "dest": "/airacloud/favicon.ico" },
+        { "src": "/airacloud/favicon.svg", "dest": "/airacloud/favicon.svg" }
     ]
 }

@@ -21,8 +21,13 @@ try {
 
     // Construct file path
     $filePath = "https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/references/".$syntax."/".$lang.".json";
-
-    echo file_get_contents($filePath); 
+    $content = file_get_contents($filePath);
+    if(str_contains($content, "404: Not Found")) {
+        $lang = "en";
+        $filePath = "https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/references/".$syntax."/".$lang.".json";
+        $content = file_get_contents($filePath);
+    }
+    echo $content; 
 } catch(Exception $e) {
     // Handle exceptions
     http_response_code(500);
