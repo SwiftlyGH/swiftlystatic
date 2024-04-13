@@ -1,926 +1,162 @@
 [
-    {
-      "name": "html",
-      "cat": "メインルート",
-      "desc": "HTML 文書のルート（最上位要素）を表すため、<em>ルート要素</em>とも呼ばれます。他のすべての要素は、この要素の子孫として配置しなければなりません。",
-      "type": "properties-and-attributes",
-      "completion": "html>"
-    },
-    {
-      "name": "base",
-      "cat": "文書メタデータ",
-      "desc": "文書内におけるすべての相対 URL の基点となる URL を指定します。文書内に 1 つだけ置くことができます。",
-      "type": "properties-and-attributes",
-      "completion": "base>"
-    },
-    {
-      "name": "head",
-      "cat": "文書メタデータ",
-      "desc": "文書に関する機械可読な情報（メタデータ）、たとえば<a href=\"/ja/docs/Web/HTML/Element/title\">タイトル</a>、<a href=\"/ja/docs/Web/HTML/Element/script\">スクリプト</a>、<a href=\"/ja/docs/Web/HTML/Element/style\">スタイルシート</a>などを含みます。",
-      "type": "properties-and-attributes",
-      "completion": "head>"
-    },
-    {
-      "name": "link",
-      "cat": "文書メタデータ",
-      "desc": "現在の文書と外部リソースとの関係を指定します。この要素は CSS をリンクするために最もよく使用されますが、他にもサイトアイコン（「ファビコン」スタイルのアイコンやモバイル端末でのホーム画面やアプリのアイコンの両方）を設定するために使用されます。",
-      "type": "properties-and-attributes",
-      "completion": "link>"
-    },
-    {
-      "name": "meta",
-      "cat": "文書メタデータ",
-      "desc": "<a href=\"/ja/docs/Glossary/Metadata\">メタデータ</a>を表します。これは、他のメタ関連要素 (<a href=\"/ja/docs/Web/HTML/Element/base\"><code>&lt;base&gt;</code></a>, <a href=\"/ja/docs/Web/HTML/Element/link\"><code>&lt;link&gt;</code></a>, <a href=\"/ja/docs/Web/HTML/Element/script\"><code>&lt;script&gt;</code></a>, <a href=\"/ja/docs/Web/HTML/Element/style\"><code>&lt;style&gt;</code></a>, <a href=\"/ja/docs/Web/HTML/Element/title\"><code>&lt;title&gt;</code></a>) で表すことができないものを表します。",
-      "type": "properties-and-attributes",
-      "completion": "meta>"
-    },
-    {
-      "name": "style",
-      "cat": "文書メタデータ",
-      "desc": "文書あるいは文書の一部分のスタイル情報を含みます。 <code>&lt;style&gt;</code> 要素を含んでいる文書のコンテンツに適用される CSS を含みます。",
-      "type": "properties-and-attributes",
-      "completion": "style>"
-    },
-    {
-      "name": "title",
-      "cat": "文書メタデータ",
-      "desc": "<a href=\"/ja/docs/Glossary/Browser\">ブラウザー</a>のタイトルバーやページのタブに表示される文書のタイトルを定義します。テキストのみを含めることができます。要素内のタグはすべて無視されます。",
-      "type": "properties-and-attributes",
-      "completion": "title>"
-    },
-    {
-      "name": "body",
-      "cat": "区分化ルート",
-      "desc": "HTML 文書のコンテンツを示す要素です。文書中に 1 つだけ配置できます。",
-      "type": "properties-and-attributes",
-      "completion": "body>"
-    },
-    {
-      "name": "address",
-      "cat": "コンテンツ区分",
-      "desc": "これを含んでいる HTML が個人、団体、組織の連絡先を提供していることを示します。",
-      "type": "properties-and-attributes",
-      "completion": "address>"
-    },
-    {
-      "name": "article",
-      "cat": "コンテンツ区分",
-      "desc": "文書、ページ、アプリケーション、サイトなどの中で自己完結しており、（集合したものの中で）個別に配信や再利用を行うことを意図した構成物を表します。例えば、フォーラムの投稿、雑誌や新聞の記事、ブログの記事、商品カード、ユーザーが投稿したコメント、対話型のウィジェットやガジェット、その他の独立したコンテンツの項目が含まれます。",
-      "type": "properties-and-attributes",
-      "completion": "article>"
-    },
-    {
-      "name": "aside",
-      "cat": "コンテンツ区分",
-      "desc": "文書のメインコンテンツと間接的な関係しか持っていない文書の部分を表現します。サイドバーやコールアウトボックスなどを表現するためによく使われます。",
-      "type": "properties-and-attributes",
-      "completion": "aside>"
-    },
-    {
-      "name": "footer",
-      "cat": "コンテンツ区分",
-      "desc": "直近の<a href=\"/ja/docs/Web/HTML/Content_categories#%E5%8C%BA%E5%88%86%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84\">区分コンテンツ</a>または<a href=\"/ja/docs/Web/HTML/Element/Heading_Elements\">区分化ルート</a>要素のフッターを表します。フッターには通常、そのセクションの著作者に関する情報、関連文書へのリンク、著作権情報等を含めます。",
-      "type": "properties-and-attributes",
-      "completion": "footer>"
-    },
-    {
-      "name": "header",
-      "cat": "コンテンツ区分",
-      "desc": "導入的なコンテンツ、ふつうは導入部やナビゲーション等のグループを表します。見出し要素だけでなく、ロゴ、検索フォーム、作者名、その他の要素を含むこともできます。",
-      "type": "properties-and-attributes",
-      "completion": "header>"
-    },
-    {
-      "name": "h1, <h2>, <h3>, <h4>, <h5>, <h6>",
-      "cat": "コンテンツ区分",
-      "desc": "セクションの見出しを 6 段階で表します。<code>&lt;h1&gt;</code> が最上位で、<code>&lt;h6&gt;</code> が最下位です。",
-      "type": "properties-and-attributes",
-      "completion": "h1>, <h2>, <h3>, <h4>, <h5>, <h6>"
-    },
-    {
-      "name": "hgroup",
-      "cat": "コンテンツ区分",
-      "desc": "小見出し、代替タイトル、キャッチフレーズなどの副次的コンテンツとグループ化された見出しを表します。",
-      "type": "properties-and-attributes",
-      "completion": "hgroup>"
-    },
-    {
-      "name": "main",
-      "cat": "コンテンツ区分",
-      "desc": "文書の本体の主要な内容を表します。主要な内容とは、文書の中心的な主題、またはアプリケーションの中心的な機能に直接関連または拡張した内容の範囲のことです。",
-      "type": "properties-and-attributes",
-      "completion": "main>"
-    },
-    {
-      "name": "nav",
-      "cat": "コンテンツ区分",
-      "desc": "現在の文書内の他の部分や他の文書へのナビゲーションリンクを提供するためのセクションを表します。ナビゲーションセクションの一般的な例としてメニュー、目次、索引などがあります。",
-      "type": "properties-and-attributes",
-      "completion": "nav>"
-    },
-    {
-      "name": "section",
-      "cat": "コンテンツ区分",
-      "desc": "文書の自立した一般的なセクション (区間) を表します。そのセクションを表現するより意味的に具体的な要素がない場合に使用します。少数の例外を除いて、セクションには見出しを置いてください。",
-      "type": "properties-and-attributes",
-      "completion": "section>"
-    },
-    {
-      "name": "search",
-      "cat": "コンテンツ区分",
-      "desc": "検索または絞り込み処理を実行することに関連する一連のフォームコントロールまたは他のコンテンツを含む部分を表します。",
-      "type": "properties-and-attributes",
-      "completion": "search>"
-    },
-    {
-      "name": "blockquote",
-      "cat": "テキストコンテンツ",
-      "desc": "内包するテキストが引用文であることを示します。通常、字下げを伴ってレンダリングされます。<code>cite</code> 属性により引用元の文書の URL を、 <a href=\"/ja/docs/Web/HTML/Element/cite\"><code>&lt;cite&gt;</code></a> 要素により引用元の文書のタイトルなどを明示可能です。",
-      "type": "properties-and-attributes",
-      "completion": "blockquote>"
-    },
-    {
-      "name": "dd",
-      "cat": "テキストコンテンツ",
-      "desc": "説明リスト要素 (<a href=\"/ja/docs/Web/HTML/Element/dl\"><code>&lt;dl&gt;</code></a>) 内で、その前の用語 (<a href=\"/ja/docs/Web/HTML/Element/dt\"><code>&lt;dt&gt;</code></a>) の説明、定義、値などを示します。",
-      "type": "properties-and-attributes",
-      "completion": "dd>"
-    },
-    {
-      "name": "div",
-      "cat": "テキストコンテンツ",
-      "desc": "フローコンテンツの汎用コンテナーです。 <a href=\"/ja/docs/Glossary/CSS\">CSS</a> を用いて何らかのスタイル付け（例えば、スタイルが直接適用されたり、親要素に<a href=\"/ja/docs/Glossary/Flexbox\">フレックスボックス</a>などの何らかのレイアウトモデルが適用されるなど）がされない限り、コンテンツやレイアウトには影響を与えません。",
-      "type": "properties-and-attributes",
-      "completion": "div>"
-    },
-    {
-      "name": "dl",
-      "cat": "テキストコンテンツ",
-      "desc": "説明リストを表します。この要素は、一連の用語（<a href=\"/ja/docs/Web/HTML/Element/dt\"><code>&lt;dt&gt;</code></a> 要素を使用して指定）と説明（<a href=\"/ja/docs/Web/HTML/Element/dd\"><code>&lt;dd&gt;</code></a> 要素によって提供）をリスト化したものです。一般的な使用例として、用語集の作成やメタデータ（キーと値のペアのリスト）の表示が挙げられます。",
-      "type": "properties-and-attributes",
-      "completion": "dl>"
-    },
-    {
-      "name": "dt",
-      "cat": "テキストコンテンツ",
-      "desc": "説明または定義リストの中で用語を表す部分であり、 <a href=\"/ja/docs/Web/HTML/Element/dl\"><code>&lt;dl&gt;</code></a> の子要素としてのみ用いることができます。普通は <a href=\"/ja/docs/Web/HTML/Element/dd\"><code>&lt;dd&gt;</code></a> 要素が続きます。しかし、複数の <code>&lt;dt&gt;</code> 要素が続くと、複数の用語がすぐ後に続く <a href=\"/ja/docs/Web/HTML/Element/dd\"><code>&lt;dd&gt;</code></a> 要素で定義されていることを表します。",
-      "type": "properties-and-attributes",
-      "completion": "dt>"
-    },
-    {
-      "name": "figcaption",
-      "cat": "テキストコンテンツ",
-      "desc": "親の <a href=\"/ja/docs/Web/HTML/Element/figure\"><code>&lt;figure&gt;</code></a> 要素内にあるその他のコンテンツを説明するキャプションや凡例を表します。",
-      "type": "properties-and-attributes",
-      "completion": "figcaption>"
-    },
-    {
-      "name": "figure",
-      "cat": "テキストコンテンツ",
-      "desc": "自己完結型のコンテンツを表し、任意で <a href=\"/ja/docs/Web/HTML/Element/figcaption\"><code>&lt;figcaption&gt;</code></a> 要素を使用して表されるキャプションを付けることができます。図、すなわちキャプションとその中身は一つの単位として参照されます。",
-      "type": "properties-and-attributes",
-      "completion": "figure>"
-    },
-    {
-      "name": "hr",
-      "cat": "テキストコンテンツ",
-      "desc": "段落レベルの要素間において、テーマの意味的な区切りを表します。例えば、話の場面の切り替えや、節内での話題の転換などです。",
-      "type": "properties-and-attributes",
-      "completion": "hr>"
-    },
-    {
-      "name": "li",
-      "cat": "テキストコンテンツ",
-      "desc": "リストの項目を表すために用いられます。この要素は、その項目が属する順序付きリスト (<a href=\"/ja/docs/Web/HTML/Element/ol\"><code>&lt;ol&gt;</code></a>)、順序なしリスト (<a href=\"/ja/docs/Web/HTML/Element/ul\"><code>&lt;ul&gt;</code></a>)、メニュー (<a href=\"/ja/docs/Web/HTML/Element/menu\"><code>&lt;menu&gt;</code></a>) のいずれかの子要素として配置する必要があります。メニュー要素および順序なしリスト内においては、リストの項目は通常、行頭文字伴って表示され、順序付きリスト内では、数字や文字による連番のリストマーカーを伴って表示されます。",
-      "type": "properties-and-attributes",
-      "completion": "li>"
-    },
-    {
-      "name": "menu",
-      "cat": "テキストコンテンツ",
-      "desc": "<a href=\"/ja/docs/Web/HTML/Element/ul\"><code>&lt;ul&gt;</code></a> とは異なる意味づけですが、ブラウザーでは <a href=\"/ja/docs/Web/HTML/Element/ul\"><code>&lt;ul&gt;</code></a> と同じものとして扱われます（アクセシビリティツリーで公開されます）。（<a href=\"/ja/docs/Web/HTML/Element/li\"><code>&lt;li&gt;</code></a> 要素で表現される）項目の順不同リストを表します。",
-      "type": "properties-and-attributes",
-      "completion": "menu>"
-    },
-    {
-      "name": "ol",
-      "cat": "テキストコンテンツ",
-      "desc": "項目の順序付きリストを表します。ふつうは番号付きのリストとして表示されます。",
-      "type": "properties-and-attributes",
-      "completion": "ol>"
-    },
-    {
-      "name": "p",
-      "cat": "テキストコンテンツ",
-      "desc": "テキストの段落を表します。視覚メディアにおいて、段落はふつう隣接するブロックと上下の空白や最初の行の字下げによって隔てられたテキストのブロックとして表現されますが、 HTML の段落は画像やフォーム欄などの関連するコンテンツを構造的にまとめることができます。",
-      "type": "properties-and-attributes",
-      "completion": "p>"
-    },
-    {
-      "name": "pre",
-      "cat": "テキストコンテンツ",
-      "desc": "整形済みテキスト (preformatted text) を表します。この要素内のテキストは一般的に、ファイル内でのレイアウトをそのまま反映して<a href=\"https://ja.wikipedia.org/wiki/%E7%AD%89%E5%B9%85%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88\" class=\"external\" target=\"_blank\">等幅フォント</a>で表示されます。この要素内のホワイトスペース文字はそのまま表示します。",
-      "type": "properties-and-attributes",
-      "completion": "pre>"
-    },
-    {
-      "name": "ul",
-      "cat": "テキストコンテンツ",
-      "desc": "項目の順序なしリストを表します。一般的に、行頭記号を伴うリストとして描画されます。",
-      "type": "properties-and-attributes",
-      "completion": "ul>"
-    },
-    {
-      "name": "a",
-      "cat": "インラインテキスト意味付け",
-      "desc": "<code>href</code> 属性を用いて、ウェブページ、ファイル、メールアドレス、同一ページ内の場所、または他の URL へのハイパーリンクを作成します。",
-      "type": "properties-and-attributes",
-      "completion": "a>"
-    },
-    {
-      "name": "abbr",
-      "cat": "インラインテキスト意味付け",
-      "desc": "略語や頭字語を表します。",
-      "type": "properties-and-attributes",
-      "completion": "abbr>"
-    },
-    {
-      "name": "b",
-      "cat": "インラインテキスト意味付け",
-      "desc": "要素の内容に読み手の注意を惹きたい場合で、他の特別な重要性が与えられないものに使用します。これは以前は太字要素と呼ばれており、ほとんどのブラウザーでは文字列を太字で描画していました。しかし、 <code>&lt;b&gt;</code> を文字列の装飾に使うべきではありません。太字の文字列を作成するには、 CSS の <a href=\"/ja/docs/Web/CSS/font-weight\"><code>font-weight</code></a> プロパティを使用し、特別な重要性を持つテキストを示すには <a href=\"/ja/docs/Web/HTML/Element/strong\"><code>&lt;strong&gt;</code></a> 要素を使用してください。",
-      "type": "properties-and-attributes",
-      "completion": "b>"
-    },
-    {
-      "name": "bdi",
-      "cat": "インラインテキスト意味付け",
-      "desc": "ブラウザーの書字方向アルゴリズムにこのテキストが周囲のテキストから独立していると扱うよう指示します。これは特に、ウェブサイトがテキストを動的に挿入し、挿入されるテキストの書字方向が不明な場合に便利です。",
-      "type": "properties-and-attributes",
-      "completion": "bdi>"
-    },
-    {
-      "name": "bdo",
-      "cat": "インラインテキスト意味付け",
-      "desc": "現在のテキストの書字方向を上書きし、中のテキストが異なる書字方向で描画されるようにします。",
-      "type": "properties-and-attributes",
-      "completion": "bdo>"
-    },
-    {
-      "name": "br",
-      "cat": "インラインテキスト意味付け",
-      "desc": "文中に改行（キャリッジリターン）を生成します。詩や住所など、行の分割が重要な場合に有用です。",
-      "type": "properties-and-attributes",
-      "completion": "br>"
-    },
-    {
-      "name": "cite",
-      "cat": "インラインテキスト意味付け",
-      "desc": "引用された創作物の参照を表し、作品のタイトルを含む必要があります。参照は、引用メタデータに関する利用場面に合わせた慣習に応じて省略形が用いられることがあります。",
-      "type": "properties-and-attributes",
-      "completion": "cite>"
-    },
-    {
-      "name": "code",
-      "cat": "インラインテキスト意味付け",
-      "desc": "コンピューターコードの短い断片の文字列であると識別できるような外見のコンテンツを表示します。既定では、中の文字列がユーザーエージェントの既定の等幅フォントを使用して表示されます。",
-      "type": "properties-and-attributes",
-      "completion": "code>"
-    },
-    {
-      "name": "data",
-      "cat": "インラインテキスト意味付け",
-      "desc": "与えられたコンテンツの断片を機械可読な翻訳にリンクします。コンテンツが時刻または日付に関連するものであれば、time 要素を使用する必要があります。",
-      "type": "properties-and-attributes",
-      "completion": "data>"
-    },
-    {
-      "name": "dfn",
-      "cat": "インラインテキスト意味付け",
-      "desc": "定義句や文の文脈の中で定義している用語を示すために用いられます。 <code>&lt;dfn&gt;</code> の直近の祖先である <a href=\"/ja/docs/Web/HTML/Element/p\"><code>&lt;p&gt;</code></a> 要素、 <a href=\"/ja/docs/Web/HTML/Element/dt\"><code>&lt;dt&gt;</code></a>/<a href=\"/ja/docs/Web/HTML/Element/dd\"><code>&lt;dd&gt;</code></a> の組み合わせ、 <a href=\"/ja/docs/Web/HTML/Element/section\"><code>&lt;section&gt;</code></a> 要素が用語の定義とみなされます。",
-      "type": "properties-and-attributes",
-      "completion": "dfn>"
-    },
-    {
-      "name": "em",
-      "cat": "インラインテキスト意味付け",
-      "desc": "強調されたテキストを示します。<code>&lt;em&gt;</code> 要素は入れ子にすることができ、入れ子の段階に応じてより強い程度の強調を表すことができます。",
-      "type": "properties-and-attributes",
-      "completion": "em>"
-    },
-    {
-      "name": "i",
-      "cat": "インラインテキスト意味付け",
-      "desc": "何らかの理由で他のテキストと区別されるテキストの範囲を表します。例えば、慣用句、技術用語、分類学上の呼称、などです。英文においてはよくイタリック体で表現されてきたものであり、それがこの要素の <code>&lt;i&gt;</code> という名前の元になっています。",
-      "type": "properties-and-attributes",
-      "completion": "i>"
-    },
-    {
-      "name": "kbd",
-      "cat": "インラインテキスト意味付け",
-      "desc": "キーボード、音声入力、その他の入力端末からのユーザーによる文字入力を表すインラインの文字列の区間を表します。慣習的に、ユーザーエージェントは既定で <code>&lt;kbd&gt;</code> 要素の中身を等幅フォントで表示しますが、 HTML 標準で規定されているものではありません。",
-      "type": "properties-and-attributes",
-      "completion": "kbd>"
-    },
-    {
-      "name": "mark",
-      "cat": "インラインテキスト意味付け",
-      "desc": "周囲の文脈の中でマークを付けた部分の関連性や重要性のために、参照や記述の目的で目立たせたり強調したりする文字列を表します。",
-      "type": "properties-and-attributes",
-      "completion": "mark>"
-    },
-    {
-      "name": "q",
-      "cat": "インラインテキスト意味付け",
-      "desc": "その内容がインラインの引用であることを表します。最近の多くのブラウザーでは、文字列を引用符で囲むように実装しています。この要素は、段落区切りをまたがない短い引用のためのものです。長文の引用には、 <a href=\"/ja/docs/Web/HTML/Element/blockquote\"><code>&lt;blockquote&gt;</code></a> 要素を使用してください。",
-      "type": "properties-and-attributes",
-      "completion": "q>"
-    },
-    {
-      "name": "rp",
-      "cat": "インラインテキスト意味付け",
-      "desc": "<a href=\"/ja/docs/Web/HTML/Element/ruby\"><code>&lt;ruby&gt;</code></a> 要素によるルビの表示に対応していないブラウザー向けの代替表示用括弧を提供するために使用します。<code>&lt;rp&gt;</code> 要素は、注釈の文字列を <a href=\"/ja/docs/Web/HTML/Element/rt\"><code>&lt;rt&gt;</code></a> 要素を囲む開き括弧と閉じ括弧をそれぞれ囲む必要があります。",
-      "type": "properties-and-attributes",
-      "completion": "rp>"
-    },
-    {
-      "name": "rt",
-      "cat": "インラインテキスト意味付け",
-      "desc": "ルビによる注釈（振り仮名）のルビ文字列の部分を定義し、東アジアの組版において発音、翻訳、音写などの情報を提供するために使用します。 <code>&lt;rt&gt;</code> 要素は常に <a href=\"/ja/docs/Web/HTML/Element/ruby\"><code>&lt;ruby&gt;</code></a> 要素の中で使用されます。",
-      "type": "properties-and-attributes",
-      "completion": "rt>"
-    },
-    {
-      "name": "ruby",
-      "cat": "インラインテキスト意味付け",
-      "desc": "ベーステキストの上、下、隣に描画される小さな注釈で、よく東アジアの文字の発音を表すのに使われます。他の種類の注釈にも使われることがありますが、この使い方はあまり一般的ではありません。",
-      "type": "properties-and-attributes",
-      "completion": "ruby>"
-    },
-    {
-      "name": "s",
-      "cat": "インラインテキスト意味付け",
-      "desc": "取り消し線を引いた文字列を表示します。 <code>&lt;s&gt;</code> 要素はすでに適切または正確ではなくなった事柄を表現します。しかし、文書の修正を示す場合、 <code>&lt;s&gt;</code> 要素は適切ではありません。この場合は del と ins の方が適しているので、こちらを使用してください。",
-      "type": "properties-and-attributes",
-      "completion": "s>"
-    },
-    {
-      "name": "samp",
-      "cat": "インラインテキスト意味付け",
-      "desc": "コンピュータープログラムからのサンプル出力を表すインライン文字列を含めるために使用されます。内容は普通、ブラウザーの既定の等幅フォント（<a href=\"https://ja.wikipedia.org/wiki/Courier_(%E6%9B%B8%E4%BD%93)\" class=\"external\" target=\"_blank\">Courier</a> や Lucida Console など）を使用して表示されます。",
-      "type": "properties-and-attributes",
-      "completion": "samp>"
-    },
-    {
-      "name": "small",
-      "cat": "インラインテキスト意味付け",
-      "desc": "表示上のスタイルとは関係なく、著作権表示や法的表記のような、注釈や小さく表示される文を表します。既定では、 <code>small</code> から <code>x-small</code> のように、一段階小さいフォントでテキストが表示されます。",
-      "type": "properties-and-attributes",
-      "completion": "small>"
-    },
-    {
-      "name": "span",
-      "cat": "インラインテキスト意味付け",
-      "desc": "記述コンテンツの汎用的なインラインコンテナーであり、何かを表すものではありません。スタイル付けのため（<code>class</code> または <code>id</code> 属性を使用して）、または <code>lang</code> のような属性値を共有したりするために要素をグループ化する用途で使用することができます。他に適切な意味的要素がない時にのみ使用してください。 <code>&lt;span&gt;</code> は <a href=\"/ja/docs/Web/HTML/Element/div\"><code>&lt;div&gt;</code></a> 要素ととても似ていますが、<a href=\"/ja/docs/Web/HTML/Element/div\"><code>&lt;div&gt;</code></a> が<a href=\"/ja/docs/Glossary/Block-level_content\">ブロックレベル要素</a>であるのに対し、 <code>&lt;span&gt;</code> は<a href=\"/ja/docs/Glossary/Inline-level_content\">インラインレベル要素</a>です。",
-      "type": "properties-and-attributes",
-      "completion": "span>"
-    },
-    {
-      "name": "strong",
-      "cat": "インラインテキスト意味付け",
-      "desc": "内容の重要性、重大性、または緊急性が高いテキストを表します。ブラウザーは一般的に太字で描画します。",
-      "type": "properties-and-attributes",
-      "completion": "strong>"
-    },
-    {
-      "name": "sub",
-      "cat": "インラインテキスト意味付け",
-      "desc": "表記上の理由で下付き文字として表示するべきインライン文字列を指定します。下付き文字は普通、小さめのテキストを使用してベースラインよりも低く表示されます。",
-      "type": "properties-and-attributes",
-      "completion": "sub>"
-    },
-    {
-      "name": "sup",
-      "cat": "インラインテキスト意味付け",
-      "desc": "表記上の理由で上付き文字として表示するべきインライン文字列を指定します。上付き文字は普通、小さめのテキストを使用して高いベースラインで表示されます。",
-      "type": "properties-and-attributes",
-      "completion": "sup>"
-    },
-    {
-      "name": "time",
-      "cat": "インラインテキスト意味付け",
-      "desc": "特定の時の区間を表します。 <code>datetime</code> 属性を使用して、機械可読な形式の日付を記述することができ、検索エンジンの結果を改善したりリマインダーなどの独自機能に使用したりすることができます。",
-      "type": "properties-and-attributes",
-      "completion": "time>"
-    },
-    {
-      "name": "u",
-      "cat": "インラインテキスト意味付け",
-      "desc": "非言語的に注釈があることを示す方法で表示するインラインテキストの区間を示します。これは既定で単純な実線の下線として表示されますが、 CSS を使用して変更することもできます。",
-      "type": "properties-and-attributes",
-      "completion": "u>"
-    },
-    {
-      "name": "var",
-      "cat": "インラインテキスト意味付け",
-      "desc": "数式やプログラムコード内の変数の名前を表します。挙動はブラウザーに依存しますが、通常は現在のフォントのイタリック体を使って表示されます。",
-      "type": "properties-and-attributes",
-      "completion": "var>"
-    },
-    {
-      "name": "wbr",
-      "cat": "インラインテキスト意味付け",
-      "desc": "改行可能位置 — テキスト内でブラウザーが任意で改行してよい位置を表しますが、この改行規則は必要のない場合は改行を行いません。",
-      "type": "properties-and-attributes",
-      "completion": "wbr>"
-    },
-    {
-      "name": "area",
-      "cat": "画像とマルチメディア",
-      "desc": "イメージマップの中でクリック可能な領域をあらかじめ定義します。<em>イメージマップ</em>では、画像上の幾何学的な領域を<a href=\"/ja/docs/Glossary/Hyperlink\">ハイパーテキストリンク</a>と関連付けすることができます。",
-      "type": "properties-and-attributes",
-      "completion": "area>"
-    },
-    {
-      "name": "audio",
-      "cat": "画像とマルチメディア",
-      "desc": "文書内に音声コンテンツを埋め込むために使用します。この要素は、1 つまたは複数の音源を含むことができます。音源は <code>src</code> 属性または source 要素を使用して表し、ブラウザーがもっとも適切な音源を選択します。また、 <a href=\"/ja/docs/Web/API/MediaStream\"><code>MediaStream</code></a> を使用してストリーミングメディアを指し示すこともできます。",
-      "type": "properties-and-attributes",
-      "completion": "audio>"
-    },
-    {
-      "name": "img",
-      "cat": "画像とマルチメディア",
-      "desc": "文書に画像を埋め込みます。",
-      "type": "properties-and-attributes",
-      "completion": "img>"
-    },
-    {
-      "name": "map",
-      "cat": "画像とマルチメディア",
-      "desc": "<a href=\"/ja/docs/Web/HTML/Element/area\"><code>&lt;area&gt;</code></a> 要素とともに、イメージマップ（クリック可能なリンク領域）を定義するために使用します。",
-      "type": "properties-and-attributes",
-      "completion": "map>"
-    },
-    {
-      "name": "track",
-      "cat": "画像とマルチメディア",
-      "desc": "メディア要素 (audio および video) の子として使用します。この要素は自動的に処理される字幕など、時間指定されたテキストトラック（または時系列データ）を指定することができます。トラックは <a href=\"/ja/docs/Web/API/WebVTT_API\">WebVTT 形式</a> (<code>.vtt</code> ファイル) を用います。",
-      "type": "properties-and-attributes",
-      "completion": "track>"
-    },
-    {
-      "name": "video",
-      "cat": "画像とマルチメディア",
-      "desc": "文書中に動画再生に対応するメディアプレイヤーを埋め込みます。 <code>&lt;video&gt;</code> を音声コンテンツのために使用することもできますが、audio 要素の方がユーザーにとって使い勝手が良いかもしれません。",
-      "type": "properties-and-attributes",
-      "completion": "video>"
-    },
-    {
-      "name": "embed",
-      "cat": "埋め込みコンテンツ",
-      "desc": "外部のコンテンツを文書中の指定された場所に埋め込みます。コンテンツは外部アプリケーションや、対話型コンテンツの他の出所 (ブラウザーのプラグインなど) によって提供されます。",
-      "type": "properties-and-attributes",
-      "completion": "embed>"
-    },
-    {
-      "name": "iframe",
-      "cat": "埋め込みコンテンツ",
-      "desc": "入れ子になった閲覧コンテキストを表現し、現在の HTML ページに他のページを埋め込むことができます。",
-      "type": "properties-and-attributes",
-      "completion": "iframe>"
-    },
-    {
-      "name": "object",
-      "cat": "埋め込みコンテンツ",
-      "desc": "画像、内部の閲覧コンテキスト、プラグインによって扱われるリソースなどのように扱われる外部リソースを表します。",
-      "type": "properties-and-attributes",
-      "completion": "object>"
-    },
-    {
-      "name": "picture",
-      "cat": "埋め込みコンテンツ",
-      "desc": "0 個以上の <a href=\"/ja/docs/Web/HTML/Element/source\"><code>&lt;source&gt;</code></a> 要素と一つの <a href=\"/ja/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a> 要素を含み、様々な画面や端末の条件に応じた画像を提供します。",
-      "type": "properties-and-attributes",
-      "completion": "picture>"
-    },
-    {
-      "name": "portal",
-      "cat": "埋め込みコンテンツ",
-      "desc": "他の HTML ページを現在のページに埋め込み、新しいページへの移動がスムーズにできるようにします。",
-      "type": "properties-and-attributes",
-      "completion": "portal>"
-    },
-    {
-      "name": "source",
-      "cat": "埋め込みコンテンツ",
-      "desc": "picture 要素、audio 要素、video 要素に対し、複数のメディアリソースを指定します。この要素は空要素であり、つまり中身も閉じタグもありません。<a href=\"/ja/docs/Web/Media/Formats/Image_types\">画像ファイル形式</a>や<a href=\"/ja/docs/Web/Media/Formats\">メディアファイル形式</a>の対応状況が様々であるブラウザーの幅広い互換性を確保するために、同じメディアコンテンツを複数のファイル形式で提供することはよくあることです。",
-      "type": "properties-and-attributes",
-      "completion": "source>"
-    },
-    {
-      "name": "svg",
-      "cat": "SVG と MathML",
-      "desc": "新しい座標系と<a href=\"/ja/docs/Web/SVG/Attribute/viewBox\">ビューポート</a>を定義するコンテナーです。これは SVG 文書の最も外側の要素として使用されますが、SVG または HTML 文書の中に SVG フラグメントを埋め込むためにも使用できます。",
-      "type": "properties-and-attributes",
-      "completion": "svg>"
-    },
-    {
-      "name": "math",
-      "cat": "SVG と MathML",
-      "desc": "MathML における最上位の要素です。すべての有効な MathML のインスタンスを囲みます。加えて、 <code>&lt;math&gt;</code> 要素を入れ子状に配置してはなりませんが、中にその他の子要素をいくつでも持つことができます。",
-      "type": "properties-and-attributes",
-      "completion": "math>"
-    },
-    {
-      "name": "canvas",
-      "cat": "スクリプト",
-      "desc": "<a href=\"/ja/docs/Web/API/Canvas_API\">Canvas スクリプティング API</a> や <a href=\"/ja/docs/Web/API/WebGL_API\">WebGL API</a> を使用して、グラフィックやアニメーションを描画することができるコンテナー要素です。",
-      "type": "properties-and-attributes",
-      "completion": "canvas>"
-    },
-    {
-      "name": "noscript",
-      "cat": "スクリプト",
-      "desc": "このページ上のスクリプトの種類に対応していない場合や、スクリプトの実行がブラウザーで無効にされている場合に表示する HTML の部分を定義します。",
-      "type": "properties-and-attributes",
-      "completion": "noscript>"
-    },
-    {
-      "name": "script",
-      "cat": "スクリプト",
-      "desc": "実行できるコードやデータを埋め込むために使用します。ふつうは JavaScript のコードの埋め込みや参照に使用されます。 <code>&lt;script&gt;</code> 要素は <a href=\"/ja/docs/Web/API/WebGL_API\">WebGL</a> の GLSL shader プログラミング言語、 <a href=\"/ja/docs/Glossary/JSON\">JSON</a> 等の他の言語にも使用することができます。",
-      "type": "properties-and-attributes",
-      "completion": "script>"
-    },
-    {
-      "name": "del",
-      "cat": "編集範囲の特定",
-      "desc": "文書から削除された文字列の範囲を表します。これは例えば、「変更の追跡」や、ソースコードの差分情報を描画するときに使用することができます。 <code>&lt;ins&gt;</code> 要素は逆の目的に、文書に追加された文字列を示すために用いることができます。",
-      "type": "properties-and-attributes",
-      "completion": "del>"
-    },
-    {
-      "name": "ins",
-      "cat": "編集範囲の特定",
-      "desc": "文書に追加されたテキストの範囲を表します。同様に、 <code>&lt;del&gt;</code> 要素を使用して文書から削除されたテキストの範囲を表すことができます。",
-      "type": "properties-and-attributes",
-      "completion": "ins>"
-    },
-    {
-      "name": "caption",
-      "cat": "表コンテンツ",
-      "desc": "表のキャプション（またはタイトル）を指定します。",
-      "type": "properties-and-attributes",
-      "completion": "caption>"
-    },
-    {
-      "name": "col",
-      "cat": "表コンテンツ",
-      "desc": "表内の列を定義して、すべての一般セルに共通の意味を定義するために使用します。この要素は通常、 <a href=\"/ja/docs/Web/HTML/Element/colgroup\"><code>&lt;colgroup&gt;</code></a> 要素内にみられます。",
-      "type": "properties-and-attributes",
-      "completion": "col>"
-    },
-    {
-      "name": "colgroup",
-      "cat": "表コンテンツ",
-      "desc": "表内の列のグループを定義します。",
-      "type": "properties-and-attributes",
-      "completion": "colgroup>"
-    },
-    {
-      "name": "table",
-      "cat": "表コンテンツ",
-      "desc": "表形式のデータ、つまり、行と列の組み合わせによるセルに含まれたデータによる二次元の表で表現される情報です。",
-      "type": "properties-and-attributes",
-      "completion": "table>"
-    },
-    {
-      "name": "tbody",
-      "cat": "表コンテンツ",
-      "desc": "表の一連の行 (<a href=\"/ja/docs/Web/HTML/Element/tr\"><code>&lt;tr&gt;</code></a> 要素) を内包し、その部分が表 (<a href=\"/ja/docs/Web/HTML/Element/table\"><code>&lt;table&gt;</code></a>) の本体部分を構成することを表します。",
-      "type": "properties-and-attributes",
-      "completion": "tbody>"
-    },
-    {
-      "name": "td",
-      "cat": "表コンテンツ",
-      "desc": "表でデータを包含するセルを定義します。これはモデルに関与します。",
-      "type": "properties-and-attributes",
-      "completion": "td>"
-    },
-    {
-      "name": "tfoot",
-      "cat": "表コンテンツ",
-      "desc": "表の一連の列を総括する行のセットを定義します。",
-      "type": "properties-and-attributes",
-      "completion": "tfoot>"
-    },
-    {
-      "name": "th",
-      "cat": "表コンテンツ",
-      "desc": "表のセルのグループ用の見出しであるセルを定義します。このグループの正確な性質は、<code>scope</code> 属性と <code>headers</code> 属性で定義します。",
-      "type": "properties-and-attributes",
-      "completion": "th>"
-    },
-    {
-      "name": "thead",
-      "cat": "表コンテンツ",
-      "desc": "表の列の見出しを定義する行のセットを定義します。",
-      "type": "properties-and-attributes",
-      "completion": "thead>"
-    },
-    {
-      "name": "tr",
-      "cat": "表コンテンツ",
-      "desc": "表内でセルの行を定義します。行のセルには <a href=\"/ja/docs/Web/HTML/Element/td\"><code>&lt;td&gt;</code></a> （データセル）および <a href=\"/ja/docs/Web/HTML/Element/th\"><code>&lt;th&gt;</code></a> （見出しセル）要素をを混在させることができます。",
-      "type": "properties-and-attributes",
-      "completion": "tr>"
-    },
-    {
-      "name": "button",
-      "cat": "フォーム",
-      "desc": "ユーザーがマウス、キーボード、指、音声コマンド、または他にも支援技術を使って起動するインタラクティブ要素です。アクティブになると、<a href=\"/ja/docs/Learn/Forms\">フォーム</a>を送信したり、ダイアログを開いたりするなどのアクションを実行するようになります。",
-      "type": "properties-and-attributes",
-      "completion": "button>"
-    },
-    {
-      "name": "datalist",
-      "cat": "フォーム",
-      "desc": "他のコントロールで利用可能な値を表現する一連の <a href=\"/ja/docs/Web/HTML/Element/option\"><code>&lt;option&gt;</code></a> 要素を含みます。",
-      "type": "properties-and-attributes",
-      "completion": "datalist>"
-    },
-    {
-      "name": "fieldset",
-      "cat": "フォーム",
-      "desc": "ウェブフォーム内のラベル (<a href=\"/ja/docs/Web/HTML/Element/label\"><code>&lt;label&gt;</code></a>) などのようにいくつかのコントロールをグループ化するために使用します。",
-      "type": "properties-and-attributes",
-      "completion": "fieldset>"
-    },
-    {
-      "name": "form",
-      "cat": "フォーム",
-      "desc": "ウェブサーバーに情報を送信するための対話型コントロールを含む文書の区間を表します。",
-      "type": "properties-and-attributes",
-      "completion": "form>"
-    },
-    {
-      "name": "input",
-      "cat": "フォーム",
-      "desc": "ユーザーからデータを受け取るための、ウェブベースのフォーム用の操作可能なコントロールを作成するために使用します。端末とユーザーエージェントによりますが、広範に渡る種類のデータ入力やコントロールウィジェットが利用できます。 <code>&lt;input&gt;</code> 要素は入力型と属性の組み合わせの数が非常に多いため、 HTML の中で最も強力かつ最も複雑な要素の一つです。",
-      "type": "properties-and-attributes",
-      "completion": "input>"
-    },
-    {
-      "name": "label",
-      "cat": "フォーム",
-      "desc": "ユーザーインターフェイスの項目のキャプションを表します。",
-      "type": "properties-and-attributes",
-      "completion": "label>"
-    },
-    {
-      "name": "legend",
-      "cat": "フォーム",
-      "desc": "その親要素である <a href=\"/ja/docs/Web/HTML/Element/fieldset\"><code>&lt;fieldset&gt;</code></a> の内容のキャプションを表します。",
-      "type": "properties-and-attributes",
-      "completion": "legend>"
-    },
-    {
-      "name": "meter",
-      "cat": "フォーム",
-      "desc": "既知の範囲内のスカラー値、または小数値を表します。",
-      "type": "properties-and-attributes",
-      "completion": "meter>"
-    },
-    {
-      "name": "optgroup",
-      "cat": "フォーム",
-      "desc": "<a href=\"/ja/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a> 要素内の選択肢 (<a href=\"/ja/docs/Web/HTML/Element/option\"><code>&lt;option&gt;</code></a>) のグループを作成します。",
-      "type": "properties-and-attributes",
-      "completion": "optgroup>"
-    },
-    {
-      "name": "option",
-      "cat": "フォーム",
-      "desc": "<a href=\"/ja/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a> 要素、<a href=\"/ja/docs/Web/HTML/Element/optgroup\"><code>&lt;optgroup&gt;</code></a> 要素、<a href=\"/ja/docs/Web/HTML/Element/datalist\"><code>&lt;datalist&gt;</code></a> 要素内で項目を定義するために使われます。したがって、<code>&lt;option&gt;</code> は HTML 文書でポップアップメニューのメニュー項目や、その他の項目の一覧を表すことができます。",
-      "type": "properties-and-attributes",
-      "completion": "option>"
-    },
-    {
-      "name": "output",
-      "cat": "フォーム",
-      "desc": "サイトやアプリが計算結果やユーザー操作の結果を挿入することができるコンテナー要素です。",
-      "type": "properties-and-attributes",
-      "completion": "output>"
-    },
-    {
-      "name": "progress",
-      "cat": "フォーム",
-      "desc": "タスクの進捗状況を表示します。プログレスバーとしてよく表示されます。",
-      "type": "properties-and-attributes",
-      "completion": "progress>"
-    },
-    {
-      "name": "select",
-      "cat": "フォーム",
-      "desc": "選択式のメニューを提供するコントロールを表します。",
-      "type": "properties-and-attributes",
-      "completion": "select>"
-    },
-    {
-      "name": "textarea",
-      "cat": "フォーム",
-      "desc": "複数行のプレーンテキスト編集コントロールを表し、レビューのコメントやお問い合わせフォーム等のように、ユーザーが大量の自由記述テキストを入力できるようにするときに便利です。",
-      "type": "properties-and-attributes",
-      "completion": "textarea>"
-    },
-    {
-      "name": "details",
-      "cat": "インタラクティブ要素",
-      "desc": "ウィジェットが「開いた」状態になった時のみ情報が表示される折りたたみウィジェットを作成します。概要やラベルは <a href=\"/ja/docs/Web/HTML/Element/summary\"><code>&lt;summary&gt;</code></a> 要素を使用して提供する必要があります。",
-      "type": "properties-and-attributes",
-      "completion": "details>"
-    },
-    {
-      "name": "dialog",
-      "cat": "インタラクティブ要素",
-      "desc": "ダイアログボックスや、消すことができるアラート、インスペクター、サブウィンドウ等のような対話的コンポーネントを表します。",
-      "type": "properties-and-attributes",
-      "completion": "dialog>"
-    },
-    {
-      "name": "summary",
-      "cat": "インタラクティブ要素",
-      "desc": "details 要素の折り畳みボックスの要約、キャプション、説明、凡例を表します。 <code>&lt;summary&gt;</code> 要素をクリックすると、親の <a href=\"/ja/docs/Web/HTML/Element/details\"><code>&lt;details&gt;</code></a> 要素の開閉状態を切り替えることができます。",
-      "type": "properties-and-attributes",
-      "completion": "summary>"
-    },
-    {
-      "name": "slot",
-      "cat": "ウェブコンポーネント",
-      "desc": "<a href=\"/ja/docs/Web/API/Web_components\">ウェブコンポーネント</a> 技術群の一部であるこの要素は、ウェブコンポーネント内のプレースホルダーで、自分自身でマークアップを埋めることができ、別個の DOM ツリーを作成して一緒に表示することができる。",
-      "type": "properties-and-attributes",
-      "completion": "slot>"
-    },
-    {
-      "name": "template",
-      "cat": "ウェブコンポーネント",
-      "desc": "ページが読み込まれたときにすぐにレンダリングされるのではなく、実行時に JavaScript を使って後からインスタンス化することができる HTML を保持するためのメカニズムです。",
-      "type": "properties-and-attributes",
-      "completion": "template>"
-    },
-    {
-      "name": "acronym",
-      "cat": "廃止または非推奨の要素",
-      "desc": "頭字語または略語の単語を構成する文字の並びを明示することができます。",
-      "type": "properties-and-attributes",
-      "completion": "acronym>"
-    },
-    {
-      "name": "big",
-      "cat": "廃止または非推奨の要素",
-      "desc": "内包するテキストを周りの文字列よりも1段階大きいフォントの大きさで描画します（例えば <code>medium</code> が <code>large</code> になります）。大きさはブラウザーの最大フォントの大きさに制限されます。",
-      "type": "properties-and-attributes",
-      "completion": "big>"
-    },
-    {
-      "name": "center",
-      "cat": "廃止または非推奨の要素",
-      "desc": "中に含まれるブロックレベルまたはインラインコンテンツを中央揃えして表示します。",
-      "type": "properties-and-attributes",
-      "completion": "center>"
-    },
-    {
-      "name": "content",
-      "cat": "廃止または非推奨の要素",
-      "desc": "<a href=\"/ja/docs/Web/API/Web_components\">ウェブコンポーネント</a>技術群の廃止された部分であり、<a href=\"/ja/docs/Web/API/Web_components/Using_shadow_DOM\">シャドウ DOM</a> の中で挿入ポイントとして使われていましたが、通常の HTML で利用することは意図されていませんでした。現在では DOM の中でシャドウ DOM を挿入することができる場所を作成する <a href=\"/ja/docs/Web/HTML/Element/slot\"><code>&lt;slot&gt;</code></a> 要素に置き換えられました。",
-      "type": "properties-and-attributes",
-      "completion": "content>"
-    },
-    {
-      "name": "dir",
-      "cat": "廃止または非推奨の要素",
-      "desc": "ユーザーエージェントが適用するスタイルやアイコンを用いて表示する、ファイルやフォルダーのディレクトリーのコンテナーとして使われます。この要素は廃止されたので使わないで下さい。代わりに、ファイル一覧を含め、一覧には <a href=\"/ja/docs/Web/HTML/Element/ul\"><code>&lt;ul&gt;</code></a> 要素を使用してください。",
-      "type": "properties-and-attributes",
-      "completion": "dir>"
-    },
-    {
-      "name": "font",
-      "cat": "廃止または非推奨の要素",
-      "desc": "その内容のフォントサイズ、文字色、使用フォントを定義します。",
-      "type": "properties-and-attributes",
-      "completion": "font>"
-    },
-    {
-      "name": "frame",
-      "cat": "廃止または非推奨の要素",
-      "desc": "別の HTML 文書を表示できる個々の領域を定義します。frame 要素は <a href=\"/ja/docs/Web/HTML/Element/frameset\"><code>&lt;frameset&gt;</code></a> の内部で使用します。",
-      "type": "properties-and-attributes",
-      "completion": "frame>"
-    },
-    {
-      "name": "frameset",
-      "cat": "廃止または非推奨の要素",
-      "desc": "<a href=\"/ja/docs/Web/HTML/Element/frame\"><code>&lt;frame&gt;</code></a> 要素を包含するために使用する HTML 要素です。",
-      "type": "properties-and-attributes",
-      "completion": "frameset>"
-    },
-    {
-      "name": "image",
-      "cat": "廃止または非推奨の要素",
-      "desc": "<a href=\"/ja/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a> 要素の古く、対応が不十分な前身です。",
-      "type": "properties-and-attributes",
-      "completion": "image>"
-    },
-    {
-      "name": "marquee",
-      "cat": "廃止または非推奨の要素",
-      "desc": "テキストがスクロールする領域を挿入します。要素の属性を使用して、テキストがコンテンツ領域の端に達したときにどうするかを制御できます。",
-      "type": "properties-and-attributes",
-      "completion": "marquee>"
-    },
-    {
-      "name": "menuitem",
-      "cat": "廃止または非推奨の要素",
-      "desc": "ユーザーがポップアップメニューから呼び出すことができるコマンドを表します。メニューボタンに割り当てるメニューはもちろん、コンテキストメニューも含みます。",
-      "type": "properties-and-attributes",
-      "completion": "menuitem>"
-    },
-    {
-      "name": "nobr",
-      "cat": "廃止または非推奨の要素",
-      "desc": "その内包する文字列の自動改行を無効化します。インラインに収まらない文字列は、領域からはみ出てレンダリングされるか、スクロールバーを伴って表示されます。",
-      "type": "properties-and-attributes",
-      "completion": "nobr>"
-    },
-    {
-      "name": "noembed",
-      "cat": "廃止または非推奨の要素",
-      "desc": "廃止された、標準外の方法であり、 <a href=\"/ja/docs/Web/HTML/Element/embed\"><code>&lt;embed&gt;</code></a> 要素に対応していないブラウザーや、ユーザーが仕様とした種類の<a href=\"/ja/docs/Web/HTML/Content_categories#%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84\">埋め込みコンテンツ</a>に対応していないブラウザーで代替または「フォールバック」コンテンツを提供するものです。これは HTML 4.01 で非推奨となり、代替コンテンツは <a href=\"/ja/docs/Web/HTML/Element/object\"><code>&lt;object&gt;</code></a> 要素の開始タグと終了タグの間に配置されるようになりました。",
-      "type": "properties-and-attributes",
-      "completion": "noembed>"
-    },
-    {
-      "name": "noframes",
-      "cat": "廃止または非推奨の要素",
-      "desc": "<a href=\"/ja/docs/Web/HTML/Element/frame\"><code>&lt;frame&gt;</code></a> 要素に対応していない（または対応を無効化した）ブラウザーのためのコンテンツを提供します。よく使われるほとんどのブラウザーがフレームに対応していますが、一部のモバイルブラウザーやテキストモードブラウザーなどの例外もあります。",
-      "type": "properties-and-attributes",
-      "completion": "noframes>"
-    },
-    {
-      "name": "param",
-      "cat": "廃止または非推奨の要素",
-      "desc": "<a href=\"/ja/docs/Web/HTML/Element/object\"><code>&lt;object&gt;</code></a> 要素の引数を定義します。",
-      "type": "properties-and-attributes",
-      "completion": "param>"
-    },
-    {
-      "name": "plaintext",
-      "cat": "廃止または非推奨の要素",
-      "desc": "開始タグ以降のすべてを生のテキストとして表示し、それ以降の HTML を無視します。開始タグ以降は全て生のテキスト扱いになるので、終了タグはありません。",
-      "type": "properties-and-attributes",
-      "completion": "plaintext>"
-    },
-    {
-      "name": "rb",
-      "cat": "廃止または非推奨の要素",
-      "desc": "ルビ表記のベースとなるテキストの部分を区切るために使用されます。つまり、修飾される文字列です。一つの <code>&lt;rb&gt;</code> 要素がベーステキストの不可分な区間を隔てるように囲みます。",
-      "type": "properties-and-attributes",
-      "completion": "rb>"
-    },
-    {
-      "name": "rtc",
-      "cat": "廃止または非推奨の要素",
-      "desc": "<a href=\"/ja/docs/Web/HTML/Element/ruby\"><code>&lt;ruby&gt;</code></a> 要素内で使用する <a href=\"/ja/docs/Web/HTML/Element/rb\"><code>&lt;rb&gt;</code></a> 要素にルビで与える文字列の、意味を表す注釈を包含します。<a href=\"/ja/docs/Web/HTML/Element/rb\"><code>&lt;rb&gt;</code></a> 要素は発音の注釈 (<a href=\"/ja/docs/Web/HTML/Element/rt\"><code>&lt;rt&gt;</code></a>) と意味の注釈 (<a href=\"/ja/docs/Web/HTML/Element/rtc\"><code>&lt;rtc&gt;</code></a>) の両方を持つことができます。",
-      "type": "properties-and-attributes",
-      "completion": "rtc>"
-    },
-    {
-      "name": "shadow",
-      "cat": "廃止または非推奨の要素",
-      "desc": "<a href=\"/ja/docs/Web/API/Web_components\">ウェブコンポーネント</a>技術スイートの廃止された部分で、シャドウ DOM の挿入ポイントとして使用するものでした。シャドウホスト配下に複数のシャドウルートを生成する場合に使用しました。",
-      "type": "properties-and-attributes",
-      "completion": "shadow>"
-    },
-    {
-      "name": "strike",
-      "cat": "廃止または非推奨の要素",
-      "desc": "テキストの上に取り消し線（水平線）を引きます。",
-      "type": "properties-and-attributes",
-      "completion": "strike>"
-    },
-    {
-      "name": "tt",
-      "cat": "廃止または非推奨の要素",
-      "desc": "ユーザーエージェントの既定の等幅フォントで表示されるインライン文字列を生成します。この要素は、テレタイプ、テキスト専用画面、ラインプリンターのような等幅の表示装置で表示されるテキストとしてスタイルを設定しようとするものです。",
-      "type": "properties-and-attributes",
-      "completion": "tt>"
-    },
-    {
-      "name": "xmp",
-      "cat": "廃止または非推奨の要素",
-      "desc": "開始タグと終了タグの間の HTML を解釈せず、等幅フォントを使用してテキストをレンダリングします。HTML2 の仕様では、1 行に 80 文字が入るだけの広さでレンダリングすることが推奨されていました。",
-      "type": "properties-and-attributes",
-      "completion": "xmp>"
-    }
-  ]
+    {"name": "html", "cat": "メインルート", "desc": "HTML 文書のルート（最上位要素）を表すため、<em>ルート要素</em>とも呼ばれます。他のすべての要素は、この要素の子孫として配置しなければなりません。", "type": "properties-and-attributes", "completion": "html>"},
+    {"name": "base", "cat": "文書メタデータ", "desc": "文書内におけるすべての相対 URL の基点となる URL を指定します。文書内に 1 つだけ置くことができます。", "type": "properties-and-attributes", "completion": "base>"},
+    {"name": "head", "cat": "文書メタデータ", "desc": "文書に関する機械可読な情報（メタデータ）、たとえば<a href=\"/ja/docs/Web/HTML/Element/title\">タイトル</a>、<a href=\"/ja/docs/Web/HTML/Element/script\">スクリプト</a>、<a href=\"/ja/docs/Web/HTML/Element/style\">スタイルシート</a>などを含みます。", "type": "properties-and-attributes", "completion": "head>"},
+    {"name": "link", "cat": "文書メタデータ", "desc": "現在の文書と外部リソースとの関係を指定します。この要素は CSS をリンクするために最もよく使用されますが、他にもサイトアイコン（「ファビコン」スタイルのアイコンやモバイル端末でのホーム画面やアプリのアイコンの両方）を設定するために使用されます。", "type": "properties-and-attributes", "completion": "link>"},
+    {"name": "meta", "cat": "文書メタデータ", "desc": "<a href=\"/ja/docs/Glossary/Metadata\">メタデータ</a>を表します。これは、他のメタ関連要素 (<a href=\"/ja/docs/Web/HTML/Element/base\"><code>&lt;base&gt;</code></a>, <a href=\"/ja/docs/Web/HTML/Element/link\"><code>&lt;link&gt;</code></a>, <a href=\"/ja/docs/Web/HTML/Element/script\"><code>&lt;script&gt;</code></a>, <a href=\"/ja/docs/Web/HTML/Element/style\"><code>&lt;style&gt;</code></a>, <a href=\"/ja/docs/Web/HTML/Element/title\"><code>&lt;title&gt;</code></a>) で表すことができないものを表します。", "type": "properties-and-attributes", "completion": "meta>"},
+    {"name": "style", "cat": "文書メタデータ", "desc": "文書あるいは文書の一部分のスタイル情報を含みます。 <code>&lt;style&gt;</code> 要素を含んでいる文書のコンテンツに適用される CSS を含みます。", "type": "properties-and-attributes", "completion": "style>"},
+    {"name": "title", "cat": "文書メタデータ", "desc": "<a href=\"/ja/docs/Glossary/Browser\">ブラウザー</a>のタイトルバーやページのタブに表示される文書のタイトルを定義します。テキストのみを含めることができます。要素内のタグはすべて無視されます。", "type": "properties-and-attributes", "completion": "title>"},
+    {"name": "body", "cat": "区分化ルート", "desc": "HTML 文書のコンテンツを示す要素です。文書中に 1 つだけ配置できます。", "type": "properties-and-attributes", "completion": "body>"},
+    {"name": "address", "cat": "コンテンツ区分", "desc": "これを含んでいる HTML が個人、団体、組織の連絡先を提供していることを示します。", "type": "properties-and-attributes", "completion": "address>"},
+    {"name": "article", "cat": "コンテンツ区分", "desc": "文書、ページ、アプリケーション、サイトなどの中で自己完結しており、（集合したものの中で）個別に配信や再利用を行うことを意図した構成物を表します。例えば、フォーラムの投稿、雑誌や新聞の記事、ブログの記事、商品カード、ユーザーが投稿したコメント、対話型のウィジェットやガジェット、その他の独立したコンテンツの項目が含まれます。", "type": "properties-and-attributes", "completion": "article>"},
+    {"name": "aside", "cat": "コンテンツ区分", "desc": "文書のメインコンテンツと間接的な関係しか持っていない文書の部分を表現します。サイドバーやコールアウトボックスなどを表現するためによく使われます。", "type": "properties-and-attributes", "completion": "aside>"},
+    {"name": "footer", "cat": "コンテンツ区分", "desc": "直近の<a href=\"/ja/docs/Web/HTML/Content_categories#%E5%8C%BA%E5%88%86%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84\">区分コンテンツ</a>または<a href=\"/ja/docs/Web/HTML/Element/Heading_Elements\">区分化ルート</a>要素のフッターを表します。フッターには通常、そのセクションの著作者に関する情報、関連文書へのリンク、著作権情報等を含めます。", "type": "properties-and-attributes", "completion": "footer>"},
+    {"name": "header", "cat": "コンテンツ区分", "desc": "導入的なコンテンツ、ふつうは導入部やナビゲーション等のグループを表します。見出し要素だけでなく、ロゴ、検索フォーム、作者名、その他の要素を含むこともできます。", "type": "properties-and-attributes", "completion": "header>"},
+    {"name": "h1", "cat": "コンテンツ区分", "desc": "セクションの見出しを 6 段階で表します。<code>&lt;h1&gt;</code> が最上位で、<code>&lt;h6&gt;</code> が最下位です。", "type": "properties-and-attributes", "completion": "h1>"},
+    {"name": "h2", "cat": "コンテンツ区分", "desc": "セクションの見出しを 6 段階で表します。<code>&lt;h1&gt;</code> が最上位で、<code>&lt;h6&gt;</code> が最下位です。", "type": "properties-and-attributes", "completion": "h2>"},
+    {"name": "h3", "cat": "コンテンツ区分", "desc": "セクションの見出しを 6 段階で表します。<code>&lt;h1&gt;</code> が最上位で、<code>&lt;h6&gt;</code> が最下位です。", "type": "properties-and-attributes", "completion": "h3>"},
+    {"name": "h4", "cat": "コンテンツ区分", "desc": "セクションの見出しを 6 段階で表します。<code>&lt;h1&gt;</code> が最上位で、<code>&lt;h6&gt;</code> が最下位です。", "type": "properties-and-attributes", "completion": "h4>"},
+    {"name": "h5", "cat": "コンテンツ区分", "desc": "セクションの見出しを 6 段階で表します。<code>&lt;h1&gt;</code> が最上位で、<code>&lt;h6&gt;</code> が最下位です。", "type": "properties-and-attributes", "completion": "h5>"},
+    {"name": "h6", "cat": "コンテンツ区分", "desc": "セクションの見出しを 6 段階で表します。<code>&lt;h1&gt;</code> が最上位で、<code>&lt;h6&gt;</code> が最下位です。", "type": "properties-and-attributes", "completion": "h6>"},
+    {"name": "hgroup", "cat": "コンテンツ区分", "desc": "小見出し、代替タイトル、キャッチフレーズなどの副次的コンテンツとグループ化された見出しを表します。", "type": "properties-and-attributes", "completion": "hgroup>"},
+    {"name": "main", "cat": "コンテンツ区分", "desc": "文書の本体の主要な内容を表します。主要な内容とは、文書の中心的な主題、またはアプリケーションの中心的な機能に直接関連または拡張した内容の範囲のことです。", "type": "properties-and-attributes", "completion": "main>"},
+    {"name": "nav", "cat": "コンテンツ区分", "desc": "現在の文書内の他の部分や他の文書へのナビゲーションリンクを提供するためのセクションを表します。ナビゲーションセクションの一般的な例としてメニュー、目次、索引などがあります。", "type": "properties-and-attributes", "completion": "nav>"},
+    {"name": "section", "cat": "コンテンツ区分", "desc": "文書の自立した一般的なセクション (区間) を表します。そのセクションを表現するより意味的に具体的な要素がない場合に使用します。少数の例外を除いて、セクションには見出しを置いてください。", "type": "properties-and-attributes", "completion": "section>"},
+    {"name": "search", "cat": "コンテンツ区分", "desc": "検索または絞り込み処理を実行することに関連する一連のフォームコントロールまたは他のコンテンツを含む部分を表します。", "type": "properties-and-attributes", "completion": "search>"},
+    {"name": "blockquote", "cat": "テキストコンテンツ", "desc": "内包するテキストが引用文であることを示します。通常、字下げを伴ってレンダリングされます。<code>cite</code> 属性により引用元の文書の URL を、 <a href=\"/ja/docs/Web/HTML/Element/cite\"><code>&lt;cite&gt;</code></a> 要素により引用元の文書のタイトルなどを明示可能です。", "type": "properties-and-attributes", "completion": "blockquote>"},
+    {"name": "dd", "cat": "テキストコンテンツ", "desc": "説明リスト要素 (<a href=\"/ja/docs/Web/HTML/Element/dl\"><code>&lt;dl&gt;</code></a>) 内で、その前の用語 (<a href=\"/ja/docs/Web/HTML/Element/dt\"><code>&lt;dt&gt;</code></a>) の説明、定義、値などを示します。", "type": "properties-and-attributes", "completion": "dd>"},
+    {"name": "div", "cat": "テキストコンテンツ", "desc": "フローコンテンツの汎用コンテナーです。 <a href=\"/ja/docs/Glossary/CSS\">CSS</a> を用いて何らかのスタイル付け（例えば、スタイルが直接適用されたり、親要素に<a href=\"/ja/docs/Glossary/Flexbox\">フレックスボックス</a>などの何らかのレイアウトモデルが適用されるなど）がされない限り、コンテンツやレイアウトには影響を与えません。", "type": "properties-and-attributes", "completion": "div>"},
+    {"name": "dl", "cat": "テキストコンテンツ", "desc": "説明リストを表します。この要素は、一連の用語（<a href=\"/ja/docs/Web/HTML/Element/dt\"><code>&lt;dt&gt;</code></a> 要素を使用して指定）と説明（<a href=\"/ja/docs/Web/HTML/Element/dd\"><code>&lt;dd&gt;</code></a> 要素によって提供）をリスト化したものです。一般的な使用例として、用語集の作成やメタデータ（キーと値のペアのリスト）の表示が挙げられます。", "type": "properties-and-attributes", "completion": "dl>"},
+    {"name": "dt", "cat": "テキストコンテンツ", "desc": "説明または定義リストの中で用語を表す部分であり、 <a href=\"/ja/docs/Web/HTML/Element/dl\"><code>&lt;dl&gt;</code></a> の子要素としてのみ用いることができます。普通は <a href=\"/ja/docs/Web/HTML/Element/dd\"><code>&lt;dd&gt;</code></a> 要素が続きます。しかし、複数の <code>&lt;dt&gt;</code> 要素が続くと、複数の用語がすぐ後に続く <a href=\"/ja/docs/Web/HTML/Element/dd\"><code>&lt;dd&gt;</code></a> 要素で定義されていることを表します。", "type": "properties-and-attributes", "completion": "dt>"},
+    {"name": "figcaption", "cat": "テキストコンテンツ", "desc": "親の <a href=\"/ja/docs/Web/HTML/Element/figure\"><code>&lt;figure&gt;</code></a> 要素内にあるその他のコンテンツを説明するキャプションや凡例を表します。", "type": "properties-and-attributes", "completion": "figcaption>"},
+    {"name": "figure", "cat": "テキストコンテンツ", "desc": "自己完結型のコンテンツを表し、任意で <a href=\"/ja/docs/Web/HTML/Element/figcaption\"><code>&lt;figcaption&gt;</code></a> 要素を使用して表されるキャプションを付けることができます。図、すなわちキャプションとその中身は一つの単位として参照されます。", "type": "properties-and-attributes", "completion": "figure>"},
+    {"name": "hr", "cat": "テキストコンテンツ", "desc": "段落レベルの要素間において、テーマの意味的な区切りを表します。例えば、話の場面の切り替えや、節内での話題の転換などです。", "type": "properties-and-attributes", "completion": "hr>"},
+    {"name": "li", "cat": "テキストコンテンツ", "desc": "リストの項目を表すために用いられます。この要素は、その項目が属する順序付きリスト (<a href=\"/ja/docs/Web/HTML/Element/ol\"><code>&lt;ol&gt;</code></a>)、順序なしリスト (<a href=\"/ja/docs/Web/HTML/Element/ul\"><code>&lt;ul&gt;</code></a>)、メニュー (<a href=\"/ja/docs/Web/HTML/Element/menu\"><code>&lt;menu&gt;</code></a>) のいずれかの子要素として配置する必要があります。メニュー要素および順序なしリスト内においては、リストの項目は通常、行頭文字伴って表示され、順序付きリスト内では、数字や文字による連番のリストマーカーを伴って表示されます。", "type": "properties-and-attributes", "completion": "li>"},
+    {"name": "menu", "cat": "テキストコンテンツ", "desc": "<a href=\"/ja/docs/Web/HTML/Element/ul\"><code>&lt;ul&gt;</code></a> とは異なる意味づけですが、ブラウザーでは <a href=\"/ja/docs/Web/HTML/Element/ul\"><code>&lt;ul&gt;</code></a> と同じものとして扱われます（アクセシビリティツリーで公開されます）。（<a href=\"/ja/docs/Web/HTML/Element/li\"><code>&lt;li&gt;</code></a> 要素で表現される）項目の順不同リストを表します。", "type": "properties-and-attributes", "completion": "menu>"},
+    {"name": "ol", "cat": "テキストコンテンツ", "desc": "項目の順序付きリストを表します。ふつうは番号付きのリストとして表示されます。", "type": "properties-and-attributes", "completion": "ol>"},
+    {"name": "p", "cat": "テキストコンテンツ", "desc": "テキストの段落を表します。視覚メディアにおいて、段落はふつう隣接するブロックと上下の空白や最初の行の字下げによって隔てられたテキストのブロックとして表現されますが、 HTML の段落は画像やフォーム欄などの関連するコンテンツを構造的にまとめることができます。", "type": "properties-and-attributes", "completion": "p>"},
+    {"name": "pre", "cat": "テキストコンテンツ", "desc": "整形済みテキスト (preformatted text) を表します。この要素内のテキストは一般的に、ファイル内でのレイアウトをそのまま反映して<a href=\"https://ja.wikipedia.org/wiki/%E7%AD%89%E5%B9%85%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88\" class=\"external\" target=\"_blank\">等幅フォント</a>で表示されます。この要素内のホワイトスペース文字はそのまま表示します。", "type": "properties-and-attributes", "completion": "pre>"},
+    {"name": "ul", "cat": "テキストコンテンツ", "desc": "項目の順序なしリストを表します。一般的に、行頭記号を伴うリストとして描画されます。", "type": "properties-and-attributes", "completion": "ul>"},
+    {"name": "a", "cat": "インラインテキスト意味付け", "desc": "<code>href</code> 属性を用いて、ウェブページ、ファイル、メールアドレス、同一ページ内の場所、または他の URL へのハイパーリンクを作成します。", "type": "properties-and-attributes", "completion": "a>"},
+    {"name": "abbr", "cat": "インラインテキスト意味付け", "desc": "略語や頭字語を表します。", "type": "properties-and-attributes", "completion": "abbr>"},
+    {"name": "b", "cat": "インラインテキスト意味付け", "desc": "要素の内容に読み手の注意を惹きたい場合で、他の特別な重要性が与えられないものに使用します。これは以前は太字要素と呼ばれており、ほとんどのブラウザーでは文字列を太字で描画していました。しかし、 <code>&lt;b&gt;</code> を文字列の装飾に使うべきではありません。太字の文字列を作成するには、 CSS の <a href=\"/ja/docs/Web/CSS/font-weight\"><code>font-weight</code></a> プロパティを使用し、特別な重要性を持つテキストを示すには <a href=\"/ja/docs/Web/HTML/Element/strong\"><code>&lt;strong&gt;</code></a> 要素を使用してください。", "type": "properties-and-attributes", "completion": "b>"},
+    {"name": "bdi", "cat": "インラインテキスト意味付け", "desc": "ブラウザーの書字方向アルゴリズムにこのテキストが周囲のテキストから独立していると扱うよう指示します。これは特に、ウェブサイトがテキストを動的に挿入し、挿入されるテキストの書字方向が不明な場合に便利です。", "type": "properties-and-attributes", "completion": "bdi>"},
+    {"name": "bdo", "cat": "インラインテキスト意味付け", "desc": "現在のテキストの書字方向を上書きし、中のテキストが異なる書字方向で描画されるようにします。", "type": "properties-and-attributes", "completion": "bdo>"},
+    {"name": "br", "cat": "インラインテキスト意味付け", "desc": "文中に改行（キャリッジリターン）を生成します。詩や住所など、行の分割が重要な場合に有用です。", "type": "properties-and-attributes", "completion": "br>"},
+    {"name": "cite", "cat": "インラインテキスト意味付け", "desc": "引用された創作物の参照を表し、作品のタイトルを含む必要があります。参照は、引用メタデータに関する利用場面に合わせた慣習に応じて省略形が用いられることがあります。", "type": "properties-and-attributes", "completion": "cite>"},
+    {"name": "code", "cat": "インラインテキスト意味付け", "desc": "コンピューターコードの短い断片の文字列であると識別できるような外見のコンテンツを表示します。既定では、中の文字列がユーザーエージェントの既定の等幅フォントを使用して表示されます。", "type": "properties-and-attributes", "completion": "code>"},
+    {"name": "data", "cat": "インラインテキスト意味付け", "desc": "与えられたコンテンツの断片を機械可読な翻訳にリンクします。コンテンツが時刻または日付に関連するものであれば、time 要素を使用する必要があります。", "type": "properties-and-attributes", "completion": "data>"},
+    {"name": "dfn", "cat": "インラインテキスト意味付け", "desc": "定義句や文の文脈の中で定義している用語を示すために用いられます。 <code>&lt;dfn&gt;</code> の直近の祖先である <a href=\"/ja/docs/Web/HTML/Element/p\"><code>&lt;p&gt;</code></a> 要素、 <a href=\"/ja/docs/Web/HTML/Element/dt\"><code>&lt;dt&gt;</code></a>/<a href=\"/ja/docs/Web/HTML/Element/dd\"><code>&lt;dd&gt;</code></a> の組み合わせ、 <a href=\"/ja/docs/Web/HTML/Element/section\"><code>&lt;section&gt;</code></a> 要素が用語の定義とみなされます。", "type": "properties-and-attributes", "completion": "dfn>"},
+    {"name": "em", "cat": "インラインテキスト意味付け", "desc": "強調されたテキストを示します。<code>&lt;em&gt;</code> 要素は入れ子にすることができ、入れ子の段階に応じてより強い程度の強調を表すことができます。", "type": "properties-and-attributes", "completion": "em>"},
+    {"name": "i", "cat": "インラインテキスト意味付け", "desc": "何らかの理由で他のテキストと区別されるテキストの範囲を表します。例えば、慣用句、技術用語、分類学上の呼称、などです。英文においてはよくイタリック体で表現されてきたものであり、それがこの要素の <code>&lt;i&gt;</code> という名前の元になっています。", "type": "properties-and-attributes", "completion": "i>"},
+    {"name": "kbd", "cat": "インラインテキスト意味付け", "desc": "キーボード、音声入力、その他の入力端末からのユーザーによる文字入力を表すインラインの文字列の区間を表します。慣習的に、ユーザーエージェントは既定で <code>&lt;kbd&gt;</code> 要素の中身を等幅フォントで表示しますが、 HTML 標準で規定されているものではありません。", "type": "properties-and-attributes", "completion": "kbd>"},
+    {"name": "mark", "cat": "インラインテキスト意味付け", "desc": "周囲の文脈の中でマークを付けた部分の関連性や重要性のために、参照や記述の目的で目立たせたり強調したりする文字列を表します。", "type": "properties-and-attributes", "completion": "mark>"},
+    {"name": "q", "cat": "インラインテキスト意味付け", "desc": "その内容がインラインの引用であることを表します。最近の多くのブラウザーでは、文字列を引用符で囲むように実装しています。この要素は、段落区切りをまたがない短い引用のためのものです。長文の引用には、 <a href=\"/ja/docs/Web/HTML/Element/blockquote\"><code>&lt;blockquote&gt;</code></a> 要素を使用してください。", "type": "properties-and-attributes", "completion": "q>"},
+    {"name": "rp", "cat": "インラインテキスト意味付け", "desc": "<a href=\"/ja/docs/Web/HTML/Element/ruby\"><code>&lt;ruby&gt;</code></a> 要素によるルビの表示に対応していないブラウザー向けの代替表示用括弧を提供するために使用します。<code>&lt;rp&gt;</code> 要素は、注釈の文字列を <a href=\"/ja/docs/Web/HTML/Element/rt\"><code>&lt;rt&gt;</code></a> 要素を囲む開き括弧と閉じ括弧をそれぞれ囲む必要があります。", "type": "properties-and-attributes", "completion": "rp>"},
+    {"name": "rt", "cat": "インラインテキスト意味付け", "desc": "ルビによる注釈（振り仮名）のルビ文字列の部分を定義し、東アジアの組版において発音、翻訳、音写などの情報を提供するために使用します。 <code>&lt;rt&gt;</code> 要素は常に <a href=\"/ja/docs/Web/HTML/Element/ruby\"><code>&lt;ruby&gt;</code></a> 要素の中で使用されます。", "type": "properties-and-attributes", "completion": "rt>"},
+    {"name": "ruby", "cat": "インラインテキスト意味付け", "desc": "ベーステキストの上、下、隣に描画される小さな注釈で、よく東アジアの文字の発音を表すのに使われます。他の種類の注釈にも使われることがありますが、この使い方はあまり一般的ではありません。", "type": "properties-and-attributes", "completion": "ruby>"},
+    {"name": "s", "cat": "インラインテキスト意味付け", "desc": "取り消し線を引いた文字列を表示します。 <code>&lt;s&gt;</code> 要素はすでに適切または正確ではなくなった事柄を表現します。しかし、文書の修正を示す場合、 <code>&lt;s&gt;</code> 要素は適切ではありません。この場合は del と ins の方が適しているので、こちらを使用してください。", "type": "properties-and-attributes", "completion": "s>"},
+    {"name": "samp", "cat": "インラインテキスト意味付け", "desc": "コンピュータープログラムからのサンプル出力を表すインライン文字列を含めるために使用されます。内容は普通、ブラウザーの既定の等幅フォント（<a href=\"https://ja.wikipedia.org/wiki/Courier_(%E6%9B%B8%E4%BD%93)\" class=\"external\" target=\"_blank\">Courier</a> や Lucida Console など）を使用して表示されます。", "type": "properties-and-attributes", "completion": "samp>"},
+    {"name": "small", "cat": "インラインテキスト意味付け", "desc": "表示上のスタイルとは関係なく、著作権表示や法的表記のような、注釈や小さく表示される文を表します。既定では、 <code>small</code> から <code>x-small</code> のように、一段階小さいフォントでテキストが表示されます。", "type": "properties-and-attributes", "completion": "small>"},
+    {"name": "span", "cat": "インラインテキスト意味付け", "desc": "記述コンテンツの汎用的なインラインコンテナーであり、何かを表すものではありません。スタイル付けのため（<code>class</code> または <code>id</code> 属性を使用して）、または <code>lang</code> のような属性値を共有したりするために要素をグループ化する用途で使用することができます。他に適切な意味的要素がない時にのみ使用してください。 <code>&lt;span&gt;</code> は <a href=\"/ja/docs/Web/HTML/Element/div\"><code>&lt;div&gt;</code></a> 要素ととても似ていますが、<a href=\"/ja/docs/Web/HTML/Element/div\"><code>&lt;div&gt;</code></a> が<a href=\"/ja/docs/Glossary/Block-level_content\">ブロックレベル要素</a>であるのに対し、 <code>&lt;span&gt;</code> は<a href=\"/ja/docs/Glossary/Inline-level_content\">インラインレベル要素</a>です。", "type": "properties-and-attributes", "completion": "span>"},
+    {"name": "strong", "cat": "インラインテキスト意味付け", "desc": "内容の重要性、重大性、または緊急性が高いテキストを表します。ブラウザーは一般的に太字で描画します。", "type": "properties-and-attributes", "completion": "strong>"},
+    {"name": "sub", "cat": "インラインテキスト意味付け", "desc": "表記上の理由で下付き文字として表示するべきインライン文字列を指定します。下付き文字は普通、小さめのテキストを使用してベースラインよりも低く表示されます。", "type": "properties-and-attributes", "completion": "sub>"},
+    {"name": "sup", "cat": "インラインテキスト意味付け", "desc": "表記上の理由で上付き文字として表示するべきインライン文字列を指定します。上付き文字は普通、小さめのテキストを使用して高いベースラインで表示されます。", "type": "properties-and-attributes", "completion": "sup>"},
+    {"name": "time", "cat": "インラインテキスト意味付け", "desc": "特定の時の区間を表します。 <code>datetime</code> 属性を使用して、機械可読な形式の日付を記述することができ、検索エンジンの結果を改善したりリマインダーなどの独自機能に使用したりすることができます。", "type": "properties-and-attributes", "completion": "time>"},
+    {"name": "u", "cat": "インラインテキスト意味付け", "desc": "非言語的に注釈があることを示す方法で表示するインラインテキストの区間を示します。これは既定で単純な実線の下線として表示されますが、 CSS を使用して変更することもできます。", "type": "properties-and-attributes", "completion": "u>"},
+    {"name": "var", "cat": "インラインテキスト意味付け", "desc": "数式やプログラムコード内の変数の名前を表します。挙動はブラウザーに依存しますが、通常は現在のフォントのイタリック体を使って表示されます。", "type": "properties-and-attributes", "completion": "var>"},
+    {"name": "wbr", "cat": "インラインテキスト意味付け", "desc": "改行可能位置 — テキスト内でブラウザーが任意で改行してよい位置を表しますが、この改行規則は必要のない場合は改行を行いません。", "type": "properties-and-attributes", "completion": "wbr>"},
+    {"name": "area", "cat": "画像とマルチメディア", "desc": "イメージマップの中でクリック可能な領域をあらかじめ定義します。<em>イメージマップ</em>では、画像上の幾何学的な領域を<a href=\"/ja/docs/Glossary/Hyperlink\">ハイパーテキストリンク</a>と関連付けすることができます。", "type": "properties-and-attributes", "completion": "area>"},
+    {"name": "audio", "cat": "画像とマルチメディア", "desc": "文書内に音声コンテンツを埋め込むために使用します。この要素は、1 つまたは複数の音源を含むことができます。音源は <code>src</code> 属性または source 要素を使用して表し、ブラウザーがもっとも適切な音源を選択します。また、 <a href=\"/ja/docs/Web/API/MediaStream\"><code>MediaStream</code></a> を使用してストリーミングメディアを指し示すこともできます。", "type": "properties-and-attributes", "completion": "audio>"},
+    {"name": "img", "cat": "画像とマルチメディア", "desc": "文書に画像を埋め込みます。", "type": "properties-and-attributes", "completion": "img>"},
+    {"name": "map", "cat": "画像とマルチメディア", "desc": "<a href=\"/ja/docs/Web/HTML/Element/area\"><code>&lt;area&gt;</code></a> 要素とともに、イメージマップ（クリック可能なリンク領域）を定義するために使用します。", "type": "properties-and-attributes", "completion": "map>"},
+    {"name": "track", "cat": "画像とマルチメディア", "desc": "メディア要素 (audio および video) の子として使用します。この要素は自動的に処理される字幕など、時間指定されたテキストトラック（または時系列データ）を指定することができます。トラックは <a href=\"/ja/docs/Web/API/WebVTT_API\">WebVTT 形式</a> (<code>.vtt</code> ファイル) を用います。", "type": "properties-and-attributes", "completion": "track>"},
+    {"name": "video", "cat": "画像とマルチメディア", "desc": "文書中に動画再生に対応するメディアプレイヤーを埋め込みます。 <code>&lt;video&gt;</code> を音声コンテンツのために使用することもできますが、audio 要素の方がユーザーにとって使い勝手が良いかもしれません。", "type": "properties-and-attributes", "completion": "video>"},
+    {"name": "embed", "cat": "埋め込みコンテンツ", "desc": "外部のコンテンツを文書中の指定された場所に埋め込みます。コンテンツは外部アプリケーションや、対話型コンテンツの他の出所 (ブラウザーのプラグインなど) によって提供されます。", "type": "properties-and-attributes", "completion": "embed>"},
+    {"name": "iframe", "cat": "埋め込みコンテンツ", "desc": "入れ子になった閲覧コンテキストを表現し、現在の HTML ページに他のページを埋め込むことができます。", "type": "properties-and-attributes", "completion": "iframe>"},
+    {"name": "object", "cat": "埋め込みコンテンツ", "desc": "画像、内部の閲覧コンテキスト、プラグインによって扱われるリソースなどのように扱われる外部リソースを表します。", "type": "properties-and-attributes", "completion": "object>"},
+    {"name": "picture", "cat": "埋め込みコンテンツ", "desc": "0 個以上の <a href=\"/ja/docs/Web/HTML/Element/source\"><code>&lt;source&gt;</code></a> 要素と一つの <a href=\"/ja/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a> 要素を含み、様々な画面や端末の条件に応じた画像を提供します。", "type": "properties-and-attributes", "completion": "picture>"},
+    {"name": "portal", "cat": "埋め込みコンテンツ", "desc": "他の HTML ページを現在のページに埋め込み、新しいページへの移動がスムーズにできるようにします。", "type": "properties-and-attributes", "completion": "portal>"},
+    {"name": "source", "cat": "埋め込みコンテンツ", "desc": "picture 要素、audio 要素、video 要素に対し、複数のメディアリソースを指定します。この要素は空要素であり、つまり中身も閉じタグもありません。<a href=\"/ja/docs/Web/Media/Formats/Image_types\">画像ファイル形式</a>や<a href=\"/ja/docs/Web/Media/Formats\">メディアファイル形式</a>の対応状況が様々であるブラウザーの幅広い互換性を確保するために、同じメディアコンテンツを複数のファイル形式で提供することはよくあることです。", "type": "properties-and-attributes", "completion": "source>"},
+    {"name": "svg", "cat": "SVG と MathML", "desc": "新しい座標系と<a href=\"/ja/docs/Web/SVG/Attribute/viewBox\">ビューポート</a>を定義するコンテナーです。これは SVG 文書の最も外側の要素として使用されますが、SVG または HTML 文書の中に SVG フラグメントを埋め込むためにも使用できます。", "type": "properties-and-attributes", "completion": "svg>"},
+    {"name": "math", "cat": "SVG と MathML", "desc": "MathML における最上位の要素です。すべての有効な MathML のインスタンスを囲みます。加えて、 <code>&lt;math&gt;</code> 要素を入れ子状に配置してはなりませんが、中にその他の子要素をいくつでも持つことができます。", "type": "properties-and-attributes", "completion": "math>"},
+    {"name": "canvas", "cat": "スクリプト", "desc": "<a href=\"/ja/docs/Web/API/Canvas_API\">Canvas スクリプティング API</a> や <a href=\"/ja/docs/Web/API/WebGL_API\">WebGL API</a> を使用して、グラフィックやアニメーションを描画することができるコンテナー要素です。", "type": "properties-and-attributes", "completion": "canvas>"},
+    {"name": "noscript", "cat": "スクリプト", "desc": "このページ上のスクリプトの種類に対応していない場合や、スクリプトの実行がブラウザーで無効にされている場合に表示する HTML の部分を定義します。", "type": "properties-and-attributes", "completion": "noscript>"},
+    {"name": "script", "cat": "スクリプト", "desc": "実行できるコードやデータを埋め込むために使用します。ふつうは JavaScript のコードの埋め込みや参照に使用されます。 <code>&lt;script&gt;</code> 要素は <a href=\"/ja/docs/Web/API/WebGL_API\">WebGL</a> の GLSL shader プログラミング言語、 <a href=\"/ja/docs/Glossary/JSON\">JSON</a> 等の他の言語にも使用することができます。", "type": "properties-and-attributes", "completion": "script>"},
+    {"name": "del", "cat": "編集範囲の特定", "desc": "文書から削除された文字列の範囲を表します。これは例えば、「変更の追跡」や、ソースコードの差分情報を描画するときに使用することができます。 <code>&lt;ins&gt;</code> 要素は逆の目的に、文書に追加された文字列を示すために用いることができます。", "type": "properties-and-attributes", "completion": "del>"},
+    {"name": "ins", "cat": "編集範囲の特定", "desc": "文書に追加されたテキストの範囲を表します。同様に、 <code>&lt;del&gt;</code> 要素を使用して文書から削除されたテキストの範囲を表すことができます。", "type": "properties-and-attributes", "completion": "ins>"},
+    {"name": "caption", "cat": "表コンテンツ", "desc": "表のキャプション（またはタイトル）を指定します。", "type": "properties-and-attributes", "completion": "caption>"},
+    {"name": "col", "cat": "表コンテンツ", "desc": "表内の列を定義して、すべての一般セルに共通の意味を定義するために使用します。この要素は通常、 <a href=\"/ja/docs/Web/HTML/Element/colgroup\"><code>&lt;colgroup&gt;</code></a> 要素内にみられます。", "type": "properties-and-attributes", "completion": "col>"},
+    {"name": "colgroup", "cat": "表コンテンツ", "desc": "表内の列のグループを定義します。", "type": "properties-and-attributes", "completion": "colgroup>"},
+    {"name": "table", "cat": "表コンテンツ", "desc": "表形式のデータ、つまり、行と列の組み合わせによるセルに含まれたデータによる二次元の表で表現される情報です。", "type": "properties-and-attributes", "completion": "table>"},
+    {"name": "tbody", "cat": "表コンテンツ", "desc": "表の一連の行 (<a href=\"/ja/docs/Web/HTML/Element/tr\"><code>&lt;tr&gt;</code></a> 要素) を内包し、その部分が表 (<a href=\"/ja/docs/Web/HTML/Element/table\"><code>&lt;table&gt;</code></a>) の本体部分を構成することを表します。", "type": "properties-and-attributes", "completion": "tbody>"},
+    {"name": "td", "cat": "表コンテンツ", "desc": "表でデータを包含するセルを定義します。これはモデルに関与します。", "type": "properties-and-attributes", "completion": "td>"},
+    {"name": "tfoot", "cat": "表コンテンツ", "desc": "表の一連の列を総括する行のセットを定義します。", "type": "properties-and-attributes", "completion": "tfoot>"},
+    {"name": "th", "cat": "表コンテンツ", "desc": "表のセルのグループ用の見出しであるセルを定義します。このグループの正確な性質は、<code>scope</code> 属性と <code>headers</code> 属性で定義します。", "type": "properties-and-attributes", "completion": "th>"},
+    {"name": "thead", "cat": "表コンテンツ", "desc": "表の列の見出しを定義する行のセットを定義します。", "type": "properties-and-attributes", "completion": "thead>"},
+    {"name": "tr", "cat": "表コンテンツ", "desc": "表内でセルの行を定義します。行のセルには <a href=\"/ja/docs/Web/HTML/Element/td\"><code>&lt;td&gt;</code></a> （データセル）および <a href=\"/ja/docs/Web/HTML/Element/th\"><code>&lt;th&gt;</code></a> （見出しセル）要素をを混在させることができます。", "type": "properties-and-attributes", "completion": "tr>"},
+    {"name": "button", "cat": "フォーム", "desc": "ユーザーがマウス、キーボード、指、音声コマンド、または他にも支援技術を使って起動するインタラクティブ要素です。アクティブになると、<a href=\"/ja/docs/Learn/Forms\">フォーム</a>を送信したり、ダイアログを開いたりするなどのアクションを実行するようになります。", "type": "properties-and-attributes", "completion": "button>"},
+    {"name": "datalist", "cat": "フォーム", "desc": "他のコントロールで利用可能な値を表現する一連の <a href=\"/ja/docs/Web/HTML/Element/option\"><code>&lt;option&gt;</code></a> 要素を含みます。", "type": "properties-and-attributes", "completion": "datalist>"},
+    {"name": "fieldset", "cat": "フォーム", "desc": "ウェブフォーム内のラベル (<a href=\"/ja/docs/Web/HTML/Element/label\"><code>&lt;label&gt;</code></a>) などのようにいくつかのコントロールをグループ化するために使用します。", "type": "properties-and-attributes", "completion": "fieldset>"},
+    {"name": "form", "cat": "フォーム", "desc": "ウェブサーバーに情報を送信するための対話型コントロールを含む文書の区間を表します。", "type": "properties-and-attributes", "completion": "form>"},
+    {"name": "input", "cat": "フォーム", "desc": "ユーザーからデータを受け取るための、ウェブベースのフォーム用の操作可能なコントロールを作成するために使用します。端末とユーザーエージェントによりますが、広範に渡る種類のデータ入力やコントロールウィジェットが利用できます。 <code>&lt;input&gt;</code> 要素は入力型と属性の組み合わせの数が非常に多いため、 HTML の中で最も強力かつ最も複雑な要素の一つです。", "type": "properties-and-attributes", "completion": "input>"},
+    {"name": "label", "cat": "フォーム", "desc": "ユーザーインターフェイスの項目のキャプションを表します。", "type": "properties-and-attributes", "completion": "label>"},
+    {"name": "legend", "cat": "フォーム", "desc": "その親要素である <a href=\"/ja/docs/Web/HTML/Element/fieldset\"><code>&lt;fieldset&gt;</code></a> の内容のキャプションを表します。", "type": "properties-and-attributes", "completion": "legend>"},
+    {"name": "meter", "cat": "フォーム", "desc": "既知の範囲内のスカラー値、または小数値を表します。", "type": "properties-and-attributes", "completion": "meter>"},
+    {"name": "optgroup", "cat": "フォーム", "desc": "<a href=\"/ja/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a> 要素内の選択肢 (<a href=\"/ja/docs/Web/HTML/Element/option\"><code>&lt;option&gt;</code></a>) のグループを作成します。", "type": "properties-and-attributes", "completion": "optgroup>"},
+    {"name": "option", "cat": "フォーム", "desc": "<a href=\"/ja/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a> 要素、<a href=\"/ja/docs/Web/HTML/Element/optgroup\"><code>&lt;optgroup&gt;</code></a> 要素、<a href=\"/ja/docs/Web/HTML/Element/datalist\"><code>&lt;datalist&gt;</code></a> 要素内で項目を定義するために使われます。したがって、<code>&lt;option&gt;</code> は HTML 文書でポップアップメニューのメニュー項目や、その他の項目の一覧を表すことができます。", "type": "properties-and-attributes", "completion": "option>"},
+    {"name": "output", "cat": "フォーム", "desc": "サイトやアプリが計算結果やユーザー操作の結果を挿入することができるコンテナー要素です。", "type": "properties-and-attributes", "completion": "output>"},
+    {"name": "progress", "cat": "フォーム", "desc": "タスクの進捗状況を表示します。プログレスバーとしてよく表示されます。", "type": "properties-and-attributes", "completion": "progress>"},
+    {"name": "select", "cat": "フォーム", "desc": "選択式のメニューを提供するコントロールを表します。", "type": "properties-and-attributes", "completion": "select>"},
+    {"name": "textarea", "cat": "フォーム", "desc": "複数行のプレーンテキスト編集コントロールを表し、レビューのコメントやお問い合わせフォーム等のように、ユーザーが大量の自由記述テキストを入力できるようにするときに便利です。", "type": "properties-and-attributes", "completion": "textarea>"},
+    {"name": "details", "cat": "インタラクティブ要素", "desc": "ウィジェットが「開いた」状態になった時のみ情報が表示される折りたたみウィジェットを作成します。概要やラベルは <a href=\"/ja/docs/Web/HTML/Element/summary\"><code>&lt;summary&gt;</code></a> 要素を使用して提供する必要があります。", "type": "properties-and-attributes", "completion": "details>"},
+    {"name": "dialog", "cat": "インタラクティブ要素", "desc": "ダイアログボックスや、消すことができるアラート、インスペクター、サブウィンドウ等のような対話的コンポーネントを表します。", "type": "properties-and-attributes", "completion": "dialog>"},
+    {"name": "summary", "cat": "インタラクティブ要素", "desc": "details 要素の折り畳みボックスの要約、キャプション、説明、凡例を表します。 <code>&lt;summary&gt;</code> 要素をクリックすると、親の <a href=\"/ja/docs/Web/HTML/Element/details\"><code>&lt;details&gt;</code></a> 要素の開閉状態を切り替えることができます。", "type": "properties-and-attributes", "completion": "summary>"},
+    {"name": "slot", "cat": "ウェブコンポーネント", "desc": "<a href=\"/ja/docs/Web/API/Web_components\">ウェブコンポーネント</a> 技術群の一部であるこの要素は、ウェブコンポーネント内のプレースホルダーで、自分自身でマークアップを埋めることができ、別個の DOM ツリーを作成して一緒に表示することができる。", "type": "properties-and-attributes", "completion": "slot>"},
+    {"name": "template", "cat": "ウェブコンポーネント", "desc": "ページが読み込まれたときにすぐにレンダリングされるのではなく、実行時に JavaScript を使って後からインスタンス化することができる HTML を保持するためのメカニズムです。", "type": "properties-and-attributes", "completion": "template>"},
+    {"name": "acronym", "cat": "廃止または非推奨の要素", "desc": "頭字語または略語の単語を構成する文字の並びを明示することができます。", "type": "properties-and-attributes", "completion": "acronym>"},
+    {"name": "big", "cat": "廃止または非推奨の要素", "desc": "内包するテキストを周りの文字列よりも1段階大きいフォントの大きさで描画します（例えば <code>medium</code> が <code>large</code> になります）。大きさはブラウザーの最大フォントの大きさに制限されます。", "type": "properties-and-attributes", "completion": "big>"},
+    {"name": "center", "cat": "廃止または非推奨の要素", "desc": "中に含まれるブロックレベルまたはインラインコンテンツを中央揃えして表示します。", "type": "properties-and-attributes", "completion": "center>"},
+    {"name": "content", "cat": "廃止または非推奨の要素", "desc": "<a href=\"/ja/docs/Web/API/Web_components\">ウェブコンポーネント</a>技術群の廃止された部分であり、<a href=\"/ja/docs/Web/API/Web_components/Using_shadow_DOM\">シャドウ DOM</a> の中で挿入ポイントとして使われていましたが、通常の HTML で利用することは意図されていませんでした。現在では DOM の中でシャドウ DOM を挿入することができる場所を作成する <a href=\"/ja/docs/Web/HTML/Element/slot\"><code>&lt;slot&gt;</code></a> 要素に置き換えられました。", "type": "properties-and-attributes", "completion": "content>"},
+    {"name": "dir", "cat": "廃止または非推奨の要素", "desc": "ユーザーエージェントが適用するスタイルやアイコンを用いて表示する、ファイルやフォルダーのディレクトリーのコンテナーとして使われます。この要素は廃止されたので使わないで下さい。代わりに、ファイル一覧を含め、一覧には <a href=\"/ja/docs/Web/HTML/Element/ul\"><code>&lt;ul&gt;</code></a> 要素を使用してください。", "type": "properties-and-attributes", "completion": "dir>"},
+    {"name": "font", "cat": "廃止または非推奨の要素", "desc": "その内容のフォントサイズ、文字色、使用フォントを定義します。", "type": "properties-and-attributes", "completion": "font>"},
+    {"name": "frame", "cat": "廃止または非推奨の要素", "desc": "別の HTML 文書を表示できる個々の領域を定義します。frame 要素は <a href=\"/ja/docs/Web/HTML/Element/frameset\"><code>&lt;frameset&gt;</code></a> の内部で使用します。", "type": "properties-and-attributes", "completion": "frame>"},
+    {"name": "frameset", "cat": "廃止または非推奨の要素", "desc": "<a href=\"/ja/docs/Web/HTML/Element/frame\"><code>&lt;frame&gt;</code></a> 要素を包含するために使用する HTML 要素です。", "type": "properties-and-attributes", "completion": "frameset>"},
+    {"name": "image", "cat": "廃止または非推奨の要素", "desc": "<a href=\"/ja/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a> 要素の古く、対応が不十分な前身です。", "type": "properties-and-attributes", "completion": "image>"},
+    {"name": "marquee", "cat": "廃止または非推奨の要素", "desc": "テキストがスクロールする領域を挿入します。要素の属性を使用して、テキストがコンテンツ領域の端に達したときにどうするかを制御できます。", "type": "properties-and-attributes", "completion": "marquee>"},
+    {"name": "menuitem", "cat": "廃止または非推奨の要素", "desc": "ユーザーがポップアップメニューから呼び出すことができるコマンドを表します。メニューボタンに割り当てるメニューはもちろん、コンテキストメニューも含みます。", "type": "properties-and-attributes", "completion": "menuitem>"},
+    {"name": "nobr", "cat": "廃止または非推奨の要素", "desc": "その内包する文字列の自動改行を無効化します。インラインに収まらない文字列は、領域からはみ出てレンダリングされるか、スクロールバーを伴って表示されます。", "type": "properties-and-attributes", "completion": "nobr>"},
+    {"name": "noembed", "cat": "廃止または非推奨の要素", "desc": "廃止された、標準外の方法であり、 <a href=\"/ja/docs/Web/HTML/Element/embed\"><code>&lt;embed&gt;</code></a> 要素に対応していないブラウザーや、ユーザーが仕様とした種類の<a href=\"/ja/docs/Web/HTML/Content_categories#%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84\">埋め込みコンテンツ</a>に対応していないブラウザーで代替または「フォールバック」コンテンツを提供するものです。これは HTML 4.01 で非推奨となり、代替コンテンツは <a href=\"/ja/docs/Web/HTML/Element/object\"><code>&lt;object&gt;</code></a> 要素の開始タグと終了タグの間に配置されるようになりました。", "type": "properties-and-attributes", "completion": "noembed>"},
+    {"name": "noframes", "cat": "廃止または非推奨の要素", "desc": "<a href=\"/ja/docs/Web/HTML/Element/frame\"><code>&lt;frame&gt;</code></a> 要素に対応していない（または対応を無効化した）ブラウザーのためのコンテンツを提供します。よく使われるほとんどのブラウザーがフレームに対応していますが、一部のモバイルブラウザーやテキストモードブラウザーなどの例外もあります。", "type": "properties-and-attributes", "completion": "noframes>"},
+    {"name": "param", "cat": "廃止または非推奨の要素", "desc": "<a href=\"/ja/docs/Web/HTML/Element/object\"><code>&lt;object&gt;</code></a> 要素の引数を定義します。", "type": "properties-and-attributes", "completion": "param>"},
+    {"name": "plaintext", "cat": "廃止または非推奨の要素", "desc": "開始タグ以降のすべてを生のテキストとして表示し、それ以降の HTML を無視します。開始タグ以降は全て生のテキスト扱いになるので、終了タグはありません。", "type": "properties-and-attributes", "completion": "plaintext>"},
+    {"name": "rb", "cat": "廃止または非推奨の要素", "desc": "ルビ表記のベースとなるテキストの部分を区切るために使用されます。つまり、修飾される文字列です。一つの <code>&lt;rb&gt;</code> 要素がベーステキストの不可分な区間を隔てるように囲みます。", "type": "properties-and-attributes", "completion": "rb>"},
+    {"name": "rtc", "cat": "廃止または非推奨の要素", "desc": "<a href=\"/ja/docs/Web/HTML/Element/ruby\"><code>&lt;ruby&gt;</code></a> 要素内で使用する <a href=\"/ja/docs/Web/HTML/Element/rb\"><code>&lt;rb&gt;</code></a> 要素にルビで与える文字列の、意味を表す注釈を包含します。<a href=\"/ja/docs/Web/HTML/Element/rb\"><code>&lt;rb&gt;</code></a> 要素は発音の注釈 (<a href=\"/ja/docs/Web/HTML/Element/rt\"><code>&lt;rt&gt;</code></a>) と意味の注釈 (<a href=\"/ja/docs/Web/HTML/Element/rtc\"><code>&lt;rtc&gt;</code></a>) の両方を持つことができます。", "type": "properties-and-attributes", "completion": "rtc>"},
+    {"name": "shadow", "cat": "廃止または非推奨の要素", "desc": "<a href=\"/ja/docs/Web/API/Web_components\">ウェブコンポーネント</a>技術スイートの廃止された部分で、シャドウ DOM の挿入ポイントとして使用するものでした。シャドウホスト配下に複数のシャドウルートを生成する場合に使用しました。", "type": "properties-and-attributes", "completion": "shadow>"},
+    {"name": "strike", "cat": "廃止または非推奨の要素", "desc": "テキストの上に取り消し線（水平線）を引きます。", "type": "properties-and-attributes", "completion": "strike>"},
+    {"name": "tt", "cat": "廃止または非推奨の要素", "desc": "ユーザーエージェントの既定の等幅フォントで表示されるインライン文字列を生成します。この要素は、テレタイプ、テキスト専用画面、ラインプリンターのような等幅の表示装置で表示されるテキストとしてスタイルを設定しようとするものです。", "type": "properties-and-attributes", "completion": "tt>"},
+    {"name": "xmp", "cat": "廃止または非推奨の要素", "desc": "開始タグと終了タグの間の HTML を解釈せず、等幅フォントを使用してテキストをレンダリングします。HTML2 の仕様では、1 行に 80 文字が入るだけの広さでレンダリングすることが推奨されていました。", "type": "properties-and-attributes", "completion": "xmp>"}, 
+
+    {"name": "html:5", "cat": "", "desc": "HTML 5 Template\n<code><pre>&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;Document&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    |\n&lt;/body&gt;\n&lt;/html&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n<body>\n    |\n</body>\n</html>"},
+    {"name": "html:xml", "cat": "", "desc": "HTML XML Template\n<code><pre>&lt;html xmlns=\"http://www.w3.org/1999/xhtml\"&gt;|&lt;/html&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<html xmlns=\"http://www.w3.org/1999/xhtml\">|</html>"},
+
+    {"name": "link:atom", "cat": "", "desc": "LINK Atom\n<code><pre>&lt;link rel=\"alternate\" href=\"atom.xml\" type=\"application/atom+xml\" title=\"Atom\"&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<link rel=\"alternate\" href=\"atom.xml\" type=\"application/atom+xml\" title=\"Atom\">"},
+    {"name": "link:css", "cat": "", "desc": "LINK CSS\n<code><pre>&lt;link rel=\"stylesheet\" href=\"style.css\"&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<link rel=\"stylesheet\" href=\"style.css\">"},
+    {"name": "link:favicon", "cat": "", "desc": "LINK FAVICON\n<code><pre>&lt;link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image/x-icon\"&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image/x-icon\">"},
+    {"name": "link:im", "cat": "", "desc": "LINK IMPORT\n<code><pre>&lt;link rel=\"import\" href=\"component.html\"&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<link rel=\"import\" href=\"component.html\">"},
+    {"name": "link:import", "cat": "", "desc": "LINK IMPORT\n<code><pre>&lt;link rel=\"import\" href=\"component.html\"&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<link rel=\"import\" href=\"component.html\">"},
+    {"name": "link:manifest", "cat": "", "desc": "LINK MANIFEST\n<code><pre>&lt;link rel=\"manifest\" href=\"manifest.json\"&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<link rel=\"manifest\" href=\"manifest.json\">"},
+    {"name": "link:mf", "cat": "", "desc": "LINK MANIFEST\n<code><pre>&lt;link rel=\"manifest\" href=\"manifest.json\"&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<link rel=\"manifest\" href=\"manifest.json\">"},
+    {"name": "link:print", "cat": "", "desc": "LINK PRINT\n<code><pre>&lt;link rel=\"stylesheet\" href=\"print.css\" media=\"print\"&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<link rel=\"stylesheet\" href=\"print.css\" media=\"print\">"},
+    {"name": "link:rss", "cat": "", "desc": "LINK RSS\n<code><pre>&lt;link rel=\"alternate\" href=\"rss.xml\" type=\"application/rss+xml\" title=\"RSS\"&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<link rel=\"alternate\" href=\"rss.xml\" type=\"application/rss+xml\" title=\"RSS\">"},
+    {"name": "link:touch", "cat": "", "desc": "LINK TOUCH\n<code><pre>&lt;link rel=\"apple-touch-icon\" href=\"favicon.png\"&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<link rel=\"apple-touch-icon\" href=\"favicon.png\">"},
+
+    {"name": "meta:compact", "cat": "", "desc": "META Compact\n<code><pre>&lt;meta http-equiv=\"X-UA-Compatible\" content=\"IE=7\"&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=7\">"},
+    {"name": "meta:desc", "cat": "", "desc": "META Desc\n<code><pre>&lt;meta name=\"description\" content=\"|\"&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<meta name=\"description\" content=\"|\">"},
+    {"name": "meta:edge", "cat": "", "desc": "META Edge\n<code><pre>&lt;meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\"&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">"},
+    {"name": "meta:kw", "cat": "", "desc": "META KW\n<code><pre>&lt;meta name=\"keywords\" content=\"|\"&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<meta name=\"keywords\" content=\"|\">"},
+    {"name": "meta:redirect", "cat": "", "desc": "META Redirect\n<code><pre>&lt;meta http-equiv=\"refresh\" content=\"0; url=http://example.com\"&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<meta http-equiv=\"refresh\" content=\"0; url=http://example.com\">"},
+    {"name": "meta:refresh", "cat": "", "desc": "META Refresh\n<code><pre>&lt;meta http-equiv=\"refresh\" content=\"5\"&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<meta http-equiv=\"refresh\" content=\"5\">"},
+    {"name": "meta:utf", "cat": "", "desc": "META UTF\n<code><pre>&lt;meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\"&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\">"},
+    {"name": "meta:vp", "cat": "", "desc": "META VP\n<code><pre>&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;</pre></code>", "type": "snippet-prefixes", "completion": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">"}
+]
