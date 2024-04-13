@@ -15,6 +15,7 @@
         { "src": "/airacloud/aira.sidebar.svg", "dest": "/airacloud/aira.sidebar.svg" },
         { "src": "/airacloud/coming-soon.png", "dest": "coming-soon.png" },
         { "src": "/airacloud/loaderbg.png", "dest": "/airacloud/loaderbg.png" },
-        { "src": "/airacloud/icon", "dest": "/api/airacloud-icon.php" }
+        { "src": "/airacloud/icon", "dest": "/api/airacloud-icon.php" },
+        { "src": "/airacloud/intellicon", "dest": "/api/airacloud-intellicon.php" }
     ]
 }
