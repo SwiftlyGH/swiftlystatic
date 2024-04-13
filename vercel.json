@@ -20,10 +20,17 @@
         { "src": "/airacloud/loaderbg.png", "dest": "/airacloud/loaderbg.png" },
         { "src": "/airacloud/icon", "dest": "/api/airacloud-icon.php" },
         { "src": "/airacloud/intellicon", "dest": "/api/airacloud-intellicons.php" },
+   
         { "src": "/airacloud/atkinsonbold", "dest": "/airacloud/Atkinson-Hyperlegible-Bold-102.ttf" },
         { "src": "/airacloud/atkinsonbolditalic", "dest": "/airacloud/Atkinson-Hyperlegible-BoldItalic-102.ttf" },
         { "src": "/airacloud/atkinsonitalic", "dest": "/airacloud/Atkinson-Hyperlegible-Italic-102.ttf" },
         { "src": "/airacloud/atkinsonregular", "dest": "/airacloud/Atkinson-Hyperlegible-Regular-102.ttf" },
-        { "src": "/airacloud/atkinsonimports", "dest": "/airacloud/atkinson.css" }
+        { "src": "/airacloud/atkinsonimports", "dest": "/airacloud/atkinson.css" },
+   
+        { "src": "/airacloud/consolasbold", "dest": "/airacloud/ConsolasBold.ttf" },
+        { "src": "/airacloud/consolasbolditalic", "dest": "/airacloud/ConsolasBoldItalic.ttf" },
+        { "src": "/airacloud/consolasitalic", "dest": "/airacloud/ConsolasItalic.ttf" },
+        { "src": "/airacloud/consolasregular", "dest": "/airacloud/ConsolasRegular.ttf" },
+        { "src": "/airacloud/consolasimports", "dest": "/airacloud/consolas.css" }
     ]
 }
