@@ -1,17 +1,17 @@
 @font-face {
     font-family: Consolas;
-    src: url('./consolasregular');
+    src: url('./font?request=ConsolasRegular');
 }@font-face {
     font-family: Consolas;
     font-weight: bold;
-    src: url('./consolasbold');
+    src: url('./font?request=ConsolasBold');
 }@font-face {
     font-family: Consolas;
     font-style: italic;
     font-weight: bold;
-    src: url('./consolasbolditalic');
+    src: url('./font?request=ConsolasBoldItalic');
 }@font-face {
     font-family: Consolas;
     font-style: italic;
-    src: url('./consolasitalic');
+    src: url('./font?request=ConsolasItalic');
 }

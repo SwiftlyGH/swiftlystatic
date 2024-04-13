@@ -1,17 +1,17 @@
 @font-face {
     font-family: 'atkinson';
-    src: url('./atkinsonregular');
+    src: url('./font?request=Atkinson-Hyperlegible-Regular-102');
 }@font-face {
     font-family: 'atkinson';
     font-weight: bold;
-    src: url('./atkinsonbold');
+    src: url('./font?request=Atkinson-Hyperlegible-Bold-102');
 }@font-face {
     font-family: 'atkinson';
     font-style: italic;
     font-weight: bold;
-    src: url('./atkinsonbolditalic');
+    src: url('./font?request=Atkinson-Hyperlegible-BoldItalic-102');
 }@font-face {
     font-family: 'atkinson';
     font-style: italic;
-    src: url('./atkinsonitalic');
+    src: url('./font?request=Atkinson-Hyperlegible-Italic-102');
 }
