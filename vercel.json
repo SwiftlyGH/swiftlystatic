@@ -6,7 +6,7 @@
         "api/airacloud-icon.php": { 
             "runtime": "vercel-php@0.6.0" 
         },
-        "api/airacloud-intellicon.php": { 
+        "api/airacloud-intellicons.php": { 
             "runtime": "vercel-php@0.6.0" 
         }
     },
@@ -19,6 +19,6 @@
         { "src": "/airacloud/coming-soon.png", "dest": "coming-soon.png" },
         { "src": "/airacloud/loaderbg.png", "dest": "/airacloud/loaderbg.png" },
         { "src": "/airacloud/icon", "dest": "/api/airacloud-icon.php" },
-        { "src": "/airacloud/intellicon", "dest": "/api/airacloud-intellicon.php" }
+        { "src": "/airacloud/intellicon", "dest": "/api/airacloud-intellicons.php" }
     ]
 }
