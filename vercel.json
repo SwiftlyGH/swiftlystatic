@@ -19,6 +19,11 @@
         { "src": "/airacloud/coming-soon.png", "dest": "coming-soon.png" },
         { "src": "/airacloud/loaderbg.png", "dest": "/airacloud/loaderbg.png" },
         { "src": "/airacloud/icon", "dest": "/api/airacloud-icon.php" },
-        { "src": "/airacloud/intellicon", "dest": "/api/airacloud-intellicons.php" }
+        { "src": "/airacloud/intellicon", "dest": "/api/airacloud-intellicons.php" },
+        { "src": "/airacloud/atkinsonbold", "dest": "/airacloud/Atkinson-Hyperlegible-Bold-102.ttf" },
+        { "src": "/airacloud/atkinsonbolditalic", "dest": "/airacloud/Atkinson-Hyperlegible-BoldItalic-102.ttf" },
+        { "src": "/airacloud/atkinsonitalic", "dest": "/airacloud/Atkinson-Hyperlegible-Italic-102.ttf" },
+        { "src": "/airacloud/atkinsonregular", "dest": "/airacloud/Atkinson-Hyperlegible-Regular-102.ttf" },
+        { "src": "/airacloud/atkinsonimports", "dest": "/airacloud/atkinson.css" }
     ]
 }
