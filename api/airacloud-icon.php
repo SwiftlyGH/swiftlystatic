@@ -18,7 +18,7 @@ if (!isset($_GET['icon']) || !isset($_GET['fill'])) {
 $icon = $_GET['icon'];
 $fill = $_GET['fill'];
 $regular = $_GET['regular'];
-if($regular==="true") {
+if($regular=="true") {
     $svgPath = 'https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/ionicons/'.$icon.'-outline.svg';
 } else {
     $svgPath = 'https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/ionicons/'.$icon.'.svg';
