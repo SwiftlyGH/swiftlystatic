@@ -17,8 +17,12 @@ if (!isset($_GET['icon']) || !isset($_GET['fill'])) {
 
 $icon = $_GET['icon'];
 $fill = $_GET['fill'];
-$svgPath = 'https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/ionicons/'.$icon.'-outline.svg';
-
+$regular = $_GET['regular'];
+if($regular==="true") {
+    $svgPath = 'https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/ionicons/'.$icon.'-outline.svg';
+} else {
+    $svgPath = 'https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/ionicons/'.$icon.'.svg';
+}
 // if (!file_exists($svgPath)) {
     
 //     $svgPath = 'https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/ionicons/help-circle-outline.svg';
