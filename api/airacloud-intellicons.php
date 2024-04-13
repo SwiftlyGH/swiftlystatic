@@ -15,8 +15,8 @@ if (!isset($_GET['icon'])) {
     die();
 } 
 
-$icon = $_GET['icon'];
-die($icon);
+$icon = str_replace(" ", "%20", $_GET['icon']);
+
 $svgPath = 'https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/intellisense/'.$icon.'.svg';
 $svgContent = file_get_contents($svgPath);
 echo $svgContent;
