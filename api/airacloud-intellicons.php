@@ -16,6 +16,7 @@ if (!isset($_GET['icon'])) {
 } 
 
 $icon = $_GET['icon'];
+die($icon);
 $svgPath = 'https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/intellisense/'.$icon.'.svg';
 $svgContent = file_get_contents($svgPath);
 echo $svgContent;
