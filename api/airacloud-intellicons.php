@@ -13,7 +13,7 @@ if (!isset($_GET['icon'])) {
     $svgPath = 'https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/ionicons/help-circle-outline.svg';
     echo file_get_contents($svgPath);
     die();
-}
+} 
 
 $icon = $_GET['icon'];
 $svgPath = 'https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/intellisense/'.$icon.'.svg';

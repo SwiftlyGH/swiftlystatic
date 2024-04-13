@@ -5,6 +5,9 @@
         },
         "api/airacloud-icon.php": { 
             "runtime": "vercel-php@0.6.0" 
+        },
+        "api/airacloud-intellicon.php": { 
+            "runtime": "vercel-php@0.6.0" 
         }
     },
     "routes": [
