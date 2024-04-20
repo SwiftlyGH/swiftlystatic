@@ -584,6 +584,6 @@
     {"name": "vmax", "desc": "Relative to 1% of viewport's larger dimension\n\nViewport = the browser window size. If the viewport is 50cm wide, 1vw = 0.5cm.", "cat": "Relative Lengths", "type": "unit"},
     {"name": "%", "desc": "Relative to the parent element", "cat": "Relative Lengths", "type": "unit"},
 
-    {"name": "@keyframes", "cat": "", "desc": "META UTF\n<code><pre>&lt;meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\"&gt;</pre></code>", "type": "snippet-prefixes", "completion": "meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\">"}
+    {"name": "@keyframes", "cat": "", "desc": "META UTF\n<code><pre>‹meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\"›</pre></code>", "type": "snippet-prefixes", "completion": "meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\">"}
 
 ]
