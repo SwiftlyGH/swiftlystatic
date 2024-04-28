@@ -8,11 +8,11 @@
     header("Allow: GET, POST, OPTIONS, PUT, DELETE");
 
     $url_ttf = 'https://raw.githubusercontent.com/pico190/swiftlystatic/main/swiftly/'.$_GET["request"].'.ttf';
-$contenido_ttf = file_get_contents($url_ttf);
+$ttfcontent = file_get_contents($url_ttf);
 
-if ($contenido_ttf !== false) {
+if ($ttfcontent !== false) {
     header('Content-Type: font/ttf');
-    header('Content-Disposition: attachment; filename="font.ttf"'); // Cambia el nombre del archivo si lo deseas
+    header('Content-Disposition: attachment; filename="font.ttf"');
 
-    echo $contenido_ttf;
+    echo $ttfcontent;
 }
