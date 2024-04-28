@@ -11,6 +11,9 @@
     },
     "api/airacloud-font.php": {
       "runtime": "vercel-php@0.6.0"
+    },
+    "api/swiftly-font.php": {
+      "runtime": "vercel-php@0.6.0"
     }
   },
   "routes": [
