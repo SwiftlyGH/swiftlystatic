@@ -1,31 +1,48 @@
 {
-    "functions": {
-        "api/airacloud-intelli.php": { 
-            "runtime": "vercel-php@0.6.0" 
-        },
-        "api/airacloud-icon.php": { 
-            "runtime": "vercel-php@0.6.0" 
-        },
-        "api/airacloud-intellicons.php": { 
-            "runtime": "vercel-php@0.6.0" 
-        },
-        "api/airacloud-font.php": { 
-            "runtime": "vercel-php@0.6.0" 
-        }
+  "functions": {
+    "api/airacloud-intelli.php": {
+      "runtime": "vercel-php@0.6.0"
     },
-    "routes": [
-        { "src": "/airacloud/intelli", "dest": "/api/airacloud-intelli.php" },
-        { "src": "/airacloud/favicon.ico", "dest": "/airacloud/favicon.ico" },
-        { "src": "/airacloud/favicon.svg", "dest": "/airacloud/favicon.svg" },
-        { "src": "/airacloud/background-colors.png", "dest": "/airacloud/background-colors.png" },
-        { "src": "/airacloud/aira.sidebar.svg", "dest": "/airacloud/aira.sidebar.svg" },
-        { "src": "/airacloud/coming-soon.png", "dest": "coming-soon.png" },
-        { "src": "/airacloud/loaderbg.png", "dest": "/airacloud/loaderbg.png" },
-        { "src": "/airacloud/icon", "dest": "/api/airacloud-icon.php" },
-        { "src": "/airacloud/intellicon", "dest": "/api/airacloud-intellicons.php" },
+    "api/airacloud-icon.php": {
+      "runtime": "vercel-php@0.6.0"
+    },
+    "api/airacloud-intellicons.php": {
+      "runtime": "vercel-php@0.6.0"
+    },
+    "api/airacloud-font.php": {
+      "runtime": "vercel-php@0.6.0"
+    }
+  },
+  "routes": [
+    { "src": "/airacloud/intelli", "dest": "/api/airacloud-intelli.php" },
+    { "src": "/airacloud/favicon.ico", "dest": "/airacloud/favicon.ico" },
+    { "src": "/airacloud/favicon.svg", "dest": "/airacloud/favicon.svg" },
+    {
+      "src": "/airacloud/background-colors.png",
+      "dest": "/airacloud/background-colors.png"
+    },
+    {
+      "src": "/airacloud/aira.sidebar.svg",
+      "dest": "/airacloud/aira.sidebar.svg"
+    },
+    { "src": "/airacloud/coming-soon.png", "dest": "coming-soon.png" },
+    { "src": "/airacloud/loaderbg.png", "dest": "/airacloud/loaderbg.png" },
+    { "src": "/airacloud/icon", "dest": "/api/airacloud-icon.php" },
+    {
+      "src": "/airacloud/intellicon",
+      "dest": "/api/airacloud-intellicons.php"
+    },
 
-        { "src": "/airacloud/font", "dest": "/api/airacloud-font.php" },   
-        { "src": "/airacloud/atkinsonimports", "dest": "/airacloud/atkinson.css" },
-        { "src": "/airacloud/consolasimports", "dest": "/airacloud/consolas.css" }
-    ]
+    { "src": "/airacloud/font", "dest": "/api/airacloud-font.php" },
+    { "src": "/swiftly/font", "dest": "/api/swiftly-font.php" },
+    {
+      "src": "/swiftly/bevietnamimports",
+      "dest": "/swiftly/bevietnamimports.css"
+    },
+    {
+      "src": "/airacloud/atkinsonimports",
+      "dest": "/airacloud/atkinson.css"
+    },
+    { "src": "/airacloud/consolasimports", "dest": "/airacloud/consolas.css" }
+  ]
 }
