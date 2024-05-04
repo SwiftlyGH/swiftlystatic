@@ -7,7 +7,7 @@
     header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
     header("Allow: GET, POST, OPTIONS, PUT, DELETE");
 
-    $url_ttf = 'https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/'.$_GET["request"].'.ttf';
+    $url_ttf = 'https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/fonts/'.$_GET["request"].'.ttf';
 $ttfcontent = file_get_contents($url_ttf);
 
 if ($ttfcontent !== false) {

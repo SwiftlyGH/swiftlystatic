@@ -1,20 +1,20 @@
 @font-face {
   font-family: Consolas;
-  src: url("./font?request=ConsolasRegularNew");
+  src: url("./font?request=consolas/regular");
 }
 @font-face {
   font-family: Consolas;
   font-weight: bold;
-  src: url("./font?request=ConsolasBoldNew");
+  src: url("./font?request=consolas/bold");
 }
 @font-face {
   font-family: Consolas;
   font-style: italic;
   font-weight: bold;
-  src: url("./font?request=ConsolasBoldItalic");
+  src: url("./font?request=consolas/bolditalic");
 }
 @font-face {
   font-family: Consolas;
   font-style: italic;
-  src: url("./font?request=ConsolasItalic");
+  src: url("./font?request=consolas/italic");
 }

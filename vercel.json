@@ -44,8 +44,15 @@
     },
     {
       "src": "/airacloud/atkinsonimports",
-      "dest": "/airacloud/atkinson.css"
+      "dest": "/airacloud/atkinson/imports.css"
     },
-    { "src": "/airacloud/consolasimports", "dest": "/airacloud/consolas.css" }
+    {
+      "src": "/airacloud/firacodeimports",
+      "dest": "/airacloud/firacode/imports.css"
+    },
+    {
+      "src": "/airacloud/consolasimports",
+      "dest": "/airacloud/consolas/imports.css"
+    }
   ]
 }
