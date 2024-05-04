@@ -53,6 +53,10 @@
     {
       "src": "/airacloud/consolasimports",
       "dest": "/airacloud/consolas/imports.css"
+    },
+    {
+      "src": "/airacloud/sourcecodeproimports",
+      "dest": "/airacloud/sourcecodepro/imports.css"
     }
   ]
 }
