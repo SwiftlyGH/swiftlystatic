@@ -57,6 +57,10 @@
     {
       "src": "/airacloud/sourcecodeproimports",
       "dest": "/airacloud/fonts/sourcecodepro/imports.css"
+    },
+    {
+      "src": "/airacloud/hackimports",
+      "dest": "/airacloud/fonts/hack/imports.css"
     }
   ]
 }

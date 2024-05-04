@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Hack;
+  src: url("./font?request=hack/regular");
+}
+@font-face {
+  font-family: Hack;
+  font-weight: bold;
+  src: url("./font?request=hack/bold");
+}
+@font-face {
+  font-family: Hack;
+  font-style: italic;
+  font-weight: bold;
+  src: url("./font?request=hack/bolditalic");
+}
+@font-face {
+  font-family: Hack;
+  font-style: italic;
+  src: url("./font?request=hack/italic");
+}
