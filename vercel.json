@@ -44,19 +44,19 @@
     },
     {
       "src": "/airacloud/atkinsonimports",
-      "dest": "/airacloud/atkinson/imports.css"
+      "dest": "/airacloud/fonts/atkinson/imports.css"
     },
     {
       "src": "/airacloud/firacodeimports",
-      "dest": "/airacloud/firacode/imports.css"
+      "dest": "/airacloud/fonts/firacode/imports.css"
     },
     {
       "src": "/airacloud/consolasimports",
-      "dest": "/airacloud/consolas/imports.css"
+      "dest": "/airacloud/fonts/consolas/imports.css"
     },
     {
       "src": "/airacloud/sourcecodeproimports",
-      "dest": "/airacloud/sourcecodepro/imports.css"
+      "dest": "/airacloud/fonts/sourcecodepro/imports.css"
     }
   ]
 }
