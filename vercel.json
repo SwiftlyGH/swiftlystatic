@@ -9,6 +9,9 @@
     "api/airacloud-intellicons.php": {
       "runtime": "vercel-php@0.6.0"
     },
+    "api/airacloud-langicon.php": {
+      "runtime": "vercel-php@0.6.0"
+    },
     "api/airacloud-font.php": {
       "runtime": "vercel-php@0.6.0"
     },
@@ -34,6 +37,10 @@
     {
       "src": "/airacloud/intellicon",
       "dest": "/api/airacloud-intellicons.php"
+    },
+    {
+      "src": "/airacloud/langicon",
+      "dest": "/api/airacloud-langicon.php"
     },
 
     { "src": "/airacloud/font", "dest": "/api/airacloud-font.php" },

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="14"
+   height="14"
+   viewBox="0 0 14 14"
+   fill="none"
+   version="1.1"
+   id="svg4"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <g
+     id="g4"
+     transform="matrix(0.73516674,0,0,0.73516674,-12.254299,3.6580414)">
+    <circle
+       cx="26.190384"
+       cy="4.5458512"
+       r="2"
+       fill="#087ea4"
+       id="circle1"
+       style="fill:#6525f4;fill-opacity:1;stroke:none;stroke-opacity:1" />
+    <g
+       stroke="#087ea4"
+       stroke-width="1"
+       fill="none"
+       id="g3"
+       transform="translate(26.190384,4.5458512)"
+       style="fill:none;fill-opacity:1;stroke:#6525f4;stroke-opacity:1">
+      <ellipse
+         rx="10"
+         ry="4.5"
+         transform="rotate(38.179408)"
+         id="ellipse2"
+         cx="0"
+         cy="0"
+         style="fill:none;fill-opacity:1;stroke:#6525f4;stroke-opacity:1" />
+      <ellipse
+         rx="10"
+         ry="4.5"
+         transform="rotate(141.52413)"
+         id="ellipse3"
+         cx="2.7630562e-15"
+         cy="-3.4766425e-15"
+         style="fill:none;fill-opacity:1;stroke:#6525f4;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
