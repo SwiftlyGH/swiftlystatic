@@ -61,72 +61,35 @@ pre[class*="language-"] {
   white-space: normal;
 }
 
-
-.token.comment {
-  color: #6A737D;
-  
+.chatify *:not(code *), .chatify {
+  color: var(--chatify-theme-fg);
 }
-
+.token.keyword.module, .token.keyword.control-flow {
+  color: #ff7b72!important;
+}
 .token.punctuation {
-  color: #6A737D;
-  
+  color: unset;
 }
-
-.token.string {
-  color: #6A737D;
-  
+.token.punctuation {
 }
-
-.token.constant {
-  color: #79B8FF;
-  
+.token.tag .token.punctuation:not(.attr-equals) {
+  color: gray;
 }
-
-.token.hexcode {
-  color: #79B8FF;
-  
+.token.attr-value, .token.attr-value .punctuation, .token.string {
+  color: #a6d7ff!important;
 }
-
-.token.builtin {
-  color: #79B8FF;
-  
+.token.attr-value .attr-equals {
+  color: #e1e4e8!important;
 }
-
-.token.variable {
-  color: #79B8FF;
-  
+.token.tag .class-name {
+  color: #7ee587;
 }
-
-.token.tag {
-  color: #85E89D;
-  
+.token.attr-name {
+  color: #7ac0ff;
 }
-
-.token.regex {
-  color: #DBEDFF;
-  
+.token.keyword {
+  color: #ab72ff;
 }
-
-.token.deleted {
-  color: #FDAEB7;
-  
-}
-
-.token.inserted {
-  color: #85E89D;
-  
-}
-
-.token.changed {
-  color: #FFAB70;
-  
-}
-
-.token.important,
-.token.bold {
-  font-weight: bold;
-}
-
-.token.italic {
-  font-style: italic;
+.token.function {
+  color: #ffa657;
 }
