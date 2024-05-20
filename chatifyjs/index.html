@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<div class="chat" id="create-chat"></div>
+<style>
+  .chat {
+      top: 0px;
+      left: 50%;
+      position: fixed;
+      height: 100vh;
+      border: 1px solid rgba(255, 255, 255, 0.13);
+      /* border: 1px solid rgba(0, 0, 0, 0.366); */
+    transform: translate(-50%);
+    width: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  html, body {
+    /* background-color: rgb(215, 214, 221); */
+    background-color: rgb(22, 21, 28);
+  }
+</style>
+<script src="./chatify.js"></script>
+<script>
+    chatify.createChat({
+        type: "function",
+        div: ".chat#create-chat",
+        theme: chatify.theme.dark,
+        title: "Prueba de Chatify",
+        id: "chatify-test",
+        styles: {
+            "fontFamily": "Be Vietnam Pro"
+        },
+        options: {
+            darkModeBtn: true,
+            markdown: true,
+            uploadImages: true,
+            placeholder: "Write...",
+            smoothScroll: true,
+            scrollbarWidth: "thin",
+            transparentProfilePictures: true,
+            roundProfilePictures: false,
+            automaticScroll: true,
+            scrollanimation: "up"
+        },
+        onType: (data) => {
+        },
+        onSend: (data) => {
+            data.lockWriting();
+            setTimeout(() => {
+                data.sendMessages([{
+                    user: "45384759384593847",
+                    content: "Tu mensaje: "+data.content
+                }])
+                data.enableWriting();
+            }, 1000)
+        },
+        users: [
+            {
+                type: "client",
+                name: "Pico8",
+                id: "12942852589",
+                avatar: "img/pico.ico"
+            },
+            {
+                type: "server",
+                name: "Ariana",
+                id: "45384759384593847",
+                avatar: "img/ariana.ico"
+            }
+        ],
+        messages: [
+            {
+                user: "45384759384593847",
+                content: "Este mensaje es una prueba"
+            },
+            {
+                user: "12942852589",
+                content: "De locos"
+            },
+            {
+                user: "45384759384593847",
+                content: "Este mensaje es una prueba"
+            },
+            {
+                user: "12942852589",
+                content: "De locos"
+            },
+            {
+                user: "45384759384593847",
+                content: "Este mensaje es una prueba"
+            },
+            {
+                user: "12942852589",
+                content: "De locos"
+            },
+            {
+                user: "45384759384593847",
+                content: "Este mensaje es una prueba"
+            },
+            {
+                user: "12942852589",
+                content: "De locos"
+            },
+            {
+                user: "45384759384593847",
+                content: "Este mensaje es una prueba"
+            },
+            {
+                user: "12942852589",
+                content: "De locos"
+            },
+            {
+                user: "45384759384593847",
+                content: "Este mensaje es una prueba"
+            },
+            {
+                user: "12942852589",
+                content: "De locos"
+            },
+            {
+                user: "45384759384593847",
+                content: "Este mensaje es una prueba"
+            },
+            {
+                user: "12942852589",
+                content: "De locos"
+            },
+            {
+                user: "45384759384593847",
+                content: "Este mensaje es una prueba"
+            },
+            {
+                user: "12942852589",
+                content: "De locos"
+            },
+            {
+                user: "45384759384593847",
+                content: "Este mensaje es una prueba"
+            },
+            {
+                user: "12942852589",
+                content: "De locos"
+            },
+        ]
+    })
+</script>
