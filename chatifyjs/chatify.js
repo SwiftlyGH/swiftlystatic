@@ -438,8 +438,17 @@ display: flex;
       } else {
         console.log(dom.querySelectorAll(".chatify-message"));
       }
+      var contentsanitizied = message.content
+        .replace(/<marquee>/g, "MTIzNDxtYXJxdWVlPjU2Nzg=")
+        .replace(/<\/marquee>/g, "MTIzNDwvbWFycXVlZT41Njc4")
+        .replace(/<MARQUEE>/g, "MTIzNDxtYXJxdWVlPjU2Nzg=")
+        .replace(/<\/MARQUEE>/g, "MTIzNDwvbWFycXVlZT41Njc4")
+        .replace(/</g, "&lt;")
+        .replace(/\>/g, "&gt;")
+        .replace(/MTIzNDxtYXJxdWVlPjU2Nzg=/g, "<marquee>")
+        .replace(/MTIzNDwvbWFycXVlZT41Njc4/g, "</marquee>");
       var converter = new showdown.Converter();
-      var content = converter.makeHtml(message.content);
+      var content = converter.makeHtml(contentsanitizied);
       var messageparts = [
         `<div class="chatify-user-pfp">
                     <img src="${
