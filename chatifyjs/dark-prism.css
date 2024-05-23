@@ -88,8 +88,8 @@ pre[class*="language-"] {
   color: #7ac0ff;
 }
 .token.keyword {
-  color: #ab72ff;
+  color: #ff7b72;
 }
-.token.function {
-  color: #ffa657;
+.token.function span {
+  color: #ffa657!important;
 }
