@@ -14,8 +14,10 @@ try {
     $syntax = isset($_GET["syntax"]) ? basename($_GET["syntax"]) : ""; // Assuming syntax is a file name
     $lang = isset($_GET["lang"]) ? basename($_GET["lang"]) : ""; // Assuming lang is a file name
 
+    $dir = isset($_GET["lint"]) ? "lint" : "references";
+
     if($_GET["version"]=="t") {
-        $filePath = "https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/references/version.json";
+        $filePath = "https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/$dir/version.json";
         $content = file_get_contents($filePath);
         echo $content;
         die();
@@ -26,11 +28,11 @@ try {
     }
 
     // Construct file path
-    $filePath = "https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/references/".$syntax."/".$lang.".json";
+    $filePath = "https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/$dir/".$syntax."/".$lang.".json";
     $content = file_get_contents($filePath);
     if(str_contains($content, "404: Not Found")) {
         $lang = "en";
-        $filePath = "https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/references/".$syntax."/".$lang.".json";
+        $filePath = "https://raw.githubusercontent.com/pico190/swiftlystatic/main/airacloud/$dir/".$syntax."/".$lang.".json";
         $content = file_get_contents($filePath);
     }
     echo $content; 
