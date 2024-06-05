@@ -33,4 +33,11 @@ if($regular=="true") {
 $svgContent = file_get_contents($svgPath);
 $svgContent = str_replace('#000', str_replace("0x", "#", $fill), $svgContent);
 
+if($regular=="true") {
+    echo str_replace("</svg>", "", $svgContent);
+    echo '<style>* {
+  stroke-width: 8px !important;
+}</style></svg>'
+} else {
 echo $svgContent;
+}
