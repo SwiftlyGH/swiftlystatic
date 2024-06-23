@@ -66,6 +66,10 @@
       "dest": "/airacloud/fonts/sourcecodepro/imports.css"
     },
     {
+      "src": "/airacloud/jetbrainsimports",
+      "dest": "/airacloud/fonts/jetbrains/imports.css"
+    },
+    {
       "src": "/airacloud/hackimports",
       "dest": "/airacloud/fonts/hack/imports.css"
     }
