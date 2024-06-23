@@ -1,2 +1,3 @@
-# SwiftlyStatic 
-Free open source media projects for Swiftly.
+# Swiftly Static
+
+Open source files & media used by Swiftly and it's platform & services.
